@@ -198,7 +198,6 @@ header .links .link-signup {
     position: relative;
     margin: auto;
     border-radius: 1rem;
-    border: 1px solid black;
 }
 
 .section-02 .cards div .bg-image {
@@ -215,7 +214,6 @@ header .links .link-signup {
 .section-02 .cards div .description {
     margin-top: 3rem;
 }
-
 /* END OF SECTION 02 */
 
 /* SECTION 03 */
@@ -270,8 +268,13 @@ header .links .link-signup {
     font-weight: bold;
 }
 
+.section-04 h1 {
+    line-height: 2rem;
+}
+
 .section-04 p {
     margin-top: 1.5rem;
+    line-height: 1.6rem;
 }
 
 .section-04 img {
