@@ -282,3 +282,35 @@ header .links .link-signup {
 }
 
 /* END OF SECTION 04 */
+
+/* SECTION 05 */
+.section-05 {
+    padding-top: 3rem;
+    background-color: #faf7f2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-05 h1, 
+.section-05 p {
+    color: #0d0c23;
+    font-weight: bold;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+
+.section-05 h1 {
+    line-height: 2rem;
+}
+
+.section-05 p {
+    margin-top: 1.5rem;
+    line-height: 1.6rem;
+}
+
+.section-05 img {
+    width: 90%;
+}
+/* END OF SECTION 05 */
