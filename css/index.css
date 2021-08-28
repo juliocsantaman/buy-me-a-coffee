@@ -392,32 +392,32 @@ footer .my-first-dollar a p {
     line-height: 1.6rem;
 }
 
-footer .company,
-footer .support,
-footer .community,
-footer .more,
-footer .copyright {
+footer .options .company,
+footer .options .support,
+footer .options .community,
+footer .options .more,
+footer .options .copyright {
     margin-top: 1rem;
     margin-left: 1.5rem;
 }
 
-footer .company a,
-footer .support a,
-footer .community a,
-footer .more a,
-footer .copyright a {
+footer .options .company a,
+footer .options .support a,
+footer .options .community a,
+footer .options .more a,
+footer .options .copyright a {
     color: #000000;
 }
 
-footer .company a:hover,
-footer .support a:hover,
-footer .community a:hover,
-footer .more a:hover,
-footer .copyright a:hover {
+footer .options .company a:hover,
+footer .options .support a:hover,
+footer .options .community a:hover,
+footer .options .more a:hover,
+footer .options .copyright a:hover {
     text-decoration: none;
 }
 
-footer .copyright {
+footer .options .copyright {
     margin-top: 2rem;
     padding-bottom: 4rem;
 }

@@ -26,6 +26,29 @@ No media query for `xs` since this is the default in Bootstrap
         margin: 0%;
     }
     /* END OF SECTION 01 */
+
+    /* FOOTER */
+    footer {
+        display: flex;
+        flex-direction: row-reverse;
+        width: 100%;
+    }
+
+    footer .my-first-dollar {
+        margin-top: 5rem;
+    }
+
+    footer .my-first-dollar a {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    footer .my-first-dollar a p {
+        text-align: start;
+        margin-top: 1rem;
+    }
+    /* END OF FOOTER */
  }
 
 /* Large devices (desktops, 992px and up) */
