@@ -12,11 +12,11 @@ header {
     padding: 2rem 1rem 1rem 1rem;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
-header .logo p {
-    display: inline-block;
-    margin-left: 1rem;
+header .logo {
+    width: 40%;
 }
 
 header .links a {
@@ -38,9 +38,9 @@ header .links .link-signup {
     color: #ffffff;
     padding-left: 1rem;
     padding-right: 1rem;
-    padding-top: 0.8rem;
-    padding-bottom: 0.8rem;
-    border-radius: 0.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 1rem;
 }
 /* END OF HEADER */
 
