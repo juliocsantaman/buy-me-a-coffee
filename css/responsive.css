@@ -1,0 +1,38 @@
+/* 
+X-Small devices (portrait phones, less than 576px)
+No media query for `xs` since this is the default in Bootstrap
+*/
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {  }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    /* SECTION 01 */
+    .section-01 div {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .section-01 div .container-buymeacoffee {
+        width: 50%;
+        margin: 0%;
+    }
+
+    .section-01 div .container-link-start {
+        margin-top: 0%;
+        width: 30%;
+        margin: 0%;
+    }
+    /* END OF SECTION 01 */
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {  }
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {  }

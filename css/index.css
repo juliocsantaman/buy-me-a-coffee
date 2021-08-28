@@ -64,6 +64,11 @@ header .links .link-signup {
 }
 
 .section-01 div {
+    width: 100%;
+    margin: auto;
+}
+
+.section-01 div .container-buymeacoffee {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -74,29 +79,32 @@ header .links .link-signup {
     border-radius: 12px;
 }
 
-.section-01 div p {
+.section-01 div .container-buymeacoffee p {
     font-weight: bold;
 }
 
-.section-01 div span {
+.section-01 div .container-buymeacoffee span {
     color: #8e8e98;
 }
 
-.section-01 div i {
+.section-01 div .container-buymeacoffee i {
     color: #e1e1e3;
 }
 
-.section-01 .link-start-my-page {
+.section-01 div .container-link-start {
     background-color: #ffdd00;
     height: 1rem;
     width: 75%;
     padding: 1rem;
     margin-top: 2rem;
-    border-radius: 12px;
-    text-decoration: none;
     text-align: center;
-    color: #000000;
+    border-radius: 12px;
     font-weight: bold;
+}
+
+.section-01 div .container-link-start .link-start-my-page {
+    text-decoration: none;
+    color: #000000;
 }
 
 .section-01 .images-container-01 {
