@@ -9,23 +9,29 @@ No media query for `xs` since this is the default in Bootstrap
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
     /* SECTION 01 */
-    .section-01 div {
+    .section-01 .container-start-my-page {
         display: flex;
         justify-content: center;
         gap: 1rem;
     }
 
-    .section-01 div .container-buymeacoffee {
+    .section-01 .container-start-my-page .container-buymeacoffee {
         width: 50%;
         margin: 0%;
     }
 
-    .section-01 div .container-link-start {
+    .section-01 .container-start-my-page .container-link-start {
         margin-top: 0%;
         width: 30%;
         margin: 0%;
     }
     /* END OF SECTION 01 */
+
+    /* SECTION 02 */
+    .section-02 .categories > button {
+        font-size: 1rem;
+    }
+    /* END OF SECTION 02 */
 
     /* FOOTER */
     footer .sub-footer {
@@ -53,10 +59,118 @@ No media query for `xs` since this is the default in Bootstrap
  }
 
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {  }
+@media (min-width: 992px) { 
+
+    /* HEADER */
+    header .logo {
+        width: 15%;
+    }
+
+    header .links .link-signup {
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        border-radius: 0.5rem;
+    }
+    /* END OF HEADER */
+
+    /* SECTION 01 */
+    .section-01 .description {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+    }
+
+    .section-01 .description img {
+        width: 20%;
+    }
+
+    .section-01 .description .paragraphs {
+        width: 50%;
+    }
+
+    .section-01 .description .paragraphs p {
+        text-align: start;
+        line-height: 1.6rem;
+    }
+
+    .section-01 .container-start-my-page,
+    .section-01 .container-start-my-page div {
+        width: 55%;
+    }
+
+    .section-01 div .container-buymeacoffee,
+    .section-01 div .container-link-start {
+        padding: 1.5rem;
+    }
+
+    .section-01 .images-container-01 {
+        width: 85%;
+    }
+
+    .section-01 .images-container-01 .img-video {
+        width: 30%;
+    }
+    /* END OF SECTION 01 */
+
+    /* SECTION 02 */    
+    .section-02 .cards .card-01 {
+        width: 25%;
+        height: 100%;
+        background-color: #ffffff;
+        margin: auto;
+        border-radius: 1rem;
+        padding-bottom: 3rem;
+    }
+
+    .section-02 .categories {
+        overflow-x: hidden;
+        display: flex;
+        justify-content: center;
+    }
+    /* END OF SECTION 02 */
+
+    /* FOOTER */
+    footer .sub-footer {
+        display: flex;
+        flex-direction: row-reverse;
+        width: unset;
+        margin: unset;
+        justify-content: space-around;
+    }
+
+    footer .sub-footer .my-first-dollar  {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-left: 5%;
+    }
+
+    footer .sub-footer .my-first-dollar a p {
+        width: 50%;
+        margin: unset;
+        margin-top: 1rem;
+        margin-left: 3rem;
+    }
+
+
+    footer .sub-footer .options {
+        margin-top: 5rem;
+        margin-left: 10rem;
+        width: 100%;
+    }
+
+    .inactive-footer-divider {
+        display: unset;
+    }
+    /* END OF FOOTER */
+ }
 
 /* X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {  }
 
 /* XX-Large devices (larger desktops, 1400px and up) */
 @media (min-width: 1400px) {  }
+
+

@@ -52,18 +52,26 @@ header .links .link-signup {
     align-items: center;
 }
 
-.section-01 img {
-    width: 50%;
-    height: 50%;
+.section-01 .description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.section-01 p {
+.section-01 .description img {
+    width: 50%;
+    height: 50%;
+    margin-bottom: 2rem;
+}
+
+.section-01 .description .paragraphs p {
     text-align: center;
     margin: 0.8rem;
     font-weight: bold;
 }
 
-.section-01 div {
+.section-01 .container-start-my-page,
+.section-01 .container-start-my-page div {
     width: 100%;
     margin: auto;
 }
@@ -91,6 +99,10 @@ header .links .link-signup {
     color: #e1e1e3;
 }
 
+.section-01 .container-start-my-page {
+    margin-top: 2rem;
+}
+
 .section-01 div .container-link-start {
     background-color: #ffdd00;
     height: 1rem;
@@ -105,6 +117,12 @@ header .links .link-signup {
 .section-01 div .container-link-start .link-start-my-page {
     text-decoration: none;
     color: #000000;
+}
+
+.section-01 .p-free {
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
 }
 
 .section-01 .images-container-01 {
@@ -420,5 +438,9 @@ footer .options .copyright a:hover {
 footer .options .copyright {
     margin-top: 2rem;
     padding-bottom: 4rem;
+}
+
+.inactive-footer-divider {
+    display: none;
 }
 /* END OF FOOTER */
