@@ -9,7 +9,7 @@ No media query for `xs` since this is the default in Bootstrap
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
     /* HEADER */
-       header .logo {
+    header .logo {
         width: 30%;
         margin-left: 3rem;
     }
@@ -76,8 +76,8 @@ No media query for `xs` since this is the default in Bootstrap
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
-       /* HEADER */
-       header .logo {
+    /* HEADER */
+    header .logo {
         width: 17%;
     }
     /* END OF HEADER */
@@ -137,6 +137,14 @@ No media query for `xs` since this is the default in Bootstrap
         justify-content: center;
     }
     /* END OF SECTION 02 */
+
+    /* SECTION IMAGES 03, 04, 05 */
+    .section-03 img,
+    .section-04 img,
+    .section-05 img {
+        width: 60%;
+    }
+    /* END OF SECTION IMAGES 03, 04, 05 */
 
     /* FOOTER */
     footer .sub-footer {
