@@ -8,6 +8,22 @@ No media query for `xs` since this is the default in Bootstrap
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
+    /* HEADER */
+       header .logo {
+        width: 30%;
+        margin-left: 3rem;
+    }
+
+    header .links .link-signup {
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        border-radius: 0.5rem;
+        margin-right: 3rem;
+    }
+    /* END OF HEADER */
+
     /* SECTION 01 */
     .section-01 .container-start-my-page {
         display: flex;
@@ -60,18 +76,9 @@ No media query for `xs` since this is the default in Bootstrap
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
-
-    /* HEADER */
-    header .logo {
-        width: 15%;
-    }
-
-    header .links .link-signup {
-        padding-left: 2rem;
-        padding-right: 2rem;
-        padding-top: 1rem;
-        padding-bottom: 1rem;
-        border-radius: 0.5rem;
+       /* HEADER */
+       header .logo {
+        width: 17%;
     }
     /* END OF HEADER */
 

@@ -41,6 +41,7 @@ header .links .link-signup {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
     border-radius: 1rem;
+    font-weight: bold;
 }
 /* END OF HEADER */
 
@@ -114,9 +115,10 @@ header .links .link-signup {
     font-weight: bold;
 }
 
-.section-01 div .container-link-start .link-start-my-page {
+.section-01 .container-start-my-page .container-link-start .link-start-my-page {
     text-decoration: none;
     color: #000000;
+    font-weight: bold;
 }
 
 .section-01 .p-free {
