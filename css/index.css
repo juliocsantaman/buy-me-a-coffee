@@ -5,6 +5,15 @@
 
 body {
     font-family: Helvetica;
+    color: #0d0c23;
+}
+
+h3 {
+    font-family: 'Graphik', sans-serif;
+    font-size: 1.8rem;
+    text-align: center;
+    width: 90%;
+    margin: auto;
 }
 
 /* HEADER */
@@ -69,6 +78,8 @@ header .links .link-signup {
     text-align: center;
     margin: 0.8rem;
     font-weight: bold;
+    line-height: 1.8rem;
+    font-size: 1.2rem;
 }
 
 .section-01 .container-start-my-page,
@@ -84,7 +95,7 @@ header .links .link-signup {
     background-color: rgba(0, 0, 0, .03);
     height: 1rem;
     width: 75%;
-    padding: 1rem;
+    padding: 1.5rem;
     border-radius: 12px;
 }
 
@@ -108,11 +119,12 @@ header .links .link-signup {
     background-color: #ffdd00;
     height: 1rem;
     width: 75%;
-    padding: 1rem;
+    padding: 1.5rem;
     margin-top: 2rem;
     text-align: center;
     border-radius: 12px;
-    font-weight: bold;
+    font-family: 'Graphik', sans-serif;
+    font-size: 1.2rem;
 }
 
 .section-01 .container-start-my-page .container-link-start .link-start-my-page {
@@ -152,7 +164,6 @@ header .links .link-signup {
 }
 
 .section-01 .images-container-01 .img-video:hover {
-
     transform: scale(1.1);
     transition-duration: 0.5s;
     transition-timing-function: ease-in-out;
@@ -256,22 +267,14 @@ header .links .link-signup {
     align-items: center;
 }
 
-.section-03 h1, .section-03 p {
+.section-03 p {
     text-align: center;
     width: 80%;
     margin: auto;
-
-}
-
-.section-03 h1 {
-    line-height: 2rem;
-    font-weight: bold;
-}
-
-.section-03 p {
     margin-top: 1.5rem;
     font-weight: bold;
-    line-height: 1.6rem;
+    line-height: 1.8rem;
+    font-size: 1.2rem;
 }
 
 .section-03 img {
@@ -289,21 +292,14 @@ header .links .link-signup {
     align-items: center;
 }
 
-.section-04 h1,
 .section-04 p {
     text-align: center;
     width: 80%;
     margin: auto;
     font-weight: bold;
-}
-
-.section-04 h1 {
-    line-height: 2rem;
-}
-
-.section-04 p {
     margin-top: 1.5rem;
-    line-height: 1.6rem;
+    line-height: 1.8rem;
+    font-size: 1.2rem;
 }
 
 .section-04 img {
@@ -321,22 +317,15 @@ header .links .link-signup {
     align-items: center;
 }
 
-.section-05 h1,
 .section-05 p {
     color: #0d0c23;
     font-weight: bold;
     text-align: center;
     width: 80%;
     margin: auto;
-}
-
-.section-05 h1 {
-    line-height: 2rem;
-}
-
-.section-05 p {
     margin-top: 1.5rem;
-    line-height: 1.6rem;
+    line-height: 1.8rem;
+    font-size: 1.2rem;
 }
 
 .section-05 img {
@@ -364,25 +353,25 @@ header .links .link-signup {
     margin-top: 3rem;
 }
 
-.section-06 h1,
 .section-06 div p {
     text-align: center;
-}
-
-.section-06 div p {
     margin-top: 1.5rem;
+    line-height: 1.8rem;
+    font-size: 1.2rem;
 }
 
 .section-06 .link-start-my-page {
     background-color: #ffdd00;
     height: 1rem;
-    width: 35%;
-    padding: 1rem;
+    width: 45%;
+    padding: 1.5rem;
     margin-top: 2rem;
     border-radius: 12px;
     text-decoration: none;
     text-align: center;
     color: #000000;
+    font-family: 'Graphik', sans-serif;
+    font-size: 1.2rem;
     font-weight: bold;
 }
 
@@ -420,6 +409,15 @@ footer .options .more,
 footer .options .copyright {
     margin-top: 1rem;
     margin-left: 1.5rem;
+    font-size: 1.2rem;
+}
+
+footer .options .company span,
+footer .options .support span,
+footer .options .community span,
+footer .options .more span,
+footer .options .copyright span {
+    font-family: 'Graphik', sans-serif;
 }
 
 footer .options .company a,

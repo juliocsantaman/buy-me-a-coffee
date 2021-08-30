@@ -82,6 +82,18 @@ No media query for `xs` since this is the default in Bootstrap
     }
     /* END OF HEADER */
 
+    h3 {
+        font-size: 3rem;
+    }
+
+    .section-02 p,
+    .section-03 p,
+    .section-04 p,
+    .section-05 p {
+        line-height: 2.5rem;
+        font-size: 1.5rem;
+    }
+
     /* SECTION 01 */
     .section-01 .description {
         display: flex;
@@ -99,17 +111,13 @@ No media query for `xs` since this is the default in Bootstrap
 
     .section-01 .description .paragraphs p {
         text-align: start;
-        line-height: 1.6rem;
+        font-size: 1.5rem;
+        line-height: 2.5rem;
     }
 
     .section-01 .container-start-my-page,
     .section-01 .container-start-my-page div {
         width: 55%;
-    }
-
-    .section-01 div .container-buymeacoffee,
-    .section-01 div .container-link-start {
-        padding: 1.5rem;
     }
 
     .section-01 .images-container-01 {
@@ -145,6 +153,17 @@ No media query for `xs` since this is the default in Bootstrap
         width: 60%;
     }
     /* END OF SECTION IMAGES 03, 04, 05 */
+
+    /* SECTION 06 */
+    .section-06 .link-start-my-page {
+        width: 15%;
+    }
+    
+    .section-06 div p {
+        line-height: 2.5rem;
+        font-size: 1.5rem;
+    }
+    /* END OF SECTION 06 */
 
     /* FOOTER */
     footer .sub-footer {
