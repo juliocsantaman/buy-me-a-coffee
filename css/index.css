@@ -45,36 +45,33 @@ header .links .link-login:hover {
 header .links .link-signup {
     background-color: #0c0b22;
     color: #ffffff;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
+    padding: 0.5rem 1rem;
     border-radius: 1rem;
     font-weight: bold;
 }
 /* END OF HEADER */
 
-/* SECTION 01 */
-.section-01 {
+/* SECTION 01 - MEETING BUYMEACOFFEE */
+.meeting-buymeacoffee-section {
     margin-top: 3rem;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.section-01 .description {
+.meeting-buymeacoffee-section .description {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.section-01 .description img {
+.meeting-buymeacoffee-section .description img {
     width: 50%;
     height: 50%;
     margin-bottom: 2rem;
 }
 
-.section-01 .description .paragraphs p {
+.meeting-buymeacoffee-section .description .paragraphs p {
     text-align: center;
     margin: 0.8rem;
     font-weight: bold;
@@ -82,13 +79,13 @@ header .links .link-signup {
     font-size: 1.2rem;
 }
 
-.section-01 .container-start-my-page,
-.section-01 .container-start-my-page div {
+.meeting-buymeacoffee-section .container-start-my-page,
+.meeting-buymeacoffee-section .container-start-my-page div {
     width: 100%;
     margin: auto;
 }
 
-.section-01 div .container-buymeacoffee {
+.meeting-buymeacoffee-section div .container-buymeacoffee {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -99,23 +96,23 @@ header .links .link-signup {
     border-radius: 12px;
 }
 
-.section-01 div .container-buymeacoffee p {
+.meeting-buymeacoffee-section div .container-buymeacoffee p {
     font-weight: bold;
 }
 
-.section-01 div .container-buymeacoffee span {
+.meeting-buymeacoffee-section div .container-buymeacoffee span {
     color: #8e8e98;
 }
 
-.section-01 div .container-buymeacoffee i {
+.meeting-buymeacoffee-section div .container-buymeacoffee i {
     color: #e1e1e3;
 }
 
-.section-01 .container-start-my-page {
+.meeting-buymeacoffee-section .container-start-my-page {
     margin-top: 2rem;
 }
 
-.section-01 div .container-link-start {
+.meeting-buymeacoffee-section div .container-link-start {
     background-color: #ffdd00;
     height: 1rem;
     width: 75%;
@@ -127,19 +124,19 @@ header .links .link-signup {
     font-size: 1.2rem;
 }
 
-.section-01 .container-start-my-page .container-link-start .link-start-my-page {
+.meeting-buymeacoffee-section .container-start-my-page .container-link-start .link-start-my-page {
     text-decoration: none;
     color: #000000;
     font-weight: bold;
 }
 
-.section-01 .p-free {
+.meeting-buymeacoffee-section .p-free {
     font-weight: bold;
     margin-top: 1rem;
     margin-bottom: 3rem;
 }
 
-.section-01 .images-container-01 {
+.meeting-buymeacoffee-section .images-container-01 {
     width: 80%;
     height: 100%;
     position: relative;
@@ -150,28 +147,28 @@ header .links .link-signup {
 
 }
 
-.section-01 .images-container-01 .img-dashboard {
+.meeting-buymeacoffee-section .images-container-01 .img-dashboard {
     width: 90%;
     height: 50%;
     box-shadow: 0 4px 48px rgba(13,12,34,.1);
 }
 
-.section-01 .images-container-01 .img-video {
+.meeting-buymeacoffee-section .images-container-01 .img-video {
     width: 50%;
     position: absolute;
     bottom: 0%;
     left: 25%;
 }
 
-.section-01 .images-container-01 .img-video:hover {
+.meeting-buymeacoffee-section .images-container-01 .img-video:hover {
     transform: scale(1.1);
     transition-duration: 0.5s;
     transition-timing-function: ease-in-out;
 }
-/* END OF SECTION 01 */
+/* END OF SECTION 01 - MEETING BUYMEACOFFEE */
 
-/* SECTION 02 */
-.section-02 {
+/* SECTION 02 - CREATORS SECTION */
+.creators-section {
     padding-top: 2rem;
     margin-top: 3rem;
     background-color: #faf7f2;
@@ -180,24 +177,22 @@ header .links .link-signup {
     align-items: center;
 }
 
-.section-02 h3 {
+.creators-section h3 {
     text-align: center;
 }
 
-.section-02 input {
+.creators-section input {
     width: 80%;
     background-color: #ffffff;
     border: none;
     padding: 0.8rem;
     margin-top: 1rem;
     border-radius: 0.7rem;
-    /* border-top-right-radius: 0.7rem;
-    border-bottom-right-radius: 0.7rem; */
     box-shadow: 0 4px 48px rgba(13,12,34,.1);
     outline: none;
 }
 
-.section-02 .categories > button {
+.creators-section .categories > button {
     border: none;
     cursor: pointer;
     font-weight: bold;
@@ -206,10 +201,7 @@ header .links .link-signup {
 
 .btn-active {
     background-color: #eeebe7;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    padding-top: 0.2rem;
-    padding-bottom: 0.2rem;
+    padding: 0.2rem 1rem;
     border-radius: 1rem;
 }
 
@@ -222,18 +214,18 @@ header .links .link-signup {
     color: #000000;
 }
 
-.section-02 .categories {
+.creators-section .categories {
     overflow-x: scroll;
     width: 100%;
     display: flex;
     justify-content: start;
 }
 
-.section-02 .cards {
+.creators-section .cards {
     margin-top: 3rem;
 }
 
-.section-02 .cards .card-01 {
+.creators-section .cards .card-01 {
     width: 70%;
     height: 100%;
     background-color: #ffffff;
@@ -242,99 +234,30 @@ header .links .link-signup {
     padding-bottom: 3rem;
 }
 
-.section-02 .cards div .bg-image {
+.creators-section .cards div .bg-image {
     width: 100%;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
 }
 
-.section-02 .cards div p {
+.creators-section .cards div p {
     text-align: center;
     margin-top: 1rem;
 }
 
-.section-02 .cards div .description {
+.creators-section .cards div .description {
     margin-top: 3rem;
 }
-/* END OF SECTION 02 */
+/* END OF SECTION 02 - CREATORS SECTION */
 
-/* SECTION 03 */
-.section-03 {
-    padding-top: 3rem;
-    background-color: #faf7f2;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.section-03 p {
-    text-align: center;
-    width: 80%;
-    margin: auto;
-    margin-top: 1.5rem;
-    font-weight: bold;
-    line-height: 1.8rem;
-    font-size: 1.2rem;
-}
-
-.section-03 img {
-    width: 90%;
+/* SECTION 03 - SAY THANKS SECTION*/
+.say-thanks-section img {
     margin-top: 1.2rem;
 }
-/* END OF SECTION 03 */
+/* END OF SECTION 03 - SAY THANKS SECTION */
 
-/* SECTION 04 */
-.section-04 {
-    padding-top: 3rem;
-    background-color: #faf7f2;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.section-04 p {
-    text-align: center;
-    width: 80%;
-    margin: auto;
-    font-weight: bold;
-    margin-top: 1.5rem;
-    line-height: 1.8rem;
-    font-size: 1.2rem;
-}
-
-.section-04 img {
-    width: 90%;
-}
-
-/* END OF SECTION 04 */
-
-/* SECTION 05 */
-.section-05 {
-    padding-top: 3rem;
-    background-color: #faf7f2;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.section-05 p {
-    color: #0d0c23;
-    font-weight: bold;
-    text-align: center;
-    width: 80%;
-    margin: auto;
-    margin-top: 1.5rem;
-    line-height: 1.8rem;
-    font-size: 1.2rem;
-}
-
-.section-05 img {
-    width: 90%;
-}
-/* END OF SECTION 05 */
-
-/* SECTION 06 */
-.section-06 {
+/* SECTION 06 - PURPOSE SECTION */
+.purpose-section {
     padding-top: 3rem;
     padding-bottom: 3rem;
     display: flex;
@@ -342,25 +265,25 @@ header .links .link-signup {
     align-items: center;
 }
 
-.section-06 div {
+.purpose-section div {
     width: 80%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.section-06 div svg {
+.purpose-section div svg {
     margin-top: 3rem;
 }
 
-.section-06 div p {
+.purpose-section div p {
     text-align: center;
     margin-top: 1.5rem;
     line-height: 1.8rem;
     font-size: 1.2rem;
 }
 
-.section-06 .link-start-my-page {
+.purpose-section .link-start-my-page {
     background-color: #ffdd00;
     height: 1rem;
     width: 45%;
@@ -375,10 +298,10 @@ header .links .link-signup {
     font-weight: bold;
 }
 
-.section-06 p {
+.purpose-section p {
     margin-top: 1.5rem;
 }
-/* END OF SECTION 06 */
+/* END OF SECTION 06 - PURPOSE SECTION */
 
 /* FOOTER */
 footer {
@@ -402,37 +325,21 @@ footer .my-first-dollar a p {
     line-height: 1.6rem;
 }
 
-footer .options .company,
-footer .options .support,
-footer .options .community,
-footer .options .more,
-footer .options .copyright {
+footer .options .option {
     margin-top: 1rem;
     margin-left: 1.5rem;
     font-size: 1.2rem;
 }
 
-footer .options .company span,
-footer .options .support span,
-footer .options .community span,
-footer .options .more span,
-footer .options .copyright span {
+footer .options .option span {
     font-family: 'Graphik', sans-serif;
 }
 
-footer .options .company a,
-footer .options .support a,
-footer .options .community a,
-footer .options .more a,
-footer .options .copyright a {
+footer .options .option a {
     color: #000000;
 }
 
-footer .options .company a:hover,
-footer .options .support a:hover,
-footer .options .community a:hover,
-footer .options .more a:hover,
-footer .options .copyright a:hover {
+footer .options .option a:hover {
     text-decoration: none;
 }
 
@@ -445,3 +352,33 @@ footer .options .copyright {
     display: none;
 }
 /* END OF FOOTER */
+
+/* CLASSES FOR VARIOUS ELEMENTS */
+
+/* IT IS USED FOR SECTION 03, 04 AND 05 */
+.organize-items-01 {
+    padding-top: 3rem;
+    background-color: #faf7f2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* IT IS USED FOR P IN THE SECTION 03, 04 AND 05 */
+.p-styles-01 {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 1.5rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    font-size: 1.2rem;
+    color: #0d0c23;
+}
+
+/* IT IS USED FOR IMAGE SIZE OF SECTION 03, 04 AND 05 */
+.img-size-01 {
+    width: 90%;
+}
+
+/* END OF CLASSES FOR VARIOUS ELEMENTS */

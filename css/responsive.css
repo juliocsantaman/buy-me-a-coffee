@@ -1,8 +1,3 @@
-/* 
-X-Small devices (portrait phones, less than 576px)
-No media query for `xs` since this is the default in Bootstrap
-*/
-
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {  }
 
@@ -15,39 +10,36 @@ No media query for `xs` since this is the default in Bootstrap
     }
 
     header .links .link-signup {
-        padding-left: 2rem;
-        padding-right: 2rem;
-        padding-top: 1rem;
-        padding-bottom: 1rem;
+        padding: 1rem 2rem;
         border-radius: 0.5rem;
         margin-right: 3rem;
     }
     /* END OF HEADER */
 
-    /* SECTION 01 */
-    .section-01 .container-start-my-page {
+    /* SECTION 01 - MEETING BUYMEACOFFEE SECTION */
+    .meeting-buymeacoffee-section .container-start-my-page {
         display: flex;
         justify-content: center;
         gap: 1rem;
     }
 
-    .section-01 .container-start-my-page .container-buymeacoffee {
+    .meeting-buymeacoffee-section .container-start-my-page .container-buymeacoffee {
         width: 50%;
         margin: 0%;
     }
 
-    .section-01 .container-start-my-page .container-link-start {
+    .meeting-buymeacoffee-section .container-start-my-page .container-link-start {
         margin-top: 0%;
         width: 30%;
         margin: 0%;
     }
-    /* END OF SECTION 01 */
+    /* END OF SECTION 01 - MEETING BUYMEACOFFEE SECTION */
 
-    /* SECTION 02 */
-    .section-02 .categories > button {
+    /* SECTION 02 - CREATORS SECTION */
+    .creators-section .categories > button {
         font-size: 1rem;
     }
-    /* END OF SECTION 02 */
+    /* END OF SECTION 02 - CREATORS SECTION */
 
     /* FOOTER */
     footer .sub-footer {
@@ -86,51 +78,48 @@ No media query for `xs` since this is the default in Bootstrap
         font-size: 3rem;
     }
 
-    .section-02 p,
-    .section-03 p,
-    .section-04 p,
-    .section-05 p {
+    .p-styles-01 {
         line-height: 2.5rem;
         font-size: 1.5rem;
     }
 
-    /* SECTION 01 */
-    .section-01 .description {
+    /* SECTION 01 - MEETING BUYMEACOFFEE SECTION */
+    .meeting-buymeacoffee-section .description {
         display: flex;
         flex-direction: row-reverse;
         justify-content: center;
     }
 
-    .section-01 .description img {
+    .meeting-buymeacoffee-section .description img {
         width: 20%;
     }
 
-    .section-01 .description .paragraphs {
+    .meeting-buymeacoffee-section .description .paragraphs {
         width: 50%;
     }
 
-    .section-01 .description .paragraphs p {
+    .meeting-buymeacoffee-section .description .paragraphs p {
         text-align: start;
         font-size: 1.5rem;
         line-height: 2.5rem;
     }
 
-    .section-01 .container-start-my-page,
-    .section-01 .container-start-my-page div {
+    .meeting-buymeacoffee-section .container-start-my-page,
+    .meeting-buymeacoffee-section .container-start-my-page div {
         width: 55%;
     }
 
-    .section-01 .images-container-01 {
+    .meeting-buymeacoffee-section .images-container-01 {
         width: 85%;
     }
 
-    .section-01 .images-container-01 .img-video {
+    .meeting-buymeacoffee-section .images-container-01 .img-video {
         width: 30%;
     }
-    /* END OF SECTION 01 */
+    /* END OF SECTION 01 - MEETING BUYMEACOFFEE SECTION */
 
-    /* SECTION 02 */    
-    .section-02 .cards .card-01 {
+    /* SECTION 02 - CREATORS SECTION */    
+    .creators-section .cards .card-01 {
         width: 25%;
         height: 100%;
         background-color: #ffffff;
@@ -139,31 +128,29 @@ No media query for `xs` since this is the default in Bootstrap
         padding-bottom: 3rem;
     }
 
-    .section-02 .categories {
+    .creators-section .categories {
         overflow-x: hidden;
         display: flex;
         justify-content: center;
     }
-    /* END OF SECTION 02 */
+    /* END OF SECTION 02 - CREATORS SECTION */  
 
-    /* SECTION IMAGES 03, 04, 05 */
-    .section-03 img,
-    .section-04 img,
-    .section-05 img {
+    /* SECTION IMAGES 03, 04 AND 05 */
+    .img-size-01 {
         width: 60%;
     }
-    /* END OF SECTION IMAGES 03, 04, 05 */
+    /* END OF SECTION IMAGES 03, 04 AND 05 */
 
-    /* SECTION 06 */
-    .section-06 .link-start-my-page {
+    /* SECTION 06 - PURPOSE SECTION */
+    .purpose-section .link-start-my-page {
         width: 15%;
     }
     
-    .section-06 div p {
+    .purpose-section div p {
         line-height: 2.5rem;
         font-size: 1.5rem;
     }
-    /* END OF SECTION 06 */
+    /* END OF SECTION 06 - PURPOSE SECTION */
 
     /* FOOTER */
     footer .sub-footer {
