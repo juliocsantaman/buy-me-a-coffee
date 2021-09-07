@@ -1,0 +1,129 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+/* HEADER */
+header {
+    padding: 2rem 1rem 1rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    width: 40%;
+}
+
+header .links .link-login {
+    color: #000000;
+    font-weight: bold;
+    margin-right: 1rem;
+    text-decoration: none;
+}
+
+header .links .link-login:hover {
+    border-bottom: 0.2rem solid #000000;
+}
+
+header nav .already {
+    display: none;
+    color: #222;
+}
+/* END OF HEADER */
+
+/* SECTION SIGN UP FOR SOCIAL NETWORKS */
+.sign-up-for-social-networks {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.sign-up-for-social-networks div .icon {
+    background-color: #f3f3f3;
+    padding: 1.5rem;
+    margin: 0.7rem;
+    border-radius: 50%;
+    color: gray;
+}
+
+.sign-up-for-social-networks div .icon:hover {
+    background-color: #e8e8e8;
+}
+
+.sign-up-for-social-networks div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sign-up-for-social-networks div a {
+    text-decoration: none;
+    color: #222;
+    margin-top: 0.5rem;
+}
+/* END OF SECTION SIGN UP FOR SOCIAL NETWORKS */
+
+/* SECTION SIGN UP WITH EMAIL */
+.sign-up-with-email {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sign-up-with-email input {
+    margin: 0.5rem;
+    background: rgba(34,34,34,.05);
+    border: 1px solid rgba(34,34,34,.05);
+    padding: 0.25rem 1rem;
+    border-radius: 0.25rem;
+	height: 2.5rem;
+    width: 75%;
+    outline: none;
+}
+
+.sign-up-with-email input:hover {
+    border: 1px solid rgba(34,34,34,.6);
+}
+
+.sign-up-with-email input:focus {
+    background-color: #ffffff;
+}
+
+.sign-up-with-email .container-link-continue {
+    background-color: #ffdd00;
+    height: 1rem;
+    width: 75%;
+    margin: auto;
+    margin-top: 2rem;
+    padding: 1rem 1.5rem;
+    border-radius: 1.5rem;
+    text-align: center;
+    font-family: 'Graphik', sans-serif;
+}
+
+.sign-up-with-email .container-link-continue .link-continue {
+    text-decoration: none;
+    color: #222;
+    font-weight: 500;
+}
+
+/* END OF SECTION SIGN UP WITH EMAIL */
+
+main p {
+    text-align: center;
+    margin: 3rem 0rem 1.5rem 0rem;
+    color: rgba(113,113,113,.6);
+}
+
+main .terms {
+    width: 80%;
+    margin: auto;
+    margin: 2rem auto 2rem auto;
+    color: rgba(113,113,113,.6);
+}
