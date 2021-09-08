@@ -4,15 +4,24 @@
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
     /* HEADER */
-    header .logo {
-        width: 30%;
+    header a .logo {
+        width: 50%;
         margin-left: 3rem;
     }
+
+    header .links {
+        width: 35%;
+    }
+
+    header .links button,
+    header .links a {
+        font-size: 1rem;
+        margin-right: 1.2rem;
+    }  
 
     header .links .link-signup {
         padding: 1rem 2rem;
         border-radius: 0.5rem;
-        margin-right: 3rem;
     }
     /* END OF HEADER */
 
@@ -64,13 +73,23 @@
         margin-top: 1rem;
     }
     /* END OF FOOTER */
+
+    /* SECTION LOGIN FOR SOCIAL NETWORKS */
+    .login-for-social-networks div .icon {
+        margin: 2rem;
+    }
+    /* END OF SECTION LOGIN FOR SOCIAL NETWORKS */
  }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
     /* HEADER */
-    header .logo {
-        width: 17%;
+    header a .logo {
+        width: 70%;
+    }
+
+    header .links {
+        width: 100%;
     }
     /* END OF HEADER */
 
@@ -186,6 +205,22 @@
         display: unset;
     }
     /* END OF FOOTER */
+
+    /* MODAL LINK LOGIN */
+    .modal-link-login .login {
+        width: 50%;
+        margin: auto;
+    }
+
+    .modal-link-login .login .close-icon {
+        position: absolute;
+        top: 0%;
+        right: 28%;
+        margin-top: 1rem;
+        font-size: 1.5rem;
+        cursor: pointer;
+    }
+    /* END OF MODAL LINK LOGIN */
  }
 
 /* X-Large devices (large desktops, 1200px and up) */
@@ -193,5 +228,3 @@
 
 /* XX-Large devices (larger desktops, 1400px and up) */
 @media (min-width: 1400px) {  }
-
-

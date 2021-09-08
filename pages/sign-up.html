@@ -17,14 +17,70 @@
 <body>
     <!--HEADER-->
     <header>
-        <img class="logo" src="https://cdn.buymeacoffee.com/assets/img/home-page-v3/bmc-new-logo.png"
-            alt="A logo for the buy me a coffee website.">
+        <a href="../index.html">
+            <img class="logo" src="https://cdn.buymeacoffee.com/assets/img/home-page-v3/bmc-new-logo.png"
+                alt="A logo for the buy me a coffee website.">
+        </a>
 
         <nav class="links">
-            <span class="already">Already have an account?</span> <a class="link-login" href="#">Log in</a>
+            <span class="already">Already have an account?</span> <button class="link-login" id="link-login">Log
+                in</button>
         </nav>
     </header>
     <!--END OF HEADER-->
+
+    <!--MODAL LINK LOGIN-->
+    <section class="modal-link-login inactive-modal-link-login" id="modal-link-login">
+        <section class="login">
+            <h1>Welcome back.</h1>
+            <span class="close-icon" id="close-icon"><i class="fas fa-times-circle"></i></span>
+            <!--SECTION LOGIN FOR SOCIAL NETWORKS-->
+            <section class="login-for-social-networks">
+                <div class="google">
+                    <a class="icon" href="#"><i class="fab fa-google"></i></a>
+                    <a href="#">Google</a>
+                </div>
+
+                <div class="facebook">
+                    <a class="icon" href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#">Facebook</a>
+                </div>
+
+                <div class="apple">
+                    <a class="icon" href="#"><i class="fab fa-apple"></i></a>
+                    <a href="#">Apple</a>
+                </div>
+
+                <div class="twitter">
+                    <a class="icon" href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#">Twitter</a>
+                </div>
+            </section>
+            <!--END OF SECTION LOGIN FOR SOCIAL NETWORKS-->
+
+            <p>Or login with email</p>
+
+            <!--SECTION LOGIN WITH EMAIL-->
+            <section class="login-with-email">
+                <input type="text" placeholder="Email">
+                <!-- <input class="tablet-width" type="text" placeholder="Password"> -->
+                <div class="container-link-continue">
+                    <a class="link-continue" href="#">Continue with email <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </section>
+            <!--END OF SECTION LOGIN WITH EMAIL-->
+
+            <p class="terms">
+                <small>
+                    By signing up, you agree to our terms and privacy policy. We do not allow adult content. You must be
+                    at
+                    least 18 years old to start a page.
+                </small>
+            </p>
+        </section>
+
+    </section>
+    <!--END OF MODAL LINK LOGIN-->
 
     <!--MAIN-->
     <main>
@@ -74,6 +130,7 @@
     </main>
     <!--END OF MAIN-->
 
+    <script src="../js/modal-link-login.js"></script>
 </body>
 
 </html>

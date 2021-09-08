@@ -11,21 +11,78 @@
     <link href="http://fonts.cdnfonts.com/css/graphik" rel="stylesheet">
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/responsive.css">
-    <title>Buy me a coffee</title>
+    <link rel="stylesheet" href="./css/modal-link-login.css">
+    <title> Platform project - Buy me a coffee</title>
 </head>
 
 <body>
     <!--HEADER-->
     <header>
 
-        <img class="logo" src="https://cdn.buymeacoffee.com/assets/img/home-page-v3/bmc-new-logo.png" alt="Logo del sitio web Buy me a coffee.">
+        <a href="./index.html">
+            <img class="logo" src="https://cdn.buymeacoffee.com/assets/img/home-page-v3/bmc-new-logo.png"
+            alt="A logo for the buy me a coffee website.">
+        </a>
 
         <nav class="links">
-            <a class="link-login" href="#">Log in</a>
+            <button class="link-login" id="link-login">Log in</button>
             <a class="link-signup" href="./pages/sign-up.html">Sign up <i class="fas fa-arrow-right"></i></a>
         </nav>
     </header>
     <!--END OF HEADER-->
+
+    <!--MODAL LINK LOGIN-->
+    <section class="modal-link-login inactive-modal-link-login" id="modal-link-login">
+        <section class="login">
+            <h1>Welcome back.</h1>
+            <span class="close-icon" id="close-icon"><i class="fas fa-times-circle"></i></span>
+            <!--SECTION LOGIN FOR SOCIAL NETWORKS-->
+            <section class="login-for-social-networks">
+                <div class="google">
+                    <a class="icon" href="#"><i class="fab fa-google"></i></a>
+                    <a href="#">Google</a>
+                </div>
+
+                <div class="facebook">
+                    <a class="icon" href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#">Facebook</a>
+                </div>
+
+                <div class="apple">
+                    <a class="icon" href="#"><i class="fab fa-apple"></i></a>
+                    <a href="#">Apple</a>
+                </div>
+
+                <div class="twitter">
+                    <a class="icon" href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#">Twitter</a>
+                </div>
+            </section>
+            <!--END OF SECTION LOGIN FOR SOCIAL NETWORKS-->
+
+            <p>Or login with email</p>
+
+            <!--SECTION LOGIN WITH EMAIL-->
+            <section class="login-with-email">
+                <input type="text" placeholder="Email">
+                <!-- <input type="text" placeholder="Password"> -->
+                <div class="container-link-continue tablet-width">
+                    <a class="link-continue" href="#">Continue with email <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </section>
+            <!--END OF SECTION LOGIN WITH EMAIL-->
+
+            <p class="terms">
+                <small>
+                    By signing up, you agree to our terms and privacy policy. We do not allow adult content. You must be
+                    at
+                    least 18 years old to start a page.
+                </small>
+            </p>
+        </section>
+
+    </section>
+    <!--END OF MODAL LINK LOGIN-->
 
     <!--MAIN-->
     <main>
@@ -34,7 +91,8 @@
 
             <div class="description">
 
-                <img src="https://cdn.buymeacoffee.com/assets/img/home-page-v3/home-desc-img.png" alt="Frase para seguidores de Buy me a coffee.">
+                <img src="https://cdn.buymeacoffee.com/assets/img/home-page-v3/home-desc-img.png"
+                    alt="A Phrase for followers of Buy me a coffee.">
                 <div class="paragraphs">
                     <p>
                         Buy Me a Coffee is a simple, meaningful way to fund your creative work.
@@ -71,10 +129,10 @@
             <div class="images-container-01">
                 <img class="img-dashboard"
                     src="https://cdn.buymeacoffee.com/assets/img/home-page-v3/home-dash-preview-high.png"
-                    alt="Ejemplo de imagen que muestra el Dashboard de un perfil de Buy me a coffee.">
+                    alt="An Example of an image that shows the Dashboard of a Buy me a coffee profile.">
                 <a href="#"><img class="img-video"
                         src="https://cdn.buymeacoffee.com/assets/img/home-page-v3/video-click-bg.png"
-                        alt="Imagen en forma de nube que representa un video de Buy me a coffee."></a>
+                        alt="A Cloud image representing a Buy me a coffee video."></a>
             </div>
         </section>
         <!--END OF SECTION 01 - MEETING BUYMEACOFFEE SECTION-->
@@ -119,7 +177,7 @@
 
                     <img class="bg-image"
                         src="https://img.buymeacoffee.com/api/?url=aHR0cHM6Ly9jZG4uYnV5bWVhY29mZmVlLmNvbS91cGxvYWRzL3Byb2plY3RfdXBkYXRlcy8yMDIwLzA1L2Q5M2U3MTIwNGJhMzVhMDQ0N2U0YzZlZTMyYjVjMjI4LmpwZw==&height=600&width=1200"
-                        alt="Fondo de un perfil de Buy me a coffee.">
+                        alt="A Background of a Buy me a coffee profile.">
                     <!-- <img src="" alt="" class="profile-picture"> -->
 
 
@@ -147,7 +205,9 @@
                 you a coffee) and leave a message. They don’t even have to create an account.
             </p>
 
-            <img class="img-size-01" src="https://cdn.buymeacoffee.com/assets/img/home-page-v3/home-support-preview-1.png" alt="Imagen que muestra a usuarios comprando cafes para apoyar a la persona que crea contenido de su agrado.">
+            <img class="img-size-01"
+                src="https://cdn.buymeacoffee.com/assets/img/home-page-v3/home-support-preview-1.png"
+                alt="An Image that shows users buying a coffee to support the person who creates content to their liking.">
 
         </section>
         <!--END OF SECTION 03 - SAY THANKS SECTION-->
@@ -159,7 +219,8 @@
                 Earn a recurring income by accepting monthly or yearly membership. Share exclusive content, or just give
                 them a way to support your work on an ongoing basis.
             </p>
-            <img class="img-size-01" src="https://cdn.buymeacoffee.com/assets/img/home-page-v3/home-mem-preview.png" alt="Imagen que muestra como un usuario se vuelve miembro de una persona que crea contenido de su agrado.">
+            <img class="img-size-01" src="https://cdn.buymeacoffee.com/assets/img/home-page-v3/home-mem-preview.png"
+                alt="An Image that shows how a user becomes a member of a person who creates content to their liking.">
         </section>
         <!--END OF SECTION 04 - MEMBERCHIP SECTION-->
 
@@ -173,7 +234,8 @@
                 way
                 to sell it.
             </p>
-            <img class="img-size-01" src="https://cdn.buymeacoffee.com/assets/img/home-page-v3/home-extras-preview.png" alt="Imagen que muestra ventas de servicio o productos de los creadores de contenido.">
+            <img class="img-size-01" src="https://cdn.buymeacoffee.com/assets/img/home-page-v3/home-extras-preview.png"
+                alt="An Image showing service or product sales of content creators.">
         </section>
         <!--END OF SECTION 05 - INTRODUCING EXTRAS SECTION-->
 
@@ -267,10 +329,11 @@
 
             <div class="my-first-dollar">
                 <img class="inactive-footer-divider" height="250px"
-                    src="https://cdn.buymeacoffee.com/assets/img/home-page-v3/footer-divider.png" alt="Imagen utilizada para dividir información en el pie de página.">
+                    src="https://cdn.buymeacoffee.com/assets/img/home-page-v3/footer-divider.png"
+                    alt="An Image used to divide information in the footer.">
                 <a href="#">
                     <img src="https://cdn.buymeacoffee.com/assets/img/home-page-v3/footer-my-first-dollar.png"
-                        alt="Imagen que representa a un creador de contenido obteniendo su primer dólar.">
+                        alt="An Image representing a content creator earning his first dollar.">
                     <p>
                         Every week, we talk to a creator about their creative journey, and how they make money from it.
                         <i class="fas fa-arrow-right"></i>
@@ -325,6 +388,8 @@
 
     </footer>
     <!--END OF FOOTER-->
+
+    <script src="./js/modal-link-login.js"></script>
 </body>
 
 </html>
