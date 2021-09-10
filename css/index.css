@@ -54,6 +54,7 @@ header .links a {
 header .links .link-login {
     color: #000000;
     font-weight: bold;
+    border-bottom: 0.2rem solid transparent;
 }
 
 header .links .link-login:hover {
@@ -506,6 +507,9 @@ footer .options .copyright {
     font-weight: 500;
 }
 
+.modal-link-login .login .login-with-email .container-link-continue:hover {
+    filter: brightness(90%);
+}
 /* END OF SECTION LOGIN WITH EMAIL */
 
 .modal-link-login .login p {

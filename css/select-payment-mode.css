@@ -1,0 +1,145 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+/* PROGESS */
+main .progress {
+    display: flex;
+    justify-content: center;
+}
+
+main .progress .step {
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .progress .step p {
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+
+main .progress .step .circle {
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: #ffdd00;
+    border-radius: 50%;
+    margin: 1rem;
+}
+
+main .progress .step-02 .circle,
+main .progress .step-03 .circle {
+    background-color: lightgray;
+}
+/* END OF PROGRESS */
+
+/* SELECT-PAYMENT-MODE */
+main .select-payment-mode {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .select-payment-mode h1 {
+    margin: 1rem 1rem 2rem 1rem;
+}
+
+main .select-payment-mode p {
+    width: 80%;
+    margin: auto auto 2rem auto;
+    line-height: 1.5rem;
+}
+
+main .select-payment-mode label {
+    margin-bottom: 1rem;
+}
+
+main .select-payment-mode select {
+    background-color: #f3f3f3;
+    width: 80%;
+    padding: 1rem;
+    text-align: start;
+    border: 1px solid lightgray;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+main .select-payment-mode .methods {
+    /* background-color: red; */
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+main .select-payment-mode .methods .method {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+main .select-payment-mode .methods .method .icon {
+    background-color: #ffffff;
+    border: 2px solid lightgray;
+    width: 5%;
+    border-radius: 0.5rem;
+    text-align: center;
+    padding: 1rem 1.5rem 1rem 1.5rem;
+}
+
+main .select-payment-mode .methods .method p {
+    margin: 0%;
+    padding: 0.2rem;
+    width: 100%;
+}
+
+main .select-payment-mode .methods .method .btn-enable {
+    background-color: #f0f0f0;
+    border: none;
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    border-radius: 1.5rem;
+    cursor: pointer;
+}
+
+main .select-payment-mode .methods .method .btn-enable:hover {
+    filter: brightness(90%);
+}
+
+.text-color-01 {
+    color: #717171;
+}
+
+/* END OF SELECT-PAYMENT-MODE */
+
+.btn-next {
+    background-color: #ffdd00;
+    width: 85%;
+    margin: auto;
+    margin-top: 2rem;
+    padding: 1rem 1.5rem;
+    border-radius: 1.5rem;
+    text-align: center;
+    font-family: 'Graphik', sans-serif;
+    border: none;
+    color: #222;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+.btn-next:hover {
+    filter: brightness(90%);
+}
+
+main .select-payment-mode .link-trouble {
+    text-decoration: none;
+    margin: 1rem;
+}
+
+main .select-payment-mode .link-trouble:hover {
+    filter: brightness(60%);
+}

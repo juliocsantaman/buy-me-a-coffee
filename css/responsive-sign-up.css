@@ -21,9 +21,17 @@
     .sign-up-for-social-networks div .icon {
         margin: 2rem;
     }
+
+    /* .sign-up-with-email .btn-continue {
+        width: 55%;
+    } */
+
+    .sign-up-with-email .container-link-continue {
+        width: 49%;
+    }
     /* END OF SECTION SIGN UP FOR SOCIAL NETWORKS */
 
-    /* IT IS USED FOR INPUT, CONTAINER LINK CONTINUE AND TERMS */
+    /* IT IS USED FOR INPUT AND TERMS */
     .tablet-width {
         width: 50% !important;
     }
@@ -47,6 +55,14 @@
     /* SECTION SIGN UP FOR SOCIAL NETWORKS */
     .sign-up-for-social-networks div .icon {
         margin: 1.5rem;
+    }
+
+    /* .sign-up-with-email .btn-continue {
+        width: 28%;
+    } */
+
+    .sign-up-with-email .container-link-continue {
+        width: 25%;
     }
     /* END OF SECTION SIGN UP FOR SOCIAL NETWORKS */
 

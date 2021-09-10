@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../css/select-payment-mode.css">
+    <link rel="stylesheet" href="../css/responsive-select-payment-mode.css">
+    <title>Select payment method - Buy Me a Coffee</title>
+</head>
+
+<body>
+    <main>
+        <!--PROGRESS-->
+        <section class="progress">
+            <div class="step step-01">
+                <div class="circle"></div>
+                <p>ARE YOU A CREATOR</p>
+            </div>
+
+            <div class="step step-02">
+                <div class="circle"></div>
+                <p>CHOOSE YOUR BMC LINK</p>
+            </div>
+
+            <div class="step step-03">
+                <div class="circle"></div>
+                <p>CONNECT PAYMENTS</p>
+            </div>
+
+        </section>
+        <!--END OF PROGRESS-->
+
+        <!--SELECT-PAYMENT-MODE-->
+        <section class="select-payment-mode">
+            <h1>You're almost done!</h1>
+            <p class="laptop-width p-01">
+                Please select a payout method to make your page active. Don't worry if you don't have a PayPal or Stripe
+                account, it only takes a few minutes to set it up.
+            </p>
+            <label class="text-color-01" for="country-currency">CHOOSE YOUR COUNTRY & CURRENCY</label>
+            <select class="laptop-width" name="countries" id="countries">
+                <option value="united-states">United States</option>
+                <option value="afghanistan">Afghanistan</option>
+                <option value="aland-islands">Aland Islands</option>
+                <option value="mexico">México</option>
+            </select>
+
+            <select class="laptop-width" name="currencies" id="currencies">
+                <option value="usd-united-states-dollar">USD - United States Dollar</option>
+                <option value="aud-australian-dollar">AUD - Australian Dollar</option>
+                <option value="cad-canadian-dollar">CAD - Canadian Dollar</option>
+                <option value="eur-euro">EUR - EURO</option>
+                <option value="gbp-great-britain-pound">GBP - Great Britain Pound</option>
+                <option value="nzd-new-zealand-dollar">NZD - New Zealand Dollar</option>
+            </select>
+
+            <p class="text-color-01 laptop-width">How would you like to get paid?</p>
+            <section class="methods laptop-width">
+                <div class="paypal method">
+                    <div class="info">
+                        <p class="icon"><i class="fab fa-paypal"></i></p>
+                        <p class="text-color-01">PayPal</p>
+                        <p class="text-color-01">Credit card, PayPal balance</p>
+                    </div>
+
+                    <button class="btn-enable">Enable</button>
+                </div>
+
+                <div class="strype method">
+                    <div class="info">
+                        <p class="icon"><i class="fab fa-stripe-s"></i></p>
+                        <p class="text-color-01">Strype (bank transfer)</p>
+                        <p class="text-color-01">Credit card, Apple Pay, Google Pay</p>
+                    </div>
+
+                    <button class="btn-enable">Enable</button>
+                </div>
+
+                <div class="paypal method">
+                    <div class="info">
+                        <p class="icon"><i class="fab fa-paypal"></i></p>
+                        <p class="text-color-01">PayPal</p>
+                        <p class="text-color-01">Credit card, PayPal balance</p>
+                    </div>
+
+                    <button class="btn-enable">Enable</button>
+                </div>
+
+            </section>
+
+            <button class="btn-next laptop-width" id="btn-next">Next <i class="fas fa-arrow-right"></i></button>
+            <a class="link-trouble text-color-01" href="#">Have trouble connecting?</a>
+        </section>
+        <!--END OF SELECT-PAYMENT-MODE-->
+
+
+    </main>
+</body>
+
+</html>

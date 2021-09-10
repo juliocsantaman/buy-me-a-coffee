@@ -1,0 +1,146 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+h1 {
+    text-align: center;
+    margin: 3rem;
+    display: block;
+    width: 100%;
+}
+
+.choose {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.option {
+    width: 80%;
+    height: 4rem;
+    margin: auto auto 1rem auto;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    border: 3px solid lightgray;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.option:hover {
+    border: 3px solid #ffdd00;
+}
+
+.option svg {
+    margin: 0rem 1rem;
+}
+
+.option p {
+    font-weight: bold;
+}
+
+/* PROGESS */
+main .progress {
+    display: flex;
+    justify-content: center;
+}
+
+main .progress .step {
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .progress .step p {
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+
+main .progress .step .circle {
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: #ffdd00;
+    border-radius: 50%;
+    margin: 1rem;
+}
+
+main .progress .step-02 .circle,
+main .progress .step-03 .circle {
+    background-color: lightgray;
+}
+/* END OF PROGRESS */
+
+/* YOUR LINK */
+.your-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.your-link p {
+    width: 75%;
+    margin: auto auto 2rem auto;
+    text-align: center;
+}
+
+.your-link .input-container {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f3f3f3;
+    padding: 1rem;
+    border-radius: 1.5rem;
+}
+
+.your-link .input-container svg {
+    margin-right: 1rem;
+}
+
+.your-link .input-container span {
+    font-weight: bold;
+}
+
+.your-link .input-container input {
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+
+.your-link .input-container i {
+    color: #dededf;
+    font-size: 1.3rem;
+}
+
+.your-link .input-container:hover {
+    border: 1px solid lightgray;
+}
+
+
+.btn-continue {
+    background-color: #ffdd00;
+    width: 85%;
+    margin: auto;
+    margin-top: 2rem;
+    padding: 1rem 1.5rem;
+    border-radius: 1.5rem;
+    text-align: center;
+    font-family: 'Graphik', sans-serif;
+    border: none;
+    color: #222;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+.btn-continue:hover {
+    filter: brightness(90%);
+}
+/* END OF YOUR LINK */
+
+.inactive-section {
+    display: none;
+}
