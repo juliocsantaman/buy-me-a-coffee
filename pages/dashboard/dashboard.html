@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../css/dashboard.css">
+    <title>Dashboard | Buy Me a Coffee</title>
+</head>
+
+<body>
+    <!--HEADER-->
+    <header>
+        <div>
+            <a href="#"><i class="fas fa-arrow-left"></i></a>
+            <p>Dashboard</p>
+        </div>
+
+        <img class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"
+            src="https://img.buymeacoffee.com/api/?name=tecmitest&amp;size=300&amp;bg-image=bmc" alt="Image coffee">
+
+        <ul class="dropdown-menu">
+            <li><img class="img-coffee dropdown-item" src="https://img.buymeacoffee.com/api/?bg-image=bmc"
+                    alt="Image coffee"></li>
+            <li> <a class="dropdown-item" href="#">username</a> </li>
+            <li><a class="dropdown-item" href="#">View my page <i class="fas fa-arrow-right"></i></a></li>
+            <li>
+                <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" href="#"> <img class="dropdown-icon" src="../../img/dashboard.svg"
+                        alt="Image dashboard"> Dashboard</a></li>
+            <li><a class="dropdown-item" href="#"> <img class="dropdown-icon" src="../../img/my-account.svg"
+                        alt="Image my account"> My account</a></li>
+            <li><a class="dropdown-item" href="#"> <img class="dropdown-icon" src="../../img/invite-and-earn.svg"
+                        alt="Image invite & earn"> Invite & earn</a></li>
+            <li>
+                <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" href="#"> <img class="dropdown-icon" src="../../img/log-out.svg"
+                        alt="Image log out"> Log out</a></li>
+        </ul>
+
+    </header>
+    <!--END OF HEADER-->
+
+    <!--MENU FOR MOBILE-->
+    <section class="menu-for-mobile">
+
+        <a href="#"><img class="icon" src="../../img/home.svg" alt="Home icon"> Home</a>
+
+        <a href="#"><img class="icon" src="../../img/create.svg" alt="Create icon"> Create</a>
+
+        <a href="#"><img class="icon" src="../../img/dashboard.svg" alt="Dashboard icon"> Dashboard</a>
+
+    </section>
+    <!--END OF MENU FOR MOBILE-->
+
+    <!--MAIN-->
+    <main>
+        <!--OVERVIEW-->
+        <section class="overview">
+            <div>
+                <h2>OVERVIEW</h2>
+                <a class="link-view-all-stats" href="#"> <img class="icon" src="../../img/view-all-stats.svg"
+                        alt="Image view all stats"> View all stats</a>
+            </div>
+
+            <div class="stats">
+
+                <div class="followers">
+                    <a href="#"><img class="icon" src="../../img/followers.svg" alt="Image followers"> Followers</a>
+                    <p>0</p>
+                </div>
+
+                <div class="supporters">
+                    <a href="#"><img class="icon" src="../../img/supporter.svg" alt="Image supporters"> Supporters</a>
+                    <p>0</p>
+                </div>
+
+                <div class="members">
+                    <a href="#"><img class="icon" src="../../img/members.svg" alt="Image members"> Members</a>
+                    <p>0</p>
+                </div>
+
+            </div>
+        </section>
+        <!--END OF OVERVIEW-->
+
+        <!--NO SUPPORTERS-->
+        <section class="no-supporters">
+            <div class="info">
+                <div class="img-container">
+                    <img class="icon" src="../../img/supporter.svg" alt="Image supporters">
+                </div>
+                <p><strong>You don't have any supporters yet</strong></p>
+                <p class="p-02">Share your page with your audience to get started.</p>
+            </div>
+        </section>
+        <!--END OF NO SUPPORTERS-->
+
+        <!--CHECKLIST-->
+        <section class="checklist">
+            <div>
+                <h2>CHECKLIST</h2>
+                <button class="btn-hide" id="btn-hide"> <img class="icon" src="../../img/hide.svg" alt="Hide icon">
+                    Hide</button>
+            </div>
+
+            <div class="mini-section">
+                <img src="../../img/payout-method.svg" alt="Image payout method">
+                <p><strong>Connect a payout method</strong></p>
+                <p>Your page is currently private. Connect your PayPal or Stripe account to start receiving payments.
+                </p>
+                <a class="custom-link-01" href="#">Connect</a>
+            </div>
+            <!--DIVIDER-->
+            <hr>
+            <!--END OF DIVIDER-->
+
+            <div class="mini-section">
+                <img src="../../img/complete-your-page.svg" alt="Image complete your page">
+                <p><strong>Complete your page</strong></p>
+                <p>
+                    Add a photo, one-liner, and a little bit about you. See some beautiful examples here, here, and
+                    here.
+                </p>
+                <a class="custom-link-01" href="#">Edit page</a>
+            </div>
+            <!--DIVIDER-->
+            <hr>
+            <!--END OF DIVIDER-->
+
+            <div class="mini-section">
+                <img src="../../img/set-a-goal.svg" alt="Image set a goal">
+                <p><strong>Set a goal</strong></p>
+                <p>
+                    Pages with goals consistently attract more supporters. Add some goals and let them be a part of your
+                    creative journey.
+                </p>
+                <a class="custom-link-01" href="#">Set a goal</a>
+            </div>
+            <!--DIVIDER-->
+            <hr>
+            <!--END OF DIVIDER-->
+
+            <div class="mini-section">
+                <img src="../../img/enable-membership.svg" alt="Image enable membership">
+                <p><strong>Enable membership for predictable income</strong></p>
+                <p>
+                    Successful memberships are usually fueled by exclusive content (like WallStreetYoda), but there are
+                    many creators who earn six-figures purely out of support.
+                </p>
+                <a class="custom-link-01" href="#">Enable membership</a>
+            </div>
+            <!--DIVIDER-->
+            <hr>
+            <!--END OF DIVIDER-->
+
+            <div class="mini-section">
+                <img src="../../img/write-your-post.svg" alt="Image write your post">
+                <p><strong>Write your first post</strong></p>
+                <p>
+                    Creators who post regularly tend to earn more support.
+                </p>
+                <a class="custom-link-01" href="#">Write a post</a>
+            </div>
+            <!--DIVIDER-->
+            <hr>
+            <!--END OF DIVIDER-->
+
+            <div class="mini-section">
+                <img src="../../img/link.svg" alt="Image link">
+                <p><strong>Link from your social bio and descriptions</strong></p>
+                <p>
+                    Keep your BMC link where your followers can find them. Most creators add it as their primary bio
+                    link on Twitter, Instagram, Linktree, Youtube description, etc.
+                </p>
+
+                <div class="copy">
+                    <input type="text" value="https://buymeacoffee.com/tecmitest">
+                    <button class="btn-copy">Copy</button>
+                </div>
+
+            </div>
+        </section>
+        <!--END OF CHECKLIST-->
+
+        <section class="resources">
+            <h2>RESOURCES</h2>
+            <a class="resource" href="#">
+                <img src="../../img/lamp.svg" alt="A lamp">
+                <p>For writers & Newsletters</p>
+            </a>
+
+            <a class="resource" href="#">
+                <img src="../../img/interview-with-creators.svg" alt="Interview with creators">
+                <p>Interview with Creators</p>
+            </a>
+
+            <a class="resource final-resource" href="#">
+                <img src="../../img/faq.svg" alt="Frequently Asked Questions">
+                <p>Frequently Asked Questions</p>
+            </a>
+        </section>
+
+    </main>
+    <!--END OF MAIN-->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

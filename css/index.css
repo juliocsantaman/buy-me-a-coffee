@@ -9,6 +9,7 @@ body {
     position: relative;
 }
 
+/* SMALL DEVICES */
 h3 {
     font-family: 'Graphik', sans-serif;
     font-size: 1.8rem;
@@ -16,59 +17,6 @@ h3 {
     width: 90%;
     margin: auto;
 }
-
-/* HEADER */
-header {
-    padding: 2rem 1rem 1rem 2rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-header a .logo {
-    width: 80%;
-}
-
-header .links {
-    width: 120%;
-    display: flex;
-    justify-content: end;
-}
-
-header .links button {
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-}
-
-header .links button,
-header .links a {
-    font-size: 0.8rem;
-    margin: 0.5rem;
-}
-
-header .links a {
-    text-decoration: none;
-}
-
-header .links .link-login {
-    color: #000000;
-    font-weight: bold;
-    border-bottom: 0.2rem solid transparent;
-}
-
-header .links .link-login:hover {
-    border-bottom: 0.2rem solid #000000;
-}
-
-header .links .link-signup {
-    background-color: #0c0b22;
-    color: #ffffff;
-    padding: 0.5rem 0.7rem;
-    border-radius: 1rem;
-    font-weight: bold;
-}
-/* END OF HEADER */
 
 /* SECTION 01 - MEETING BUYMEACOFFEE */
 .meeting-buymeacoffee-section {
@@ -322,220 +270,106 @@ header .links .link-signup {
 }
 /* END OF SECTION 06 - PURPOSE SECTION */
 
-/* FOOTER */
-footer {
-    background-color: #ffd200;
-}
+/* MEDIUM DEVICES (TABLETS, 768PX AND UP) */
+@media (min-width: 768px) { 
+    /* SECTION 01 - MEETING BUYMEACOFFEE SECTION */
+    .meeting-buymeacoffee-section .container-start-my-page {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+    }
 
-footer .my-first-dollar {
-    margin-bottom: 3rem;
-}
+    .meeting-buymeacoffee-section .container-start-my-page .container-buymeacoffee {
+        width: 50%;
+        margin: 0%;
+    }
 
-footer .my-first-dollar a {
-    text-decoration: none;
-    color: #000000;
-}
+    .meeting-buymeacoffee-section .container-start-my-page .container-link-start {
+        margin-top: 0%;
+        width: 30%;
+        margin: 0%;
+    }
+    /* END OF SECTION 01 - MEETING BUYMEACOFFEE SECTION */
 
-footer .my-first-dollar a p {
-    margin-top: 0.5rem;
-    text-align: center;
-    width: 80%;
-    margin: auto;
-    line-height: 1.6rem;
-}
+    /* SECTION 02 - CREATORS SECTION */
+    .creators-section .categories > button {
+        font-size: 1rem;
+    }
+    /* END OF SECTION 02 - CREATORS SECTION */
+ }
 
-footer .options .option {
-    margin-top: 1rem;
-    margin-left: 1.5rem;
-    font-size: 1.2rem;
-}
+/* LARGE DEVICES (DESKTOPS, 992PX AND UP) */
+@media (min-width: 992px) { 
+    h3 {
+        font-size: 3rem;
+    }
 
-footer .options .option span {
-    font-family: 'Graphik', sans-serif;
-}
+    /* SECTION 01 - MEETING BUYMEACOFFEE SECTION */
+    .meeting-buymeacoffee-section .description {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+    }
 
-footer .options .option a {
-    color: #000000;
-}
+    .meeting-buymeacoffee-section .description img {
+        width: 20%;
+    }
 
-footer .options .option a:hover {
-    text-decoration: none;
-}
+    .meeting-buymeacoffee-section .description .paragraphs {
+        width: 50%;
+    }
 
-footer .options .copyright {
-    margin-top: 2rem;
-    padding-bottom: 4rem;
-}
+    .meeting-buymeacoffee-section .description .paragraphs p {
+        text-align: start;
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+    }
 
-.inactive-footer-divider {
-    display: none;
-}
-/* END OF FOOTER */
+    .meeting-buymeacoffee-section .container-start-my-page,
+    .meeting-buymeacoffee-section .container-start-my-page div {
+        width: 55%;
+    }
 
-/* CLASSES FOR VARIOUS ELEMENTS */
+    .meeting-buymeacoffee-section .images-container-01 {
+        width: 85%;
+    }
 
-/* IT IS USED FOR SECTION 03, 04 AND 05 */
-.organize-items-01 {
-    padding-top: 3rem;
-    background-color: #faf7f2;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+    .meeting-buymeacoffee-section .images-container-01 .img-video {
+        width: 30%;
+    }
+    /* END OF SECTION 01 - MEETING BUYMEACOFFEE SECTION */
 
-/* IT IS USED FOR P IN THE SECTION 03, 04 AND 05 */
-.p-styles-01 {
-    text-align: center;
-    width: 80%;
-    margin: auto;
-    margin-top: 1.5rem;
-    font-weight: bold;
-    line-height: 1.8rem;
-    font-size: 1.2rem;
-    color: #0d0c23;
-}
+    /* SECTION 02 - CREATORS SECTION */    
+    .creators-section .cards .card-01 {
+        width: 25%;
+        height: 100%;
+        background-color: #ffffff;
+        margin: auto;
+        border-radius: 1rem;
+        padding-bottom: 3rem;
+    }
 
-/* IT IS USED FOR IMAGE SIZE OF SECTION 03, 04 AND 05 */
-.img-size-01 {
-    width: 90%;
-}
+    .creators-section .categories {
+        overflow-x: hidden;
+        display: flex;
+        justify-content: center;
+    }
+    /* END OF SECTION 02 - CREATORS SECTION */  
 
-/* END OF CLASSES FOR VARIOUS ELEMENTS */
+    /* SECTION 06 - PURPOSE SECTION */
+    .purpose-section .link-start-my-page {
+        width: 15%;
+    }
+    
+    .purpose-section div p {
+        line-height: 2.5rem;
+        font-size: 1.5rem;
+    }
+    /* END OF SECTION 06 - PURPOSE SECTION */
+ }
 
-/* MODAL LINK LOGIN */
-.inactive-modal-link-login {
-    display: none;
-}
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
 
-.active-modal-link-login {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0%;
-    left: 0%;
-    z-index: 1;
-    background-color: rgba(0, 0, 0, 0.7);
-}
-
-.modal-link-login .login {
-    height: 10%;
-    background-color: #ffffff;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    border-radius: 1rem;
-}
-
-.modal-link-login .login h1 {
-    text-align: center;
-    margin-top: 3rem;
-}
-
-/* SECTION LOGIN FOR SOCIAL NETWORKS */
-.modal-link-login .login .login-for-social-networks {
-    margin-top: 1.5rem;
-    display: flex;
-    justify-content: center;
-}
-
-.modal-link-login .login .login-for-social-networks div .icon {
-    background-color: #f3f3f3;
-    padding: 1.5rem;
-    margin: 0.7rem;
-    border-radius: 50%;
-    color: gray;
-}
-
-.modal-link-login .login .login-for-social-networks div .icon:hover {
-    background-color: #e8e8e8;
-}
-
-.modal-link-login .login .login-for-social-networks div {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.modal-link-login .login .login-for-social-networks div a {
-    text-decoration: none;
-    color: #222;
-    margin-top: 0.5rem;
-}
-/* END OF SECTION LOGIN FOR SOCIAL NETWORKS */
-
-/* SECTION LOGIN WITH EMAIL */
-.modal-link-login .login .login-with-email {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.modal-link-login .login .login-with-email input {
-    margin: 0.5rem;
-    background: rgba(34,34,34,.05);
-    border: 1px solid rgba(34,34,34,.05);
-    padding: 0.25rem 1rem;
-    border-radius: 0.25rem;
-	height: 2.5rem;
-    width: 100%;
-    outline: none;
-}
-
-.modal-link-login .login .login-with-email input:hover {
-    border: 1px solid rgba(34,34,34,.6);
-}
-
-.modal-link-login .login .login-with-email input:focus {
-    background-color: #ffffff;
-}
-
-.modal-link-login .login .login-with-email .container-link-continue {
-    background-color: #ffdd00;
-    height: 1rem;
-    width: 100%;
-    margin-top: 2rem;
-    padding: 1rem 1.5rem;
-    border-radius: 1.5rem;
-    text-align: center;
-    font-family: 'Graphik', sans-serif;
-}
-
-.modal-link-login .login .login-with-email .container-link-continue .link-continue {
-    text-decoration: none;
-    color: #222;
-    font-weight: 500;
-}
-
-.modal-link-login .login .login-with-email .container-link-continue:hover {
-    filter: brightness(90%);
-}
-/* END OF SECTION LOGIN WITH EMAIL */
-
-.modal-link-login .login p {
-    text-align: center;
-    margin: 3rem 0rem 1.5rem 0rem;
-    color: rgba(113,113,113,.6);
-}
-
-.modal-link-login .login .terms {
-    width: 80%;
-    margin: auto;
-    margin: 2rem auto 2rem auto;
-    color: rgba(113,113,113,.6);
-}
-
-.modal-link-login .login .close-icon {
-    position: absolute;
-    top: 0%;
-    right: 10%;
-    margin-top: 1rem;
-    font-size: 1.5rem;
-    cursor: pointer;
-}
-
-.modal-link-login .login .close-icon:hover {
-    opacity: 0.5;
-}
-
-/* END OF MODAL LINK LOGIN */
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {  }

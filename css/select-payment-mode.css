@@ -3,38 +3,7 @@
     padding: 0%;
 }
 
-/* PROGESS */
-main .progress {
-    display: flex;
-    justify-content: center;
-}
-
-main .progress .step {
-    margin: 2rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-main .progress .step p {
-    font-size: 0.8rem;
-    text-align: center;
-}
-
-
-main .progress .step .circle {
-    width: 2.5rem;
-    height: 2.5rem;
-    background-color: #ffdd00;
-    border-radius: 50%;
-    margin: 1rem;
-}
-
-main .progress .step-02 .circle,
-main .progress .step-03 .circle {
-    background-color: lightgray;
-}
-/* END OF PROGRESS */
+/* SMALL DEVICES */
 
 /* SELECT-PAYMENT-MODE */
 main .select-payment-mode {
@@ -143,3 +112,23 @@ main .select-payment-mode .link-trouble {
 main .select-payment-mode .link-trouble:hover {
     filter: brightness(60%);
 }
+
+/* MEDIUM DEVICES (TABLETS, 768PX AND UP) */
+@media (min-width: 768px) { }
+
+/* LARGE DEVICES (DESKTOPS, 992PX AND UP) */
+@media (min-width: 992px) { 
+    main .select-payment-mode .laptop-width {
+        width: 50%;
+    }
+
+    main .select-payment-mode .p-01 {
+        text-align: center;
+    }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {  }

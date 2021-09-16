@@ -10,7 +10,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="http://fonts.cdnfonts.com/css/graphik" rel="stylesheet">
     <link rel="stylesheet" href="../css/sign-up.css">
-    <link rel="stylesheet" href="../css/responsive-sign-up.css">
+    <link rel="stylesheet" href="../css/repeating-styles.css">
     <title>Sign Up - Buy Me a Coffee</title>
 </head>
 
@@ -23,8 +23,8 @@
         </a>
 
         <nav class="links">
-            <span class="already">Already have an account?</span> <button class="link-login" id="link-login">Log
-                in</button>
+            <span class="already">Already have an account?</span>
+            <button class="link-login" id="link-login">Log in</button>
         </nav>
     </header>
     <!--END OF HEADER-->
@@ -63,13 +63,17 @@
             <!--SECTION LOGIN WITH EMAIL-->
             <section class="login-with-email">
                 <input type="text" placeholder="Email">
-                <button class="btn-continue" href="#">Continue with email <i class="fas fa-arrow-right"></i></button>
+                <!-- <input type="text" placeholder="Password"> -->
+                <div class="container-link-continue">
+                    <a class="link-continue" href="#">Continue with email <i class="fas fa-arrow-right"></i></a>
+                </div>
             </section>
             <!--END OF SECTION LOGIN WITH EMAIL-->
         </section>
 
     </section>
     <!--END OF MODAL LINK LOGIN-->
+
 
     <!--MAIN-->
     <main>
@@ -104,12 +108,13 @@
         <section class="sign-up-with-email">
             <input class="tablet-width" type="text" placeholder="Email">
             <input class="tablet-width" type="text" placeholder="Password">
-            
+
             <!-- <button class="btn-continue">Continue with email <i class="fas fa-arrow-right"></i></button> -->
             <div class="container-link-continue">
-                <a class="link-continue" href="./finish-sign-up.html">Continue with email <i class="fas fa-arrow-right"></i></a>
+                <a class="link-continue" href="./finish-sign-up.html">Continue with email <i
+                        class="fas fa-arrow-right"></i></a>
             </div>
-            
+
         </section>
         <!--END OF SECTION SIGN UP WITH EMAIL-->
 

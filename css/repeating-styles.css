@@ -1,0 +1,431 @@
+/* SMALL DEVICES */
+
+/* HEADER */
+header {
+    padding: 2rem 1rem 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a .logo {
+    width: 80%;
+}
+
+header .links {
+    width: 120%;
+    display: flex;
+    justify-content: end;
+}
+
+header .links button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+header .links button,
+header .links a {
+    font-size: 0.8rem;
+    margin: 0.5rem;
+}
+
+header .links a {
+    text-decoration: none;
+}
+
+header .links .link-login {
+    color: #000000;
+    font-weight: bold;
+    border-bottom: 0.2rem solid transparent;
+}
+
+header .links .link-login:hover {
+    border-bottom: 0.2rem solid #000000;
+}
+
+header .links .link-signup {
+    background-color: #0c0b22;
+    color: #ffffff;
+    padding: 0.5rem 0.7rem;
+    border-radius: 1rem;
+    font-weight: bold;
+}
+/* END OF HEADER */
+
+/* FOOTER */
+footer {
+    background-color: #ffd200;
+}
+
+footer .my-first-dollar {
+    margin-bottom: 3rem;
+}
+
+footer .my-first-dollar a {
+    text-decoration: none;
+    color: #000000;
+}
+
+footer .my-first-dollar a p {
+    margin-top: 0.5rem;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    line-height: 1.6rem;
+}
+
+footer .options .option {
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+    font-size: 1.2rem;
+}
+
+footer .options .option span {
+    font-family: 'Graphik', sans-serif;
+}
+
+footer .options .option a {
+    color: #000000;
+}
+
+footer .options .option a:hover {
+    text-decoration: none;
+}
+
+footer .options .copyright {
+    margin-top: 2rem;
+    padding-bottom: 4rem;
+}
+
+.inactive-footer-divider {
+    display: none;
+}
+/* END OF FOOTER */
+
+.organize-items-01 {
+    padding-top: 3rem;
+    background-color: #faf7f2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.p-styles-01 {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 1.5rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    font-size: 1.2rem;
+    color: #0d0c23;
+}
+
+.img-size-01 {
+    width: 90%;
+}
+
+/* MODAL LINK LOGIN */
+.inactive-modal-link-login {
+    display: none;
+}
+
+.active-modal-link-login {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.modal-link-login .login {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+    padding-bottom: 3rem;
+}
+
+.modal-link-login .login h1 {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+/* SECTION LOGIN FOR SOCIAL NETWORKS */
+.modal-link-login .login .login-for-social-networks {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.modal-link-login .login .login-for-social-networks div .icon {
+    background-color: #f3f3f3;
+    padding: 1.5rem;
+    margin: 0.7rem;
+    border-radius: 50%;
+    color: gray;
+}
+
+.modal-link-login .login .login-for-social-networks div .icon:hover {
+    background-color: #e8e8e8;
+}
+
+.modal-link-login .login .login-for-social-networks div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.modal-link-login .login .login-for-social-networks div a {
+    text-decoration: none;
+    color: #222;
+    margin-top: 0.5rem;
+}
+/* END OF SECTION LOGIN FOR SOCIAL NETWORKS */
+
+/* SECTION LOGIN WITH EMAIL */
+.modal-link-login .login .login-with-email {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.modal-link-login .login .login-with-email input {
+    margin: 0.5rem;
+    background: rgba(34,34,34,.05);
+    border: 1px solid rgba(34,34,34,.05);
+    padding: 0.25rem 1rem;
+    border-radius: 0.25rem;
+	height: 2.5rem;
+    width: 100%;
+    outline: none;
+}
+
+.modal-link-login .login .login-with-email input:hover {
+    border: 1px solid rgba(34,34,34,.6);
+}
+
+.modal-link-login .login .login-with-email input:focus {
+    background-color: #ffffff;
+}
+
+.modal-link-login .login .login-with-email .container-link-continue {
+    background-color: #ffdd00;
+    height: 1rem;
+    width: 100%;
+    margin-top: 2rem;
+    padding: 1rem 1.5rem;
+    border-radius: 1.5rem;
+    text-align: center;
+    font-family: 'Graphik', sans-serif;
+}
+
+.modal-link-login .login .login-with-email .container-link-continue .link-continue {
+    text-decoration: none;
+    color: #222;
+    font-weight: 500;
+}
+
+.modal-link-login .login .login-with-email .container-link-continue:hover {
+    filter: brightness(90%);
+}
+/* END OF SECTION LOGIN WITH EMAIL */
+
+.modal-link-login .login p {
+    text-align: center;
+    margin: 3rem 0rem 1.5rem 0rem;
+    color: rgba(113,113,113,.6);
+}
+
+.modal-link-login .login .terms {
+    width: 80%;
+    margin: auto;
+    margin: 2rem auto 2rem auto;
+    color: rgba(113,113,113,.6);
+}
+
+.modal-link-login .login .close-icon {
+    position: absolute;
+    top: 0%;
+    right: 10%;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.modal-link-login .login .close-icon:hover {
+    opacity: 0.5;
+}
+/* END OF MODAL LINK LOGIN */
+
+/* PROGESS */
+.progress {
+    display: flex;
+    justify-content: center;
+}
+
+.progress .step {
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.progress .step p {
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+
+.progress .step .circle {
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: #ffdd00;
+    border-radius: 50%;
+    margin: 1rem;
+}
+
+.progress .step-02 .circle,
+.progress .step-03 .circle {
+    background-color: lightgray;
+}
+/* END OF PROGRESS */
+
+/* MEDIUM DEVICES (TABLETS, 768PX AND UP) */
+@media (min-width: 768px) { 
+    /* HEADER */
+    header a .logo {
+        width: 50%;
+        margin-left: 3rem;
+    }
+
+    header .links {
+        width: 35%;
+    }
+
+    header .links button,
+    header .links a {
+        font-size: 1rem;
+        margin-right: 1.2rem;
+    }  
+
+    header .links .link-signup {
+        padding: 1rem 2rem;
+        border-radius: 0.5rem;
+    }
+    /* END OF HEADER */
+
+    /* FOOTER */
+    footer .sub-footer {
+        display: flex;
+        flex-direction: row-reverse;
+        width: 80%;
+        margin: auto;
+    }
+
+    footer .sub-footer .my-first-dollar {
+        margin-top: 5rem;
+    }
+
+    footer .sub-footer .my-first-dollar a {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    footer .sub-footer .my-first-dollar a p {
+        text-align: start;
+        margin-top: 1rem;
+    }
+    /* END OF FOOTER */
+
+    /* SECTION LOGIN FOR SOCIAL NETWORKS */
+    .login-for-social-networks div .icon {
+        margin: 2rem;
+    }
+    /* END OF SECTION LOGIN FOR SOCIAL NETWORKS */
+ }
+
+/* LARGE DEVICES (DESKTOPS, 992PX AND UP) */
+@media (min-width: 992px) { 
+    /* HEADER */
+    header a .logo {
+        width: 70%;
+    }
+
+    header .links {
+        width: 100%;
+    }
+    /* END OF HEADER */
+
+    .p-styles-01 {
+        line-height: 2.5rem;
+        font-size: 1.5rem;
+    }
+
+    .img-size-01 {
+        width: 60%;
+    }
+
+    /* FOOTER */
+    footer .sub-footer {
+        display: flex;
+        flex-direction: row-reverse;
+        width: unset;
+        margin: unset;
+        justify-content: space-around;
+    }
+
+    footer .sub-footer .my-first-dollar  {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-left: 5%;
+    }
+
+    footer .sub-footer .my-first-dollar a p {
+        width: 50%;
+        margin: unset;
+        margin-top: 1rem;
+        margin-left: 3rem;
+    }
+
+
+    footer .sub-footer .options {
+        margin-top: 5rem;
+        margin-left: 10rem;
+        width: 100%;
+    }
+
+    .inactive-footer-divider {
+        display: unset;
+    }
+    /* END OF FOOTER */
+
+    /* MODAL LINK LOGIN */
+    .modal-link-login .login {
+        width: 50%;
+        margin: auto;
+    }
+
+    .modal-link-login .login .close-icon {
+        position: absolute;
+        top: 0%;
+        right: 28%;
+        margin-top: 1rem;
+        font-size: 1.5rem;
+        cursor: pointer;
+    }
+    /* END OF MODAL LINK LOGIN */
+ }
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {  }

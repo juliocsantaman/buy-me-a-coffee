@@ -1,0 +1,254 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    font-family: 'Helvetica Neue Roman', sans-serif;
+}
+
+body main {
+    color: #333;
+}
+
+/* SMALL DEVICES */
+
+/* IMAGES SECTION */
+main .images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+main .images img {
+    width: 90%;
+    margin-bottom: 1rem;
+}
+
+main .images .logos {
+    background-color: #f9f9f9;
+    width: 80%;
+    border-radius: 1rem;
+    padding: 0.8rem;
+}
+
+main .images .logos img {
+    width: 15%;
+    margin: 0.5rem;
+}
+
+main .images .logos {
+    display: flex;
+    justify-content: center;
+}
+/* END OF IMAGES SECTION */
+
+/* INFO SECTION */
+main .info {
+    margin-bottom: 3rem;
+}
+
+main .info .p-01 {
+    text-align: center;
+    width: 90%;
+    margin: auto auto 2rem auto;
+    line-height: 2.3rem;
+    color: #0d0c23;
+    font-family: 'Graphik', sans-serif;
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+
+main .info .p-02::first-letter {
+    font-weight: 500;
+    font-size: 2.5rem;
+}
+
+main .info p {
+    text-align: start;
+    width: 90%;
+    margin: auto auto 1.5rem auto;
+    line-height: 1.8rem;
+}
+
+main .info .final-p {
+    text-align: start;
+    margin: 0rem 0rem 0rem 1.5rem;
+}
+
+main .info .links {
+    margin: 2rem 0rem 2rem 0rem;
+}
+
+main .info .link-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0rem 1rem 0rem;
+}
+
+main .info .link-container .link {
+    display: inline-block;
+    background-color: #f4f4f4;
+    text-decoration: none;
+    color: #1b2733;
+    width: 80%;
+    text-align: center;
+    padding: 0.8rem;
+    border-radius: 1.5rem;
+    font-weight: bold;
+}
+
+main .info .link-container .link:hover {
+    filter: brightness(90%);
+}
+
+/* IMAGES 02 */
+main .info .images-02 .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main .info .images-02 .container p {
+    color: #788594;
+    font-size: 0.75rem;
+    margin: 1rem 0rem 0rem 0rem;
+    text-align: center;
+}
+
+main .info .images-02 .container .logos {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+main .info .images-02 .container .logos img {
+    width: 15%;
+    margin: 1rem;
+}
+
+/* END OF IMAGES 02 */
+
+/* END OF INFO SECTION */
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    /* INFO SECTION */
+    main .info .p-01 {
+        font-size: 2.25rem;
+        width: 80%;
+        line-height: 3.125rem;
+    }
+
+    main .info p,
+    main .info .final-p {
+        text-align: start;
+        width: 85%;
+        font-size: 1.125rem;
+    }
+
+    main .info .links {
+        width: 70%;
+        display: flex;
+        margin: auto;
+    }
+
+    main .info .link-container {
+        margin: 1rem;
+    }
+
+    main .info .final-p {
+        margin: auto;
+    }
+
+    /* IMAGES 02 */
+    main .info .images-02 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    main .info .images-02 .container {
+        margin: 2rem;
+        width: 40%;
+    }
+
+    main .info .images-02 .container .logos img {
+        width: 40%;
+        margin: 1rem;
+    }
+
+    main .info .images-02 .container img {
+        width: 80%;
+    }
+
+    main .info .images-02 .container p {
+        text-align: center;
+        width: 100%;
+    }
+    /* END OF IMAGES 02 */
+    
+    /* END OF INFO SECTION */
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    /* IMAGES SECTION */
+    main .images img {
+        width: 60%;
+    }
+
+    main .images .logos {
+        width: 55%;
+        padding: 2rem;
+    }
+    /* END OF IMAGES SECTION */
+
+     /* INFO SECTION */
+     main .info .p-01 {
+        width: 60%;
+    }
+
+    main .info p,
+    main .info .final-p {
+        width: 60%;
+    }
+
+    main .info .links {
+        width: 40%;
+    }
+
+    /* IMAGE 02 */
+    main .info .images-02 .container {
+        width: 20%;
+    }
+    /*  END OF IMAGE 02 */
+
+    /* END OF INFO SECTION */
+
+    /* MODAL LINK LOGIN */
+    .modal-link-login .login {
+        width: 50%;
+        margin: auto;
+    }
+
+    .modal-link-login .login .close-icon {
+        position: absolute;
+        top: 0%;
+        right: 28%;
+        margin-top: 1rem;
+        font-size: 1.5rem;
+        cursor: pointer;
+    }
+    /* END OF MODAL LINK LOGIN */
+ }
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {  }
