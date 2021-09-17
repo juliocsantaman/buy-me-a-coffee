@@ -7,6 +7,12 @@ body {
     background-color: #f9f9f9;
 }
 
+.row {
+    margin: 0%;
+}
+
+
+/* SMALL DEVICES */
 
 /* HEADER */
 header {
@@ -17,10 +23,10 @@ header {
 header img {
     width: 10%;
     cursor: pointer;
+    margin: 1rem;
 }
 
-header div,
-header img {
+header div {
     margin: 1rem;
 }
 
@@ -225,6 +231,7 @@ main .resources {
     margin-top: 3rem;
     background-color: #ffffff;
     min-height: 250px;
+    padding: 1rem;
 }
 
 main .resources h2 {
@@ -288,3 +295,138 @@ main .resources .final-resource {
     font-size: 0.8rem;
 }
 /* END OF MENU FOR MOBILE */
+
+.menu-for-tablet {
+    display: none;
+}
+
+.tablet-info {
+    display: none;
+    width: 5%;
+    margin-left: 2rem;
+}
+
+/* MEDIUM DEVICES (TABLETS, 768PX AND UP) */
+@media (min-width: 768px) { 
+
+    /* HEADER */
+    header {
+        display: flex;
+        justify-content: space-between;
+    }    
+
+    header img {
+        width: 5%;
+        margin-right: 2rem;
+    }
+
+    header .mobile-info {
+        display: none;
+    }
+
+    header .tablet-info {
+        display: unset;
+    }
+    /* END OF HEADER */
+
+    /* MENU FOR TABLET */
+    .menu-for-tablet {
+        display: unset;
+    }
+
+    .menu-for-tablet .profile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu-for-tablet .profile p {
+        font-size: 0.8rem;
+    }
+
+    .menu-for-tablet .profile a img {
+        width: 3rem;
+    }
+
+    .menu-for-tablet .actions {
+        display: flex;
+        justify-content: center;
+    }
+
+    .menu-for-tablet .actions .btns {
+        border: none;
+        padding: 0.3rem;
+        border-radius: 1rem;
+        width: 50%;
+        margin: 0.3rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    .menu-for-tablet .actions .btns:hover {
+        filter: brightness(90%);
+    }
+
+    .menu-for-tablet .actions .btns img {
+        width: 1rem;
+        margin-right: 0.3rem;
+    }
+
+    .menu-for-tablet .actions .btn-post {
+        background-color: #ffdd00;
+    }
+
+    .menu-for-tablet .actions .btn-msg {
+        background-color: #ededed;
+    }
+
+    .menu-for-tablet .links {
+        display: flex;
+        flex-direction: column;
+        margin: 1em;
+    }
+
+    .menu-for-tablet .links a {
+        text-decoration: none;
+        color: #717171;
+        font-weight: bold;
+        padding: 1rem 0.5rem;
+        border-radius: 0.2rem;
+    }
+
+    .menu-for-tablet .links a:hover {
+        background-color: #ededed;
+    }
+
+    .menu-for-tablet .links .active-link {
+        background-color: #ededed;
+    }
+
+    .menu-for-tablet .links small {
+        color: #717171;
+        font-size: 0.5rem;
+    }
+
+    /* END OF MENU FOR TABLET */
+
+    .menu-for-mobile {
+        display: none;
+    }
+    
+    /* RESOURCES */
+    main .resources .final-resource {
+        margin-bottom: 0rem;
+    }
+    /* END OF RESOURCES */
+}
+
+/* LARGE DEVICES (DESKTOPS, 992PX AND UP) */
+@media (min-width: 992px) { 
+
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {  }

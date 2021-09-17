@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../css/edit-profile.css">
+    <title>Edit profile - Buy me a coffee</title>
+</head>
+
+<body>
+    <!--HEADER-->
+    <header>
+        <div class="mobile-info">
+            <a href="#"><i class="fas fa-arrow-left"></i></a>
+            <p>My-account</p>
+        </div>
+
+        <img class="tablet-info" src="../../img/logo.svg" alt="Logo Buy me a coffee">
+
+        <img class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"
+            src="https://img.buymeacoffee.com/api/?name=tecmitest&amp;size=300&amp;bg-image=bmc" alt="Image coffee">
+
+        <ul class="dropdown-menu">
+            <li><img class="img-coffee dropdown-item" src="https://img.buymeacoffee.com/api/?bg-image=bmc"
+                    alt="Image coffee"></li>
+            <li> <a class="dropdown-item" href="#">username</a> </li>
+            <li><a class="dropdown-item" href="#">View my page <i class="fas fa-arrow-right"></i></a></li>
+            <li>
+                <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" href="#"> <img class="dropdown-icon" src="../../img/dashboard.svg"
+                        alt="Image dashboard"> Dashboard</a></li>
+            <li><a class="dropdown-item" href="#"> <img class="dropdown-icon" src="../../img/my-account.svg"
+                        alt="Image my account"> My account</a></li>
+            <li><a class="dropdown-item" href="#"> <img class="dropdown-icon" src="../../img/invite-and-earn.svg"
+                        alt="Image invite & earn"> Invite & earn</a></li>
+            <li>
+                <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" href="#"> <img class="dropdown-icon" src="../../img/log-out.svg"
+                        alt="Image log out"> Log out</a></li>
+        </ul>
+
+    </header>
+    <!--END OF HEADER-->
+
+    <!--MENU FOR MOBILE-->
+    <section class="menu-for-mobile">
+
+        <a href="#"><img class="icon" src="../../img/home.svg" alt="Home icon"> Home</a>
+
+        <a href="#"><img class="icon" src="../../img/create.svg" alt="Create icon"> Create</a>
+
+        <a href="#"><img class="icon" src="../../img/dashboard.svg" alt="Dashboard icon"> Dashboard</a>
+
+    </section>
+    <!--END OF MENU FOR MOBILE-->
+
+    <section class="categories">
+        <a class="active-category" href="#">Edit profile</a>
+        <a class="inactive-category" href="./followers.html">Followers</a>
+        <a class="inactive-category" href="./following.html">Following</a>
+    </section>
+
+    <hr>
+
+    <main>
+        <section class="personal-info">
+            <h3>Personal Info</h3>
+            <img class="" src="../../img/logo.svg" alt="Logo">
+
+            <div class="input">
+                <label for="name">Name</label>
+                <input type="text" value="username">
+            </div>
+
+
+            <div class="input">
+                <label for="email">Email</label>
+                <input type="email" value="email@email.com">
+            </div>
+
+            <div class="select">
+                <label for="country">Country</label>
+                <select name="country" id="country">
+                    <option value="united-states">United States</option>
+                    <option value="canada">Canada</option>
+                    <option value="germany">Germany</option>
+                </select>
+            </div>
+
+            <div class="select">
+                <label for="timezone">Timezone</label>
+                <select name="timezone" id="timezone">
+                    <option value="utc">UTC</option>
+                    <option value="africa-accra">Africa/Accra</option>
+                    <option value="america-cancun">America Cancún</option>
+                </select>
+            </div>
+
+            <button><strong>Save Changes</strong></button>
+
+        </section>
+
+        <section class="password">
+            <h3>Set a password</h3>
+            <div class="input">
+                <label for="new-password">New Password</label>
+                <input type="password">
+            </div>
+
+            <div class="input">
+                <label for="confirm-password">Confirm Password</label>
+                <input type="password">
+            </div>
+
+            <button class="final-btn"><strong>Save Changes</strong></button>
+
+        </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

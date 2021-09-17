@@ -1,0 +1,171 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: #f9f9f9;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header img {
+    width: 10%;
+    cursor: pointer;
+    margin: 1rem;
+}
+
+header div {
+    margin: 1rem;
+}
+
+header div a {
+    color: #000000;
+}
+
+header div a:hover {
+    opacity: 0.5;
+}
+
+header div p {
+    display: inline-block;
+}
+/* END OF HEADER */
+
+/* HEADER DROPDOWN */
+header .dropdown-menu .img-coffee {
+    width: 50%;
+    cursor: unset;
+    margin: 0%;
+}
+
+header .dropdown-menu .dropdown-icon {
+    margin: 0%;
+}
+/* END OF HEADER DROPDOWN */
+
+/* CATEGORIES */
+.categories a {
+    text-decoration: none;
+    margin: 0.5rem;
+    font-weight: 600;
+}
+
+.active-category {
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #000000;
+    color: #000000;
+}
+
+.inactive-category {
+    color: #717171;
+}
+/* END OF CATEGORIES */
+
+/* PERSONAL INFO */
+main .personal-info {
+    background-color: #ffffff;
+    width: 100%;
+    padding: 1rem;
+}
+
+main .personal-info img {
+    width: 2rem;
+    margin-top: 1rem;
+}
+
+.input {
+    margin-top: 1.5rem;
+}
+
+main label {
+    font-weight: bold;
+}
+
+.input input {
+    display: block;
+    outline: none;
+    border: 1px solid lightgray;
+    background-color: #f3f3f3;
+    padding: 0.5rem;
+    width: 90%;
+}
+
+.input input:focus {
+    background-color: #ffffff;
+}
+
+main .personal-info .select {
+    margin-top: 1.5rem;
+}
+
+main .personal-info .select select {
+    display: block;
+    border: 1px solid lightgray;
+    background-color: #f3f3f3;
+    padding: 0.5rem;
+    width: 90%;
+}
+
+main button {
+    background-color: #ffdd00;
+    margin: 1.5rem 0rem;
+    border: none;
+    padding: 1rem;
+    border-radius: 2rem;
+    width: 100%;
+}
+
+main button:hover {
+    filter: brightness(90%);
+}
+
+/* END OF PERSONAL INFO */
+
+/* PASSWORD */
+main .password {
+    background-color: #ffffff;
+    width: 100%;
+    padding: 1rem 1rem 6rem 1rem;
+    margin-top: 2rem;
+}
+/* END OF PASSWORD */
+
+/* MENU FOR MOBILE */
+.menu-for-mobile {
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    bottom: 0%;
+    background-color: #ffffff;
+    padding: 1rem;
+    width: 100%;
+    border-top: 1px solid lightgray;
+}
+
+.menu-for-mobile a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu-for-mobile a {
+    text-decoration: none;
+    color: #717171;
+    font-size: 0.8rem;
+}
+/* END OF MENU FOR MOBILE */
+
+.tablet-info {
+    display: none;
+    width: 5%;
+    margin-left: 2rem;
+}
+
+.icon {
+    width: 1rem;
+}

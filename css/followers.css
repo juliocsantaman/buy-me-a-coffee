@@ -1,0 +1,145 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: #f9f9f9;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header img {
+    width: 10%;
+    cursor: pointer;
+    margin: 1rem;
+}
+
+header div {
+    margin: 1rem;
+}
+
+header div a {
+    color: #000000;
+}
+
+header div a:hover {
+    opacity: 0.5;
+}
+
+header div p {
+    display: inline-block;
+}
+/* END OF HEADER */
+
+/* HEADER DROPDOWN */
+header .dropdown-menu .img-coffee {
+    width: 50%;
+    cursor: unset;
+    margin: 0%;
+}
+
+header .dropdown-menu .dropdown-icon {
+    margin: 0%;
+}
+/* END OF HEADER DROPDOWN */
+
+/* CATEGORIES */
+.categories a {
+    text-decoration: none;
+    margin: 0.5rem;
+    font-weight: 600;
+}
+
+.active-category {
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #000000;
+    color: #000000;
+}
+
+.inactive-category {
+    color: #717171;
+}
+/* END OF CATEGORIES */
+
+/* NO FOLLOWERS */
+main .no-followers {
+    margin-top: 3rem;
+    background-color: #ffffff;
+    min-height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .no-followers .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid #000000; */
+    box-shadow: 0 1px 4px rgba(0,0,0,.5);
+    width: 80%;
+    margin: auto;
+    padding: 1rem;
+}
+
+main .no-followers .info .img-container {
+    background-color: lightgray;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+main .no-followers .info p {
+    width: 80%;
+    text-align: center;
+}
+
+main .no-followers .info .p-02 {
+    color: #717171;
+}
+/* END OF NO SUPPORTERS */
+
+/* MENU FOR MOBILE */
+.menu-for-mobile {
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    bottom: 0%;
+    background-color: #ffffff;
+    padding: 1rem;
+    width: 100%;
+    border-top: 1px solid lightgray;
+}
+
+.menu-for-mobile a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu-for-mobile a {
+    text-decoration: none;
+    color: #717171;
+    font-size: 0.8rem;
+}
+/* END OF MENU FOR MOBILE */
+
+.tablet-info {
+    display: none;
+    width: 5%;
+    margin-left: 2rem;
+}
+
+.icon {
+    width: 1rem;
+}
