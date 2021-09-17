@@ -10,18 +10,17 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-    <link rel="stylesheet" href="../../css/followers.css">
+    <link rel="stylesheet" href="../../css/invite.css">
     <link rel="stylesheet" href="../../css/repeating-styles-dashboard.css">
-    <title>Followers | Buy me a coffee</title>
+    <title>Invite | Buy Me a Coffee</title>
 </head>
 
 <body>
-
     <!--HEADER-->
     <header>
         <div class="mobile-info">
             <a href="./dashboard.html"><i class="fas fa-arrow-left"></i></a>
-            <p>My-account</p>
+            <p>Invite</p>
         </div>
 
         <img class="tablet-info" src="../../img/logo.svg" alt="Logo Buy me a coffee">
@@ -37,10 +36,10 @@
             <li>
                 <hr class="dropdown-divider">
             </li>
-            <li><a class="dropdown-item" href="./dashboard.html"> <img class="dropdown-icon" src="../../img/dashboard.svg"
+            <li><a class="dropdown-item" href="#"> <img class="dropdown-icon" src="../../img/dashboard.svg"
                         alt="Image dashboard"> Dashboard</a></li>
-            <li><a class="dropdown-item" href="#"> <img class="dropdown-icon" src="../../img/my-account.svg"
-                        alt="Image my account"> My account</a></li>
+            <li><a class="dropdown-item" href="./edit-profile.html"> <img class="dropdown-icon"
+                        src="../../img/my-account.svg" alt="Image my account"> My account</a></li>
             <li><a class="dropdown-item" href="#"> <img class="dropdown-icon" src="../../img/invite-and-earn.svg"
                         alt="Image invite & earn"> Invite & earn</a></li>
             <li>
@@ -65,28 +64,32 @@
     </section>
     <!--END OF MENU FOR MOBILE-->
 
-    <!--CATEGORIES-->
-    <section class="categories">
-        <a class="inactive-category" href="./edit-profile.html">Edit profile</a>
-        <a class="active-category" href="./followers.html">Followers</a>
-        <a class="inactive-category" href="./following.html">Following</a>
-    </section>
-    <!--END OF CATEGORIES-->
-
-    <hr>
-
     <main>
-        <!--NO FOLLOWERS-->
-        <section class="no-followers">
-            <div class="info">
-                <div class="img-container">
-                    <img class="icon" src="../../img/supporter.svg" alt="Image supporters">
-                </div>
-                <p><strong>You don't have any followers yet</strong></p>
-                <p class="p-02">Share your page with your audience to get started.</p>
+        <!--INVITE AND EARN-->
+        <section class="invite-and-earn">
+            <h1>Invite and earn</h1>
+            <p>
+                Love Buy Me a Coffee? Tell your friends and get paid for every active creator who start their BMC page.
+            </p>
+
+            <img src="../../img/speaker.svg" alt="Speaker icon">
+
+            <p><strong>Spread the word</strong></p>
+            <p>Share your unique referral link and tell everyone why you’re on Buy Me a Coffee.</p>
+
+            <img src="../../img/letter.svg" alt="Letter icon">
+            <p><strong>When they get a coffee</strong></p>
+            <p>As soon as they receive their first support, you will get paid! </p>
+
+            <img src="../../img/cup-of-coffee.svg" alt="Cup of coffee icon">
+            <p><strong>You get a coffee</strong></p>
+            <p>Congrats! You just earned a free coffee. ☕</p>
+
+            <div class="copy">
+                <input type="text" value="https://buymeacoffee.com/tecmitest"><button class="btn-copy">Copy</button>
             </div>
+
         </section>
-        <!--END OF NO FOLLOWERS-->
     </main>
 </body>
 

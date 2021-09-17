@@ -1,0 +1,42 @@
+/* INVITE AND EARN */
+h1 {
+    text-align: center;
+}
+
+main .invite-and-earn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    background-color: #ffffff;
+    padding: 0.5rem 0.5rem 6rem 0.5rem;
+}
+
+main .invite-and-earn p {
+    width: 90%;
+    margin: auto;
+    font-size: 0.8rem;
+    text-align: center;
+    color: #717171;
+}
+
+main .invite-and-earn img {
+    width: 20%;
+}
+
+main .invite-and-earn .copy {
+    margin-top: 3rem;
+}
+
+main .invite-and-earn .copy input {
+    border: 1px solid lightgray;
+    padding: 0.4rem;
+    outline: none;
+}
+
+main .invite-and-earn .copy .btn-copy {
+    background-color: #f0f0f0;
+    padding: 0.5rem 1rem;
+    border: none;
+}
+/* END OF INVITE AND EARN */
