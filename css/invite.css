@@ -8,6 +8,7 @@ main .invite-and-earn {
     flex-direction: column;
     align-items: center;
     margin-top: 2rem;
+    margin-bottom: 2rem;
     background-color: #ffffff;
     padding: 0.5rem 0.5rem 6rem 0.5rem;
 }
@@ -39,4 +40,149 @@ main .invite-and-earn .copy .btn-copy {
     padding: 0.5rem 1rem;
     border: none;
 }
+
+main .invite-and-earn .share {
+    margin-top: 1.5rem;
+}
+
+main .invite-and-earn .share button {
+    background-color: #f3f3f3;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+}
+
+main .invite-and-earn .share button:hover {
+    filter: brightness(90%);
+}
+
 /* END OF INVITE AND EARN */
+
+/* CREATORS-INVITED */
+main .creators-invited {
+    background-color: #ffffff;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+main .creators-invited .title {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main .creators-invited .title h3 {
+    font-size: 1rem;
+}
+
+main .creators-invited .title button {
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    background-color: #e5e5e7;
+}
+
+main .creators-invited .item {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+
+main .creators-invited .item .info p {
+    margin: 0%;
+}
+
+main .creators-invited .item img {
+    width: 15%;
+    background-color: #f8f8f8;
+    border-radius: 50%;
+    margin-right: 1rem;
+}
+
+main .creators-invited .item .info .text {
+    color: #717171;
+    font-size: 0.9rem;
+}
+/* END OF CREATORS-INVITED */
+
+/* NO SHARED */
+main .creators-invited .no-shared {
+    margin-top: 1rem;
+    background-color: #ffffff;
+    min-height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .creators-invited .no-shared .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid #000000; */
+    box-shadow: 0 1px 4px rgba(0,0,0,.5);
+    width: 80%;
+    margin: auto;
+    padding: 1rem;
+}
+
+main .creators-invited .no-shared .info .img-container {
+    background-color: lightgray;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+main .creators-invited .no-shared .info .img-container img {
+    width: 100%;
+}
+
+main .creators-invited .no-shared .info p {
+    width: 80%;
+    text-align: center;
+}
+/* END OF NO SHARED */
+
+/* TIPS TO PROMOTE */
+main .tips {
+    margin-top: 1rem;
+    background-color: #ffffff;
+    min-height: 250px;
+    padding: 1rem 1rem 6rem 1rem;
+}
+
+main .tips h3 {
+    font-size: 1rem;
+}
+
+main .tips .info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+
+main .tips .info .p-num {
+    background-color: #f5f5f5;
+    border-radius: 50%;
+    padding: 1rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1rem;
+}
+
+main .tips .info p {
+    font-size: 0.8rem;
+    color: #333;
+}
+
+/* END OF TIPS TO PROMOTE */
