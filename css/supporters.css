@@ -1,0 +1,104 @@
+main {
+    background-color: #ffffff;
+    padding: 1rem;
+}
+
+/* SUPPORTERS */
+main .supporter {
+    background-color: #f3f3f3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    width: 90%;
+    margin: 3rem auto auto auto;
+    border-radius: 1rem;
+}
+
+main .supporter > p {
+    text-align: center;
+    font-size: 2rem;
+}
+
+main .supporter div p {
+    display: inline-block;
+    margin: 0%;
+    margin-left: 0.5rem;
+    color: #717171;
+}
+
+main .supporter div i {
+    color: #717171;
+}
+/* END OF SUPPORTERS */
+
+/* NO SUPPORTERS */
+main .no-supporters {
+    margin: 3rem 0rem 6rem 0rem;
+    background-color: #ffffff;
+    min-height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .no-supporters .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid #000000; */
+    box-shadow: 0 1px 4px rgba(0,0,0,.5);
+    width: 80%;
+    margin: auto;
+    padding: 1rem;
+}
+
+main .no-supporters .info .img-container {
+    background-color: lightgray;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+main .no-supporters .info p {
+    width: 80%;
+    text-align: center;
+}
+
+main .no-supporters .info .p-02 {
+    color: #717171;
+}
+/* END OF NO SUPPORTERS */
+
+/* MEDIUM DEVICES (TABLETS, 768PX AND UP) */
+@media (min-width: 768px) { 
+    /* SUPPORTERS */
+    main .supporters {
+        display: flex;
+        flex-direction: row;
+    }
+    /* END OF SUPPORTERS */
+
+    /* SUPPORTER */
+    main .supporter {
+        margin: 0.2rem;
+    }
+    /* END OF SUPPORTER */
+}
+
+/* LARGE DEVICES (DESKTOPS, 992PX AND UP) */
+@media (min-width: 992px) { 
+
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {  }

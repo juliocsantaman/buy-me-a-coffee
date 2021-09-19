@@ -1,3 +1,8 @@
+main {
+    background-color: #ffffff;
+    padding: 1rem;
+}
+
 /* NO FOLLOWERS */
 main .no-followers {
     margin-top: 3rem;
@@ -39,4 +44,4 @@ main .no-followers .info p {
 main .no-followers .info .p-02 {
     color: #717171;
 }
-/* END OF NO SUPPORTERS */
+/* END OF NO FOLLOWERS */

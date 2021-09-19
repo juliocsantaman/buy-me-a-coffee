@@ -1,0 +1,91 @@
+/* SUPPORTER SETTINGS */
+main .settings {
+    margin-bottom: 6rem;
+    background-color: #ffffff;
+    padding: 1rem;
+}
+
+main .settings .info {
+    margin-top: 3rem;
+    width: 85%;
+    margin: 3rem auto auto auto;
+}
+
+main .settings .info h2 {
+    color: #222;
+    font-size: 1.25rem;
+    font-weight: 600;
+    display: inline-block;
+}
+
+main .settings .info p {
+    color: #717171;
+    margin-top: 0.5rem;
+}
+
+main .settings .info span {
+    margin: 0.2rem;
+}
+
+main .settings .info .inactive-coin {
+    border: 2px solid #ffdd00;
+    border-radius: 50%;
+    padding: 0.5rem;
+    color: #717171;
+}
+
+main .settings .info .active-coin {
+    border-radius: 50%;
+    padding: 0.5rem;
+    background-color: #ffdd00;
+    border: 2px solid transparent;
+    color: #222;
+    font-weight: 600;
+}
+
+main .settings .info .btn-preview {
+    color: #000000;
+    background-color: #f0f0f0;
+    padding: 0.3rem 1rem 0.3rem 1rem;
+    border: none;
+    border-radius: 1.5rem;
+    display: inline-block;
+    margin-left: 1rem;
+}
+
+main .settings .info .btn-preview:hover {
+    filter: brightness(90%);
+}
+
+main .settings .info textarea {
+    background-color: #f3f3f3;
+    border: none;
+    border: 1px solid lightgray;
+    border-radius: 0.2rem;
+}
+
+main .settings .info textarea:focus {
+    background-color: #ffffff;
+    outline: none;
+}
+
+main .settings .info .toggle-off-icon {
+    font-size: 2.5rem;
+    margin-left: 1rem;
+    color: lightgray;
+    cursor: pointer;
+}
+
+main .settings .info .btn-save {
+    background-color: #ffdd00;
+    font-weight: 600;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 2rem;
+    width: 100%;
+}
+
+main .settings .info .btn-save:hover {
+    filter: brightness(90%);
+}
+/* END OF SUPPORTER SETTINGS */

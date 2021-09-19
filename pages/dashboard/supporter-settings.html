@@ -10,18 +10,17 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-    <link rel="stylesheet" href="../../css/followers.css">
     <link rel="stylesheet" href="../../css/repeating-styles-dashboard.css">
-    <title>Followers | Buy me a coffee</title>
+    <link rel="stylesheet" href="../../css/supporter-settings.css">
+    <title>Settings | Buy Me a Coffee</title>
 </head>
 
 <body>
-
     <!--HEADER-->
     <header>
         <div class="mobile-info">
             <a href="./dashboard.html"><i class="fas fa-arrow-left"></i></a>
-            <p>My-account</p>
+            <p>Supporters</p>
         </div>
 
         <img class="tablet-info" src="../../img/logo.svg" alt="Logo Buy me a coffee">
@@ -37,12 +36,12 @@
             <li>
                 <hr class="dropdown-divider">
             </li>
-            <li><a class="dropdown-item" href="./dashboard.html"> <img class="dropdown-icon"
-                        src="../../img/dashboard.svg" alt="Image dashboard"> Dashboard</a></li>
-            <li><a class="dropdown-item" href="#"> <img class="dropdown-icon" src="../../img/my-account.svg"
-                        alt="Image my account"> My account</a></li>
-            <li><a class="dropdown-item" href="#"> <img class="dropdown-icon" src="../../img/invite-and-earn.svg"
-                        alt="Image invite & earn"> Invite & earn</a></li>
+            <li><a class="dropdown-item" href="#"> <img class="dropdown-icon" src="../../img/dashboard.svg"
+                        alt="Image dashboard"> Dashboard</a></li>
+            <li><a class="dropdown-item" href="./edit-profile.html"> <img class="dropdown-icon"
+                        src="../../img/my-account.svg" alt="Image my account"> My account</a></li>
+            <li><a class="dropdown-item" href="./invite.html"> <img class="dropdown-icon"
+                        src="../../img/invite-and-earn.svg" alt="Image invite & earn"> Invite & earn</a></li>
             <li>
                 <hr class="dropdown-divider">
             </li>
@@ -93,35 +92,58 @@
         </div>
 
         <div class="col-12 col-md-8">
+
             <main>
-                <!--CATEGORIES-->
-                <section class="categories">
-                    <a class="inactive-category" href="./edit-profile.html">Edit profile</a>
-                    <a class="active-category" href="./followers.html">Followers</a>
-                    <a class="inactive-category" href="./following.html">Following</a>
-                    <hr>
-                </section>
-                <!--END OF CATEGORIES-->
-                <!--NO FOLLOWERS-->
-                <section class="no-followers">
+
+                <section class="settings">
+                    <!--CATEGORIES-->
+                    <section class="categories">
+                        <a class="inactive-category" href="./supporters.html">Supporters</a>
+                        <a class="active-category" href="./settings.html">Settings</a>
+                    </section>
+                    <!--END OF CATEGORIES-->
                     <div class="info">
-                        <div class="img-container">
-                            <img class="icon" src="../../img/supporter.svg" alt="Image supporters">
-                        </div>
-                        <p><strong>You don't have any followers yet</strong></p>
-                        <p class="p-02">Share your page with your audience to get started.</p>
+                        <h2>Price per coffee</h2>
+                        <p>Change the default price of a coffee to an amount of your choice.</p>
+                        <span class="inactive-coin">$1</span>
+                        <span class="inactive-coin">$2</span>
+                        <span class="inactive-coin">$3</span>
+                        <span class="inactive-coin">$4</span>
+                        <span class="active-coin">$5</span>
                     </div>
+
+                    <hr>
+
+                    <div class="info">
+                        <h2>Thank you message</h2>
+                        <button class="btn-preview"><i class="far fa-eye"></i> Preview</button>
+                        <p>
+                            This will be visible after the payment and in the receipt email. Write a personable thank
+                            you
+                            message, and include any rewards if you like.
+                        </p>
+                        <textarea name="text" id="text" cols="30" rows="5">Thank you for the support! 🎉</textarea>
+                    </div>
+
+                    <hr>
+
+                    <div class="info">
+                        <h2>Indicate my donation</h2>
+                        <i class="fas fa-toggle-off toggle-off-icon"></i>
+                        <p>
+                            If you’re donating your earnings to a cause or a charity, you can display a message on your
+                            page.
+                        </p>
+                        <button class="btn-save">Save changes</button>
+                    </div>
+
+
                 </section>
-                <!--END OF NO FOLLOWERS-->
             </main>
         </div>
-
     </div>
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
-        crossorigin="anonymous"></script>
 </body>
 
 </html>

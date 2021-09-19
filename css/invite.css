@@ -163,7 +163,7 @@ main .tips h3 {
 
 main .tips .info {
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     margin-top: 1.5rem;
 }

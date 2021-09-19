@@ -36,8 +36,8 @@
             <li>
                 <hr class="dropdown-divider">
             </li>
-            <li><a class="dropdown-item" href="./dashboard.html"> <img class="dropdown-icon" src="../../img/dashboard.svg"
-                        alt="Image dashboard"> Dashboard</a></li>
+            <li><a class="dropdown-item" href="./dashboard.html"> <img class="dropdown-icon"
+                        src="../../img/dashboard.svg" alt="Image dashboard"> Dashboard</a></li>
             <li><a class="dropdown-item" href="#"> <img class="dropdown-icon" src="../../img/my-account.svg"
                         alt="Image my account"> My account</a></li>
             <li><a class="dropdown-item" href="#"> <img class="dropdown-icon" src="../../img/invite-and-earn.svg"
@@ -64,70 +64,100 @@
     </section>
     <!--END OF MENU FOR MOBILE-->
 
-    <!--CATEGORIES-->
-    <section class="categories">
-        <a class="active-category" href="./edit-profile.html">Edit profile</a>
-        <a class="inactive-category" href="./followers.html">Followers</a>
-        <a class="inactive-category" href="./following.html">Following</a>
-    </section>
-    <!--END OF CATEGORIES-->
-
-    <hr>
-
-    <main>
-        <section class="personal-info">
-            <h3>Personal Info</h3>
-            <img class="" src="../../img/logo.svg" alt="Logo">
-
-            <div class="input">
-                <label for="name">Name</label>
-                <input type="text" value="username">
+    <div class="row">
+        <div class="col-0 col-md-4 menu-for-tablet">
+            <div class="profile">
+                <a href="#"><img src="../../img/logo.svg" alt="Logo"></a>
+                <p><strong>username</strong></p>
             </div>
 
-
-            <div class="input">
-                <label for="email">Email</label>
-                <input type="email" value="email@email.com">
+            <div class="actions">
+                <button class="btns btn-post"><img src="../../img/create.svg" alt="Create a post"> Post</button>
+                <button class="btns btn-msg"><img src="../../img/message.svg" alt="Create a message"> Messages</button>
             </div>
 
-            <div class="select">
-                <label for="country">Country</label>
-                <select name="country" id="country">
-                    <option value="united-states">United States</option>
-                    <option value="canada">Canada</option>
-                    <option value="germany">Germany</option>
-                </select>
+            <hr>
+
+            <div class="links">
+                <a href="#"><img class="icon" src="../../img/home.svg" alt="Home icon"> Home</a>
+                <a href="#"><img class="icon" src="../../img/my-posts.svg" alt="My posts icon"> My posts</a>
+                <small>CREATOR DASHBOARD</small>
+                <a class="active-link" href="#"><img class="icon" src="../../img/dashboard.svg" alt="Dashboard icon">
+                    Dashboard</a>
+                <a href="#"><img class="icon" src="../../img/supporter.svg" alt="Support icon"> Support</a>
+                <a href="#"><img class="icon" src="../../img/members-02.svg" alt="Members icon"> Members</a>
+                <a href="#"><img class="icon" src="../../img/extras.svg" alt="Extras icon"> Extras</a>
+                <a href="#"><img class="icon" src="../../img/settings.svg" alt="Settings icon"> Settings</a>
             </div>
+        </div>
 
-            <div class="select">
-                <label for="timezone">Timezone</label>
-                <select name="timezone" id="timezone">
-                    <option value="utc">UTC</option>
-                    <option value="africa-accra">Africa/Accra</option>
-                    <option value="america-cancun">America Cancún</option>
-                </select>
-            </div>
+        <div class="col-12 col-md-8">
 
-            <button><strong>Save Changes</strong></button>
+            <main>
+                <section class="personal-info">
+                    <!--CATEGORIES-->
+                    <section class="categories">
+                        <a class="active-category" href="./edit-profile.html">Edit profile</a>
+                        <a class="inactive-category" href="./followers.html">Followers</a>
+                        <a class="inactive-category" href="./following.html">Following</a>
+                        <hr>
+                    </section>
+                    <!--END OF CATEGORIES-->
+                    <h3>Personal Info</h3>
+                    <img class="" src="../../img/logo.svg" alt="Logo">
 
-        </section>
+                    <div class="input">
+                        <label for="name">Name</label>
+                        <input type="text" value="username">
+                    </div>
 
-        <section class="password">
-            <h3>Set a password</h3>
-            <div class="input">
-                <label for="new-password">New Password</label>
-                <input type="password">
-            </div>
 
-            <div class="input">
-                <label for="confirm-password">Confirm Password</label>
-                <input type="password">
-            </div>
+                    <div class="input">
+                        <label for="email">Email</label>
+                        <input type="email" value="email@email.com">
+                    </div>
 
-            <button class="final-btn"><strong>Save Changes</strong></button>
+                    <div class="select">
+                        <label for="country">Country</label>
+                        <select name="country" id="country">
+                            <option value="united-states">United States</option>
+                            <option value="canada">Canada</option>
+                            <option value="germany">Germany</option>
+                        </select>
+                    </div>
 
-        </section>
-    </main>
+                    <div class="select">
+                        <label for="timezone">Timezone</label>
+                        <select name="timezone" id="timezone">
+                            <option value="utc">UTC</option>
+                            <option value="africa-accra">Africa/Accra</option>
+                            <option value="america-cancun">America Cancún</option>
+                        </select>
+                    </div>
+
+                    <button><strong>Save Changes</strong></button>
+
+                </section>
+
+                <section class="password">
+                    <h3>Set a password</h3>
+                    <div class="input">
+                        <label for="new-password">New Password</label>
+                        <input type="password">
+                    </div>
+
+                    <div class="input">
+                        <label for="confirm-password">Confirm Password</label>
+                        <input type="password">
+                    </div>
+
+                    <button class="final-btn"><strong>Save Changes</strong></button>
+
+                </section>
+            </main>
+
+        </div>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"

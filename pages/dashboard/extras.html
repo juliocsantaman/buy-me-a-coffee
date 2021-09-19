@@ -10,9 +10,9 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-    <link rel="stylesheet" href="../../css/followers.css">
     <link rel="stylesheet" href="../../css/repeating-styles-dashboard.css">
-    <title>Followers | Buy me a coffee</title>
+    <link rel="stylesheet" href="../../css/extras.css">
+    <title>Extras | Buy Me a Coffee</title>
 </head>
 
 <body>
@@ -20,8 +20,8 @@
     <!--HEADER-->
     <header>
         <div class="mobile-info">
-            <a href="./dashboard.html"><i class="fas fa-arrow-left"></i></a>
-            <p>My-account</p>
+            <a href="#"><i class="fas fa-arrow-left"></i></a>
+            <p>Extras</p>
         </div>
 
         <img class="tablet-info" src="../../img/logo.svg" alt="Logo Buy me a coffee">
@@ -37,12 +37,12 @@
             <li>
                 <hr class="dropdown-divider">
             </li>
-            <li><a class="dropdown-item" href="./dashboard.html"> <img class="dropdown-icon"
-                        src="../../img/dashboard.svg" alt="Image dashboard"> Dashboard</a></li>
-            <li><a class="dropdown-item" href="#"> <img class="dropdown-icon" src="../../img/my-account.svg"
-                        alt="Image my account"> My account</a></li>
-            <li><a class="dropdown-item" href="#"> <img class="dropdown-icon" src="../../img/invite-and-earn.svg"
-                        alt="Image invite & earn"> Invite & earn</a></li>
+            <li><a class="dropdown-item" href="#"> <img class="dropdown-icon" src="../../img/dashboard.svg"
+                        alt="Image dashboard"> Dashboard</a></li>
+            <li><a class="dropdown-item" href="./edit-profile.html"> <img class="dropdown-icon"
+                        src="../../img/my-account.svg" alt="Image my account"> My account</a></li>
+            <li><a class="dropdown-item" href="./invite.html"> <img class="dropdown-icon"
+                        src="../../img/invite-and-earn.svg" alt="Image invite & earn"> Invite & earn</a></li>
             <li>
                 <hr class="dropdown-divider">
             </li>
@@ -94,34 +94,55 @@
 
         <div class="col-12 col-md-8">
             <main>
-                <!--CATEGORIES-->
-                <section class="categories">
-                    <a class="inactive-category" href="./edit-profile.html">Edit profile</a>
-                    <a class="active-category" href="./followers.html">Followers</a>
-                    <a class="inactive-category" href="./following.html">Following</a>
-                    <hr>
-                </section>
-                <!--END OF CATEGORIES-->
-                <!--NO FOLLOWERS-->
-                <section class="no-followers">
-                    <div class="info">
-                        <div class="img-container">
-                            <img class="icon" src="../../img/supporter.svg" alt="Image supporters">
+                <!--EXTRAS-->
+                <section class="extras">
+                    <h1>Add a new extra</h1>
+                    <p>
+                        Pick a template or start from scratch
+                    </p>
+
+                    <button class="extras-btn btn-start">Start from scratch</button>
+                    <button class="extras-btn btn-book"><img
+                            src="https://cdn.buymeacoffee.com/assets/img/extras/consultation.png"
+                            alt="a Conversation">Book a
+                        Zoom</button>
+                    <button class="extras-btn btn-digital"><img
+                            src="https://cdn.buymeacoffee.com/assets/img/extras/ebooks.png" alt="A book">Digital
+                        Download</button>
+                    <button class="extras-btn btn-live"><img
+                            src="https://cdn.buymeacoffee.com/assets/img/extras/zoom_event_tickets.png"
+                            alt="A camera">Live
+                        Event Ticket</button>
+                    <button class="extras-btn btn-art"><img
+                            src="https://cdn.buymeacoffee.com/assets/img/extras/art_commissions.png" alt="Art icon">Art
+                        Commission</button>
+                    <button class="extras-btn btn-instagram"><img
+                            src="https://cdn.buymeacoffee.com/assets/img/extras/private_instagram_or_telegram_access.png"
+                            alt="A key">Join Instagram Close Friends</button>
+
+                    <!--NO ADDED-->
+                    <section class="no-added">
+                        <div class="info">
+                            <div class="img-container">
+                                <img class="icon" src="../../img/supporter.svg" alt="Image supporters">
+                            </div>
+                            <p><strong>You haven't added anything yet.</strong></p>
+                            <p class="p-02">
+                                Extras is a simple and effective way to offer something to your audience. It could be
+                                anything.
+                                See some examples here, here, and here.
+                            </p>
                         </div>
-                        <p><strong>You don't have any followers yet</strong></p>
-                        <p class="p-02">Share your page with your audience to get started.</p>
-                    </div>
+                    </section>
+                    <!--END OF NO ADDED-->
                 </section>
-                <!--END OF NO FOLLOWERS-->
+                <!--END OF EXTRAS-->
             </main>
         </div>
-
     </div>
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
-        crossorigin="anonymous"></script>
+
 </body>
 
 </html>

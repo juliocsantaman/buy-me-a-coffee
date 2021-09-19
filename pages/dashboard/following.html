@@ -64,25 +64,56 @@
     </section>
     <!--END OF MENU FOR MOBILE-->
 
-    <!--CATEGORIES-->
-    <section class="categories">
-        <a class="inactive-category" href="./edit-profile.html">Edit profile</a>
-        <a class="inactive-category" href="./followers.html">Followers</a>
-        <a class="active-category" href="./following.html">Following</a>
-    </section>
-    <!--END OF CATEGORIES-->
-    <hr>
-
-    <main>
-        <section class="following">
-            <img class="icon" src="../../img/logo.svg" alt="Profile picture">
-            <div class="info">
-                <p class="username"><a href="#">BMC crew</a></p>
-                <p class="following-since">Following since Aug 2021</p>
+    <div class="row">
+        <div class="col-0 col-md-4 menu-for-tablet">
+            <div class="profile">
+                <a href="#"><img src="../../img/logo.svg" alt="Logo"></a>
+                <p><strong>username</strong></p>
             </div>
-            <i class="fas fa-ellipsis-h"></i>
-        </section>
-    </main>
+
+            <div class="actions">
+                <button class="btns btn-post"><img src="../../img/create.svg" alt="Create a post"> Post</button>
+                <button class="btns btn-msg"><img src="../../img/message.svg" alt="Create a message"> Messages</button>
+            </div>
+
+            <hr>
+
+            <div class="links">
+                <a href="#"><img class="icon" src="../../img/home.svg" alt="Home icon"> Home</a>
+                <a href="#"><img class="icon" src="../../img/my-posts.svg" alt="My posts icon"> My posts</a>
+                <small>CREATOR DASHBOARD</small>
+                <a class="active-link" href="#"><img class="icon" src="../../img/dashboard.svg" alt="Dashboard icon">
+                    Dashboard</a>
+                <a href="#"><img class="icon" src="../../img/supporter.svg" alt="Support icon"> Support</a>
+                <a href="#"><img class="icon" src="../../img/members-02.svg" alt="Members icon"> Members</a>
+                <a href="#"><img class="icon" src="../../img/extras.svg" alt="Extras icon"> Extras</a>
+                <a href="#"><img class="icon" src="../../img/settings.svg" alt="Settings icon"> Settings</a>
+            </div>
+        </div>
+
+        <div class="col-12 col-md-8">
+            <main>
+                <!--CATEGORIES-->
+                <section class="categories">
+                    <a class="inactive-category" href="./edit-profile.html">Edit profile</a>
+                    <a class="inactive-category" href="./followers.html">Followers</a>
+                    <a class="active-category" href="./following.html">Following</a>
+                    <hr>
+                </section>
+                <!--END OF CATEGORIES-->
+                <section class="following">
+                    <img class="icon" src="../../img/logo.svg" alt="Profile picture">
+                    <div class="info">
+                        <p class="username"><a href="#">BMC crew</a></p>
+                        <p class="following-since">Following since Aug 2021</p>
+                    </div>
+                    <i class="fas fa-ellipsis-h"></i>
+                </section>
+            </main>
+        </div>
+    </div>
+
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
