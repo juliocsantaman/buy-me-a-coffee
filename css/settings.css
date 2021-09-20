@@ -1,0 +1,255 @@
+header, main {
+    background-color: #ffffff;
+}
+
+main {
+    padding: 1rem;
+}
+
+/* SETTINGS */
+main .settings {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 3rem;
+}
+
+main .settings .methods {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+main .settings .methods h2 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 1rem 0rem 0rem 0rem;
+    line-height: 0rem;
+}
+
+main .settings .methods .method {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+main .settings .methods .method .icon {
+    background-color: #ffffff;
+    border: 1px solid lightgray;
+    width:30%;
+    border-radius: 0.5rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+main .settings .methods .method p {
+    margin: 0%;
+    padding: 0.2rem;
+    width: 100%;
+}
+
+main .settings .methods .method .btn-enable {
+    background-color: #f0f0f0;
+    border: none;
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    border-radius: 1.5rem;
+    cursor: pointer;
+}
+
+main .settings .methods .method .btn-enable:hover {
+    filter: brightness(90%);
+}
+
+main .settings label {
+    margin: 1rem  0rem 1rem 0rem;
+}
+
+main .settings select {
+    background-color: #f3f3f3;
+    width: 80%;
+    padding: 1rem;
+    text-align: start;
+    border: 1px solid lightgray;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+main .settings > p {
+    width: 80%;
+    margin: 1rem auto auto auto;
+}
+
+.text-color-01 {
+    color: #717171;
+}
+
+main .settings .info {
+    margin-top: 3rem;
+    width: 85%;
+    margin: 3rem auto auto auto;
+}
+
+main .settings .info h2 {
+    color: #222;
+    font-size: 1.25rem;
+    font-weight: 600;
+    display: inline-block;
+}
+
+main .settings .info p {
+    color: #717171;
+    margin-top: 0.5rem;
+}
+
+main .settings .info .toggle-off-icon {
+    font-size: 2.5rem;
+    margin-left: 1rem;
+    color: lightgray;
+    cursor: pointer;
+}
+
+main .settings .info .range .money {
+    display: inline-block;
+    font-size: 2rem;
+    margin-right: 2rem;
+    color: #717171;
+    width: 10%;
+}
+
+main .settings .info .range .description {
+    width: 30%;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 0.6rem;
+    margin-right: 1rem;
+    color: #717171;
+}
+
+main .settings .info .range .btn-add {
+    background-color: #f0f0f0;
+    border: none;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    border-radius: 1.5rem;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+main .settings .info .range .btn-add:hover {
+    filter: brightness(90%);
+}
+
+main .settings .info input {
+    background-color: rgba(34,34,34,.05);
+    outline: none;
+    border: 1px solid lightgray;
+    padding: 0.8rem;
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+main .settings .info p span {
+    color: #222;
+}
+
+main .settings .info .for-18 {
+    width: 70%;
+}
+
+main .settings .btn-save {
+    background-color: #ffdd00;
+    font-weight: 600;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 2rem;
+    width: 90%;
+}
+
+main .settings .btn-save:hover {
+    filter: brightness(90%);
+}
+/* END OF SETTINGS */
+
+/* DISABLE ACCOUNT */
+.disable-account {
+    background-color: #f9f9f9;
+    padding: 2rem 0rem 6rem 0rem;
+}
+
+.disable-account .sub-container {
+    background: #fef6f6;
+    border: 1px solid rgba(238,82,82,.5);
+    box-shadow: 0 1px 4px rgba(0,0,0,.05);
+    padding: 1rem;
+    width: 90%;
+    margin: auto 1rem auto auto;
+}
+
+.disable-account .sub-container .btn-disable {
+    background-color: #ee5252;
+    border: none;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    border-radius: 1.5rem;
+    color: #ffffff;
+}
+
+.disable-account .sub-container .btn-disable:hover {
+    filter: brightness(90%);
+}
+/* END OF DISABLE ACCOUNT */
+
+/* MEDIUM DEVICES (TABLETS, 768PX AND UP) */
+@media (min-width: 768px) {
+    header {
+        background-color: unset;
+    }
+
+    /* DISABLE ACCOUNT */
+    .disable-account {
+        width: 94%;
+    }
+
+    .disable-account .sub-container {
+        width: 100%;
+    }
+
+    .disable-account .sub-container div {
+        display: flex;
+        align-items: center;
+    }
+
+    .disable-account .sub-container div p {
+        width: 70%;
+    }
+
+    .disable-account .sub-container div  .btn-disable {
+        margin-left: 2rem;
+        padding: 0.7rem 2rem 0.7rem 2rem;
+    }
+    /* END OF DISABLE ACCOUNT */
+
+    body {
+        background-color: #f9f9f9;
+    }
+
+    main {
+        background-color: #ffffff;
+        padding: 1rem;
+    }
+    
+}
+
+/* LARGE DEVICES (DESKTOPS, 992PX AND UP) */
+@media (min-width: 992px) { 
+     .disable-account {
+        width: 93%;
+    }
+
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {  }

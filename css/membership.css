@@ -55,3 +55,26 @@ main .membership .info div .p-01 {
 main .membership .info div .p-02 {
     color: #717171;
 }
+
+/* MEDIUM DEVICES (TABLETS, 768PX AND UP) */
+@media (min-width: 768px) {
+    body {
+        background-color: #f9f9f9;
+    }
+
+    main {
+        background-color: #ffffff;
+        padding: 1rem;
+    }
+}
+
+/* LARGE DEVICES (DESKTOPS, 992PX AND UP) */
+@media (min-width: 992px) { 
+
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {  }

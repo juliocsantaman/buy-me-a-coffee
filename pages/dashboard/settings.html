@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../css/settings.css">
+    <link rel="stylesheet" href="../../css/repeating-styles-dashboard.css">
+    <title>Settings | Buy Me a Coffee</title>
+</head>
+
+<body>
+    <!--HEADER-->
+    <header>
+        <div class="mobile-info">
+            <a href="#"><i class="fas fa-arrow-left"></i></a>
+            <p>Dashboard</p>
+        </div>
+
+        <img class="tablet-info" src="../../img/logo.svg" alt="Logo Buy me a coffee">
+
+        <img class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"
+            src="https://img.buymeacoffee.com/api/?name=tecmitest&amp;size=300&amp;bg-image=bmc" alt="Image coffee">
+
+        <ul class="dropdown-menu">
+            <li><img class="img-coffee dropdown-item" src="https://img.buymeacoffee.com/api/?bg-image=bmc"
+                    alt="Image coffee"></li>
+            <li> <a class="dropdown-item" href="#">username</a> </li>
+            <li><a class="dropdown-item" href="#">View my page <i class="fas fa-arrow-right"></i></a></li>
+            <li>
+                <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" href="#"> <img class="dropdown-icon" src="../../img/dashboard.svg"
+                        alt="Image dashboard"> Dashboard</a></li>
+            <li><a class="dropdown-item" href="./edit-profile.html"> <img class="dropdown-icon"
+                        src="../../img/my-account.svg" alt="Image my account"> My account</a></li>
+            <li><a class="dropdown-item" href="./invite.html"> <img class="dropdown-icon"
+                        src="../../img/invite-and-earn.svg" alt="Image invite & earn"> Invite & earn</a></li>
+            <li>
+                <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" href="#"> <img class="dropdown-icon" src="../../img/log-out.svg"
+                        alt="Image log out"> Log out</a></li>
+        </ul>
+
+    </header>
+    <!--END OF HEADER-->
+
+    <!--MENU FOR MOBILE-->
+    <section class="menu-for-mobile">
+
+        <a href="#"><img class="icon" src="../../img/home.svg" alt="Home icon"> Home</a>
+
+        <a href="#"><img class="icon" src="../../img/create.svg" alt="Create icon"> Create</a>
+
+        <a href="#"><img class="icon" src="../../img/dashboard.svg" alt="Dashboard icon"> Dashboard</a>
+
+    </section>
+    <!--END OF MENU FOR MOBILE-->
+
+    <div class="row">
+
+        <div class="col-0 col-md-4 menu-for-tablet">
+            <div class="profile">
+                <a href="#"><img src="../../img/logo.svg" alt="Logo"></a>
+                <p><strong>username</strong></p>
+            </div>
+
+            <div class="actions">
+                <button class="btns btn-post"><img src="../../img/create.svg" alt="Create a post"> Post</button>
+                <button class="btns btn-msg"><img src="../../img/message.svg" alt="Create a message"> Messages</button>
+            </div>
+
+            <hr>
+
+            <div class="links">
+                <a href="#"><img class="icon" src="../../img/home.svg" alt="Home icon"> Home</a>
+                <a href="#"><img class="icon" src="../../img/my-posts.svg" alt="My posts icon"> My posts</a>
+                <small>CREATOR DASHBOARD</small>
+                <a class="active-link" href="#"><img class="icon" src="../../img/dashboard.svg" alt="Dashboard icon">
+                    Dashboard</a>
+                <a href="#"><img class="icon" src="../../img/supporter.svg" alt="Support icon"> Support</a>
+                <a href="#"><img class="icon" src="../../img/members-02.svg" alt="Members icon"> Members</a>
+                <a href="#"><img class="icon" src="../../img/extras.svg" alt="Extras icon"> Extras</a>
+                <a href="#"><img class="icon" src="../../img/settings.svg" alt="Settings icon"> Settings</a>
+            </div>
+        </div>
+
+        <div class="col-12 col-md-8">
+            <!--MAIN-->
+            <main>
+                <!--CATEGORIES-->
+                <section class="categories">
+                    <a class="active-category" href="./settings.html">Settings</a>
+                    <a class="inactive-category" href="#">Integrations</a>
+                    <a class="inactive-category" href="#">Notifications</a>
+                    <hr>
+                </section>
+                <!--END OF CATEGORIES-->
+                <!--SETTINGS-->
+                <section class="settings">
+                    <!--METHODS-->
+                    <div class="methods laptop-width">
+                        <h2>Payment methods</h2>
+                        <div class="paypal method">
+                            <div class="info">
+                                <p class="icon"><i class="fab fa-paypal"></i></p>
+                                <p class="text-color-01">PayPal</p>
+                                <p class="text-color-01">Credit card, PayPal balance</p>
+                            </div>
+
+                            <button class="btn-enable">Enable</button>
+                        </div>
+
+                        <div class="strype method">
+                            <div class="info">
+                                <p class="icon"><i class="fab fa-stripe-s"></i></p>
+                                <p class="text-color-01">Strype (bank transfer)</p>
+                                <p class="text-color-01">Credit card, Apple Pay, Google Pay</p>
+                            </div>
+
+                            <button class="btn-enable">Enable</button>
+                        </div>
+
+                    </div>
+                    <!--END OF METHODS-->
+
+                    <p class="text-color-01">If you cannot use PayPal or Stripe, you can request for monthly payout via
+                        Payoneer.</p>
+                    <p class="text-color-01">Select the currency in which you would like to accept your payments.</p>
+
+                    <label class="text-color-01" for="country-currency">CHOOSE YOUR COUNTRY & CURRENCY</label>
+                    <select class="laptop-width" name="currencies" id="currencies">
+                        <option value="usd-united-states-dollar">USD - United States Dollar</option>
+                        <option value="aud-australian-dollar">AUD - Australian Dollar</option>
+                        <option value="cad-canadian-dollar">CAD - Canadian Dollar</option>
+                        <option value="eur-euro">EUR - EURO</option>
+                        <option value="gbp-great-britain-pound">GBP - Great Britain Pound</option>
+                        <option value="nzd-new-zealand-dollar">NZD - New Zealand Dollar</option>
+                    </select>
+
+                    <hr>
+
+                    <div class="info">
+                        <h2>Cover credit card fee</h2>
+                        <i class="fas fa-toggle-on toggle-off-icon"></i>
+                        <p>If turned off, your fans will incur the credit card fee associated with their payment.</p>
+                    </div>
+
+                    <div class="info">
+                        <h2>Set a goal</h2>
+                        <p>Pages with goals tend to attract more supporters. Add some goals and let them be a part of
+                            your
+                            creative journey.</p>
+                        <div class="range">
+                            <p class="money"><strong>$0</strong></p>
+                            <p class="description">You’re now earning $0 per month from membership and have earned $0
+                                from
+                                supporters.</p>
+                            <button class="btn-add">Add a goal</button>
+                        </div>
+                    </div>
+
+
+                    <div class="info">
+                        <h2>Tags</h2>
+                        <p>This won’t be displayed on your page, but gives you more discoverability. You can add up to
+                            five.</p>
+                        <input type="text">
+                        <p>Popular tags: <span>music youtube podcast art education piano newsletter</span></p>
+                    </div>
+
+                    <div class="info">
+                        <h2>My Page link</h2>
+                        <input type="text" value="buymeacoffee.com/username">
+                    </div>
+
+                    <div class="info">
+                        <h2>Google Analytics</h2>
+                        <p>
+                            Add your Google Analytics tracking code to send page visitor data to your Google Analytics
+                            account.
+                        </p>
+                        <input type="text" placeholder="UA-XXXXXXXXX or G-XXXXXXXXX">
+                    </div>
+
+
+                    <div class="info">
+                        <h2 class="for-18">Mark as NSFW (mandatory for 18+ content)</h2>
+                        <i class="fas fa-toggle-on toggle-off-icon"></i>
+                        <p>
+                            Indicate that your page is not suitable for children. Regardless, pornography is not allowed
+                            on the
+                            platform.
+                        </p>
+                    </div>
+
+                    <button class="btn-save">Save changes</button>
+
+                </section>
+                <!--END OF SETTINGS-->
+            </main>
+            <!--END OF MAIN-->
+
+            <!--DISABLE ACCOUNT-->
+            <section class="disable-account">
+                <div class="sub-container">
+                    <h2>Disable account</h2>
+                    <div>
+                        <p class="text-color-01">
+                            Your account will be temporarily deactivated and will not be accessible publicly. You will be
+                            logged out
+                            in the process, and the page will be re-activated when you login again.
+                        </p>
+                        <button class="btn-disable">Disable</button>
+                    </div>
+                </div>
+            </section>
+            <!--END OF DISABLE ACCOUNT-->
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

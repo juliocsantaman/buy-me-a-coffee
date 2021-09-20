@@ -1,8 +1,3 @@
-main {
-    background-color: #ffffff;
-    padding: 1rem;
-}
-
 /* SUPPORTERS */
 main .supporter {
     background-color: #f3f3f3;
@@ -90,6 +85,15 @@ main .no-supporters .info .p-02 {
         margin: 0.2rem;
     }
     /* END OF SUPPORTER */
+
+    body {
+        background-color: #f9f9f9;
+    }
+
+    main {
+        background-color: #ffffff;
+        padding: 1rem;
+    }
 }
 
 /* LARGE DEVICES (DESKTOPS, 992PX AND UP) */

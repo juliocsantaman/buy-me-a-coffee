@@ -70,10 +70,6 @@ header .dropdown-menu .dropdown-icon {
     padding: 0%;
 }
 
-body {
-    background-color: #f9f9f9;
-}
-
 /* CATEGORIES */
 .categories a {
     text-decoration: none;
@@ -224,11 +220,17 @@ body {
         margin: 0%;
         width: 1rem;
     }
+
+    main {
+        margin-right: 2rem;
+    }
 }
 
 /* LARGE DEVICES (DESKTOPS, 992PX AND UP) */
 @media (min-width: 992px) { 
-
+    main {
+        margin-right: 4rem;
+    }
 }
 
 /* X-Large devices (large desktops, 1200px and up) */

@@ -6,8 +6,7 @@ main .settings {
 }
 
 main .settings .info {
-    margin-top: 3rem;
-    width: 85%;
+    width: 90%;
     margin: 3rem auto auto auto;
 }
 
@@ -50,7 +49,6 @@ main .settings .info .btn-preview {
     border: none;
     border-radius: 1.5rem;
     display: inline-block;
-    margin-left: 1rem;
 }
 
 main .settings .info .btn-preview:hover {
@@ -89,3 +87,24 @@ main .settings .info .btn-save:hover {
     filter: brightness(90%);
 }
 /* END OF SUPPORTER SETTINGS */
+
+@media (min-width: 768px) {
+    body {
+        background-color: #f9f9f9;
+    }
+
+    main {
+        margin-bottom: 3rem;
+    }
+}
+
+/* LARGE DEVICES (DESKTOPS, 992PX AND UP) */
+@media (min-width: 992px) { 
+
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {  }
