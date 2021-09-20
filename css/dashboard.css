@@ -219,6 +219,9 @@ main .resources .final-resource {
 
 /* MEDIUM DEVICES (TABLETS, 768PX AND UP) */
 @media (min-width: 768px) {
+    header {
+        background-color: unset;
+    }
 }
 
 /* LARGE DEVICES (DESKTOPS, 992PX AND UP) */

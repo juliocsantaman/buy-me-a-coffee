@@ -1,0 +1,67 @@
+/* INTEGRATIONS */
+main .integrations {
+    width: 90%;
+    margin: auto auto 6rem auto;
+}
+
+main .integrations h1 {
+    color: var(--text-color-black);
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+main .integrations p {
+    color: var(--text-color-gray);
+}
+
+main .integrations .app {
+    border: 1px solid rgba(34,34,34,.05);
+    padding: 0.8rem;
+    display: flex;
+    margin-bottom: 1.5rem;
+}
+
+main .integrations .app div h2 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--text-color-black);
+}
+
+main .integrations .app div p {
+    width: 80%;
+}
+
+main .integrations .app div .btn-integration {
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
+    font-weight: 600;
+}
+
+main .integrations .app div .btn-integration:hover {
+    filter: brightness(90%);
+}
+/* END OF INTEGRATIONS */
+
+/* MEDIUM DEVICES (TABLETS, 768PX AND UP) */
+@media (min-width: 768px) {
+    body {
+        background-color: var(--bg-color-gray);
+    }
+
+    main {
+        background-color: var(--bg-color-white);
+        padding: 1rem;
+    }
+}
+
+/* LARGE DEVICES (DESKTOPS, 992PX AND UP) */
+@media (min-width: 992px) { 
+
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {  }

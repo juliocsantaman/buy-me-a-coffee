@@ -1,0 +1,83 @@
+/* NOTIFICATIONS */ 
+main .notifications {
+    width: 90%;
+    margin: auto auto 1rem auto;
+}
+
+main .notifications .general-notifications {
+    display: flex;
+    align-items: center;
+}
+
+main .notifications .general-notifications .toggle-off-icon {
+    font-size: 2.5rem;
+    margin-left: 1rem;
+    color: lightgray;
+    cursor: pointer;
+}
+
+main .notifications h2 {
+    font-size: 0.8rem;
+    color: var(--text-color-gray);
+    font-weight: 600;
+    margin: 0rem 1rem 0rem 0rem;
+}
+
+main .notifications .general-notifications p {
+    margin: 0rem;
+}
+
+main .notifications .checkbox label {
+    margin-top: 1rem;
+}
+
+main .notifications hr {
+    margin-top: 4rem;
+}
+
+main .notifications .limit-email-notification {
+    margin-bottom: 3rem;
+}
+
+main .notifications .limit-email-notification div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+main .notifications .btn-save {
+    background-color: #ffdd00;
+    font-weight: 600;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 2rem;
+    width: 100%;
+}
+
+main .notifications .btn-save:hover {
+    filter: brightness(90%);
+}
+/* END OF NOTIFICATIONS */
+
+/* MEDIUM DEVICES (TABLETS, 768PX AND UP) */
+@media (min-width: 768px) {
+    body {
+        background-color: var(--bg-color-gray);
+    }
+
+    main {
+        background-color: var(--bg-color-white);
+        padding: 1rem;
+    }
+}
+
+/* LARGE DEVICES (DESKTOPS, 992PX AND UP) */
+@media (min-width: 992px) { 
+
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {  }

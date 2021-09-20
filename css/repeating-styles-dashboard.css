@@ -1,3 +1,15 @@
+:root {
+    --text-color-black: #222;
+    --text-color-gray: #717171;
+    --bg-color-white: #ffffff;
+    --bg-color-gray: #f9f9f9;
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
 /* SMALL DEVICES */
 /* MENU FOR MOBILE */
 .menu-for-mobile {
@@ -65,11 +77,6 @@ header .dropdown-menu .dropdown-icon {
 }
 /* END OF HEADER DROPDOWN */
 
-* {
-    margin: 0%;
-    padding: 0%;
-}
-
 /* CATEGORIES */
 .categories a {
     text-decoration: none;
@@ -130,7 +137,16 @@ header .dropdown-menu .dropdown-icon {
     header .tablet-info {
         display: unset;
     }
+
+    header .dropdown-menu .dropdown-icon {
+        margin: 0%;
+        width: 1rem;
+    }
     /* END OF HEADER */
+
+    main {
+        margin-right: 2rem;
+    }
 
     .menu-for-mobile {
         display: none;
@@ -215,21 +231,17 @@ header .dropdown-menu .dropdown-icon {
     }
 
     /* END OF MENU FOR TABLET */   
-
-    header .dropdown-menu .dropdown-icon {
-        margin: 0%;
-        width: 1rem;
-    }
-
-    main {
-        margin-right: 2rem;
-    }
 }
 
 /* LARGE DEVICES (DESKTOPS, 992PX AND UP) */
 @media (min-width: 992px) { 
     main {
         margin-right: 4rem;
+    }
+
+    header .tablet-info,
+    header img {
+        width: 2.5%;
     }
 }
 

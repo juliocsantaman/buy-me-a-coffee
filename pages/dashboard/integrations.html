@@ -11,16 +11,17 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <link rel="stylesheet" href="../../css/repeating-styles-dashboard.css">
-    <link rel="stylesheet" href="../../css/supporters.css">
-    <title>Supporters | Buy Me a Coffee</title>
+    <link rel="stylesheet" href="../../css/integrations.css">
+    <title>Integrations | Buy Me a Coffee</title>
 </head>
 
 <body>
+
     <!--HEADER-->
     <header>
         <div class="mobile-info">
             <a href="./dashboard.html"><i class="fas fa-arrow-left"></i></a>
-            <p>Supporters</p>
+            <p>Settings</p>
         </div>
 
         <img class="tablet-info" src="../../img/logo.svg" alt="Logo Buy me a coffee">
@@ -51,6 +52,18 @@
 
     </header>
     <!--END OF HEADER-->
+
+    <!--MENU FOR MOBILE-->
+    <section class="menu-for-mobile">
+
+        <a href="#"><img class="icon" src="../../img/home.svg" alt="Home icon"> Home</a>
+
+        <a href="#"><img class="icon" src="../../img/create.svg" alt="Create icon"> Create</a>
+
+        <a href="#"><img class="icon" src="../../img/dashboard.svg" alt="Dashboard icon"> Dashboard</a>
+
+    </section>
+    <!--END OF MENU FOR MOBILE-->
 
     <div class="row">
         <div class="col-0 col-md-4 menu-for-tablet">
@@ -83,64 +96,61 @@
             <main>
                 <!--CATEGORIES-->
                 <section class="categories">
-                    <a class="active-category" href="./supporters.html">Supporters</a>
-                    <a class="inactive-category" href="./supporter-settings.html">Settings</a>
+                    <a class="inactive-category" href="./settings.html">Settings</a>
+                    <a class="active-category" href="./integrations.html">Integrations</a>
+                    <a class="inactive-category" href="./notifications.html">Notifications</a>
                     <hr>
                 </section>
                 <!--END OF CATEGORIES-->
-                <section class="supporters">
-                    <div class="supporter">
-                        <p><strong>0</strong></p>
+
+                <!--INTEGRATIONS-->
+                <section class="integrations">
+                    <h1>App Integrations</h1>
+                    <p>
+                        Here's an ongoing list of integrations to help you earn more supporters and to better connect
+                        with them.
+                    </p>
+
+                    <div class="app">
                         <div>
-                            <i class="far fa-heart"></i>
-                            <p>Supporter</p>
+                            <h2>Discord</h2>
+                            <p>Give Discord roles as a reward for your members, and build your community.</p>
+                            <button class="btn-integration">Connect</button>
                         </div>
+                        <img src="../../img/discord.svg" alt="Discord icon">
                     </div>
 
-                    <div class="supporter">
-                        <p><strong>$0</strong></p>
+                    <div class="app">
                         <div>
-                            <i class="far fa-calendar"></i>
-                            <p>Last 30 days</p>
+                            <h2>Stream Alert</h2>
+                            <p>Give Discord roles as a reward for your members, and build your community.</p>
+                            <button class="btn-integration">Enable</button>
                         </div>
+                        <img src="../../img/stream-alert.svg" alt="Stream alert icon">
                     </div>
 
-                    <div class="supporter">
-                        <p><strong>0</strong></p>
+                    <div class="app">
                         <div>
-                            <i class="fas fa-dollar-sign"></i>
-                            <p>All-time</p>
+                            <h2>Wordpress</h2>
+                            <p>Give Discord roles as a reward for your members, and build your community.</p>
+                            <button class="btn-integration">Visit</button>
                         </div>
+                        <img src="../../img/wordpress.svg" alt="wordpress icon">
+                    </div>
+
+                    <div class="app">
+                        <div>
+                            <h2>Zapier</h2>
+                            <p>Give Discord roles as a reward for your members, and build your community.</p>
+                            <button class="btn-integration">Visit</button>
+                        </div>
+                        <img src="../../img/zapier.svg" alt="Zapier icon">
                     </div>
                 </section>
-
-                <!--NO SUPPORTERS-->
-                <section class="no-supporters">
-                    <div class="info">
-                        <div class="img-container">
-                            <img class="icon" src="../../img/supporter.svg" alt="Image supporters">
-                        </div>
-                        <p><strong>You don't have any supporter yet</strong></p>
-                        <p class="p-02">Share your page with your audience to get started.</p>
-                    </div>
-                </section>
-                <!--END OF NO SUPPORTERS-->
-
+                <!--END OF INTEGRATIONS-->
             </main>
         </div>
     </div>
-
-    <!--MENU FOR MOBILE-->
-    <section class="menu-for-mobile">
-
-        <a href="#"><img class="icon" src="../../img/home.svg" alt="Home icon"> Home</a>
-
-        <a href="#"><img class="icon" src="../../img/create.svg" alt="Create icon"> Create</a>
-
-        <a href="#"><img class="icon" src="../../img/dashboard.svg" alt="Dashboard icon"> Dashboard</a>
-
-    </section>
-    <!--END OF MENU FOR MOBILE-->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
