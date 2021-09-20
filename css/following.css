@@ -2,8 +2,11 @@ body {
     background-color: #f9f9f9;
 }
 
-main {
+header, main {
     background-color: #ffffff;
+}
+
+main {
     padding: 1rem;
 }
 
