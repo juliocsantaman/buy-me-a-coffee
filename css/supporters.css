@@ -16,6 +16,11 @@ main .supporter > p {
     font-size: 2rem;
 }
 
+main .supporter div  {
+    display: flex;
+    align-items: center;
+}
+
 main .supporter div p {
     display: inline-block;
     margin: 0%;

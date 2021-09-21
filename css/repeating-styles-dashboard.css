@@ -155,6 +155,7 @@ header .dropdown-menu .dropdown-icon {
      /* MENU FOR TABLET */
     .menu-for-tablet {
         display: unset;
+        padding: 0rem 2rem 0rem 2rem;
     }
 
     .menu-for-tablet .profile {
@@ -184,6 +185,7 @@ header .dropdown-menu .dropdown-icon {
         margin: 0.3rem;
         display: flex;
         justify-content: center;
+        align-items: center;
     }
 
     .menu-for-tablet .actions .btns:hover {
