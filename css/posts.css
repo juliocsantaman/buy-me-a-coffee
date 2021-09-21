@@ -1,0 +1,125 @@
+body {
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #ffffff;
+}
+
+/* POST TYPE */
+main .post-type {
+    background-color: #ffffff;
+    padding: 1rem;
+}
+
+main .post-type h1 {
+    font-size: 1rem;
+    color: var(--text-color-gray);
+    font-weight: 600;
+    margin-left: 1rem;
+}
+
+main .post-type .types a {
+    text-decoration: none;
+    color: var(--text-color-black);
+    background-color: #f4f4f4;
+    padding: 0.8rem 1rem;
+    display: block;
+    width: 90%;
+    margin: 1rem auto auto auto;
+    border-radius: 0.8rem;
+    text-align: center;
+    font-weight: 700;
+    font-size: 0.8rem;
+}
+
+main .post-type .types a:hover {
+    filter: brightness(90%);
+}
+
+main .post-type .types a small {
+    color: var(--text-color-gray);
+    font-weight: normal;
+}
+/* END OF POST TYPE */
+
+/* MSG */
+main .msg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    background-color: #ffffff;
+    padding: 1rem 1rem 6rem 1rem;
+}
+
+main .msg img {
+    background-color: #f3f3f3;
+    border-radius: 50%;
+    padding: 1rem;
+}
+
+main .msg .p-01 {
+    margin-top: 1rem;
+    color: var(--text-color-black);
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+main .msg .p-02 {
+    width: 60%;
+    color: var(--text-color-gray);
+}
+
+main .msg p {
+    text-align: center;
+}
+
+/* END OF MSG */
+
+/* MEDIUM DEVICES (TABLETS, 768PX AND UP) */
+@media (min-width: 768px) {
+    header {
+        background-color: unset;
+    }
+    
+    main .post-type .types {
+        display: flex;
+        gap: 1rem;
+    }
+
+    main .post-type .types a {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 8rem;
+        padding: 1.5rem;
+    }
+
+    main .post-type .types a img {
+        width: 40px;
+        height: 40px;
+        margin-bottom: 0.5rem;
+    }
+
+}
+
+/* LARGE DEVICES (DESKTOPS, 992PX AND UP) */
+@media (min-width: 992px) { 
+    main .msg {
+        padding-bottom: 0rem;
+    }
+    
+    main .post-type .types a {
+        width: 30%;
+        padding: 4.5rem;
+    }
+
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {  }

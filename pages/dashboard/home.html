@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../css/repeating-styles-dashboard.css">
+    <link rel="stylesheet" href="../../css/home.css">
+    <title>Home | Buy Me a Coffee</title>
+</head>
+
+<body>
+    <!--HEADER-->
+    <header>
+        <img class="tablet-info" src="../../img/logo.svg" alt="Logo Buy me a coffee">
+
+        <img class="dropdown-toggle img-dropdown" data-bs-toggle="dropdown" aria-expanded="false"
+            src="https://img.buymeacoffee.com/api/?name=tecmitest&amp;size=300&amp;bg-image=bmc" alt="Image coffee">
+
+        <ul class="dropdown-menu">
+            <li><img class="img-coffee dropdown-item" src="https://img.buymeacoffee.com/api/?bg-image=bmc"
+                    alt="Image coffee"></li>
+            <li> <a class="dropdown-item" href="#">username</a> </li>
+            <li><a class="dropdown-item" href="#">View my page <i class="fas fa-arrow-right"></i></a></li>
+            <li>
+                <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" href="./dashboard.html"> <img class="dropdown-icon"
+                        src="../../img/dashboard.svg" alt="Image dashboard"> Dashboard</a></li>
+            <li><a class="dropdown-item" href="./edit-profile.html"> <img class="dropdown-icon"
+                        src="../../img/my-account.svg" alt="Image my account"> My account</a></li>
+            <li><a class="dropdown-item" href="./invite.html"> <img class="dropdown-icon"
+                        src="../../img/invite-and-earn.svg" alt="Image invite & earn"> Invite & earn</a></li>
+            <li>
+                <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" href="#"> <img class="dropdown-icon" src="../../img/log-out.svg"
+                        alt="Image log out"> Log out</a></li>
+        </ul>
+
+    </header>
+    <!--END OF HEADER-->
+
+    <!--MENU FOR MOBILE-->
+    <section class="menu-for-mobile">
+
+        <a href="#"><img class="icon" src="../../img/home.svg" alt="Home icon"> Home</a>
+
+        <a href="#"><img class="icon" src="../../img/create.svg" alt="Create icon"> Create</a>
+
+        <a href="#"><img class="icon" src="../../img/dashboard.svg" alt="Dashboard icon"> Dashboard</a>
+
+    </section>
+    <!--END OF MENU FOR MOBILE-->
+
+    <div class="row">
+        <!--MENU FOR TABLET AND UP-->
+        <div class="col-0 col-md-4 col-lg-3 menu-for-tablet">
+            <div class="profile">
+                <a href="#"><img src="../../img/logo.svg" alt="Logo"></a>
+                <p><strong>username</strong></p>
+            </div>
+
+            <div class="actions">
+                <button class="btns btn-post"><img src="../../img/create.svg" alt="Create a post"> Post</button>
+                <button class="btns btn-msg"><img src="../../img/message.svg" alt="Create a message"> Messages</button>
+            </div>
+
+            <hr>
+
+            <div class="links">
+                <a href="#"><img class="icon" src="../../img/home.svg" alt="Home icon"> Home</a>
+                <a href="#"><img class="icon" src="../../img/my-posts.svg" alt="My posts icon"> My posts</a>
+                <small>CREATOR DASHBOARD</small>
+                <a class="active-link" href="./dashboard.html"><img class="icon" src="../../img/dashboard.svg"
+                        alt="Dashboard icon">
+                    Dashboard</a>
+                <a href="./supporters.html"><img class="icon" src="../../img/supporter.svg" alt="Support icon">
+                    Support</a>
+                <a href="./membership.html"><img class="icon" src="../../img/members-02.svg" alt="Members icon">
+                    Members</a>
+                <a href="./extras.html"><img class="icon" src="../../img/extras.svg" alt="Extras icon"> Extras</a>
+                <a href="./settings.html"><img class="icon" src="../../img/settings.svg" alt="Settings icon">
+                    Settings</a>
+            </div>
+        </div>
+        <!--END OF MENU FOR TABLET AND UP-->
+
+        <div class="col-12 col-md-8 col-lg-6">
+            <main>
+                <!--CATEGORIES-->
+                <section class="categories mobile-info">
+                    <a class="active-category" href="./edit-profile.html">HOME</a>
+                    <a class="inactive-category" href="./messages.html">MESSAGES</a>
+                    <!-- <hr> -->
+                </section>
+                <!--END OF CATEGORIES-->
+                <!--HOME-->
+                <section class="home">
+                    <!--FOLLOWING-->
+                    <section class="following">
+                        <div class="profile">
+                            <div>
+                                <img src="https://cdn.buymeacoffee.com/uploads/profile_pictures/2020/10/61a02a6a61422f1718b2dfc60db93592.png@100w_0e.webp"
+                                    alt="Profile picture">
+                                <p>BMC crew</p>
+                            </div>
+                        </div>
+                    </section>
+                    <!--END OF FOLLOWING-->
+
+                    <!--POSTS-->
+                    <section class="posts">
+                        <div class="profile">
+                            <img src="https://cdn.buymeacoffee.com/uploads/profile_pictures/2020/10/61a02a6a61422f1718b2dfc60db93592.png@100w_0e.webp"
+                                alt="Profile picture">
+                            <div class="detail">
+                                <p class="username">BMC crew</p>
+                                <p class="date">Mar 17, 2021</p>
+                            </div>
+                        </div>
+                        <div class="post">
+                            <h2>Introducing Membership Levels, Direct Messaging, and a dozen small improvements</h2>
+                            <img src="https://cdn.buymeacoffee.com/uploads/project_updates/2021/03/a8bcbd918f7425f4a030a04138c0dae4.png"
+                                alt="Introducing Membership Levels">
+                            <h3>Send and Receive Direct Messages</h3>
+                            <p>
+                                You can now send private messages directly to any of your supporters. This is a great
+                                way to
+                                deliver rewards, send personal welcome notes, and even get to know your biggest
+                                supporters.
+                            </p>
+                        </div>
+                    </section>
+                    <!--END OF POSTS-->
+                </section>
+                <!--END OF HOME-->
+            </main>
+
+        </div>
+
+        <!--FOR LAPTOP AND UP-->
+        <div class="col-0 col-lg-3 explore-for-laptop">
+            <section class="explore">
+                <p>EXPLORE CREATORS <i class="fas fa-search"></i></p>
+                <div class="profile">
+                    <img src="https://cdn.buymeacoffee.com/uploads/profile_pictures/2020/10/61a02a6a61422f1718b2dfc60db93592.png@100w_0e.webp"
+                        alt="Profile picture">
+                    <div class="detail">
+                        <p class="username">BMC crew</p>
+                        <p class="date">Mar 17, 2021</p>
+                        <button class="btn-follow">Follow</button>
+                    </div>
+                </div>
+                <hr>
+                <div class="profile">
+                    <img src="https://cdn.buymeacoffee.com/uploads/profile_pictures/2020/10/61a02a6a61422f1718b2dfc60db93592.png@100w_0e.webp"
+                        alt="Profile picture">
+                    <div class="detail">
+                        <p class="username">BMC crew</p>
+                        <p class="date">Mar 17, 2021</p>
+                        <button class="btn-follow">Follow</button>
+                    </div>
+                </div>
+                <hr>
+                <div class="profile">
+                    <img src="https://cdn.buymeacoffee.com/uploads/profile_pictures/2020/10/61a02a6a61422f1718b2dfc60db93592.png@100w_0e.webp"
+                        alt="Profile picture">
+                    <div class="detail">
+                        <p class="username">BMC crew</p>
+                        <p class="date">Mar 17, 2021</p>
+                        <button class="btn-follow">Follow</button>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!--END FOR LAPTOP AND UP-->
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

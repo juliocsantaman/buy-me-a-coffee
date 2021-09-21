@@ -1,0 +1,219 @@
+/* HEADER */
+header {
+    display: flex;
+    justify-content: end;
+}
+
+header .img-dropdown {
+    position: absolute;
+}
+/* END OF HEADER */
+
+/* CATEGORIES */
+main .categories {
+    margin: 1.5rem 0rem 2rem 0rem;
+}
+/* END OF CATEGORIES */
+
+/* CATEGORIES 02 */
+main .c-02-item {
+    margin-left: 1.5rem;
+}
+
+main .categories-02 i {
+    color: var(--text-color-gray);
+}
+
+main .categories-02 i:hover {
+    filter: brightness(90%);
+}
+/* END OF CATEGORIES 02 */
+
+/* MESSAGES */
+main .messages {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+main .messages .p-02 {
+    width: 50%;
+    text-align: center;
+    color: var(--text-color-gray);
+    font-size: 0.8rem;
+}
+
+main .messages .btn-new-message {
+    border: none;
+    padding: 0.7rem 1rem;
+    border-radius: 1.5rem;
+    font-weight: 600;
+}
+
+main .messages .btn-new-message i {
+    font-size: 0.7rem;
+}
+
+main .messages .btn-new-message:hover {
+    filter: brightness(90%);
+}
+
+main .messages .modal .modal-header div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+
+}
+
+main .messages .modal .modal-header div p {
+    width: 25%;
+    font-size: 1.1rem;
+}
+
+main .messages .modal .modal-header a {
+    text-decoration: none;
+    color: var(--text-color-black);
+    background-color: #f3f3f3;
+    padding: 0.7rem 1rem;
+    border-radius: 1.5rem;
+    font-size: 0.8rem;
+}
+
+main .messages .modal .modal-header a:hover {
+    filter: brightness(90%);
+}
+
+main .messages .modal .modal-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .messages .modal .modal-body input {
+    background-color: #f3f3f3;
+    border: 1px solid lightgray;
+    outline: none;
+    padding: 0.5rem 1rem;
+    border-radius: 1.5rem;
+    width: 80%;
+    margin-bottom: 2rem;
+}
+
+main .messages .modal .modal-body input:focus {
+    background-color: #ffffff;
+}
+
+main .messages .modal .modal-body .people  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1.5px solid rgba(34,34,34,.05);
+    padding: 0.5rem;
+}
+
+main .messages .modal .modal-body .people button {
+    margin-left: 3rem;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 1.5rem;
+    font-weight: 600;
+}
+
+main .messages .modal .modal-body .people button:hover {
+    margin-left: 3rem;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 1.5rem;
+    font-weight: 600;
+}
+/* END OF MESSAGES */
+
+.explore-for-laptop {
+    display: none;
+}
+
+/* MEDIUM DEVICES (TABLETS, 768PX AND UP) */
+@media (min-width: 768px) {
+    header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    header .img-dropdown {
+        position: unset;
+    }
+
+    body {
+        background-color: #f9f9f9;
+    }
+
+    main {
+        background-color: #ffffff;
+        padding: 1rem;
+    }
+}
+
+/* LARGE DEVICES (DESKTOPS, 992PX AND UP) */
+@media (min-width: 992px) { 
+    /* EXPLORE */
+    .explore p {
+        color: var(--text-color-gray);
+    }
+
+    .explore .profile {
+        display: flex;
+        align-items: flex-start;
+    }
+    
+    .explore .profile .detail {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .explore .profile .detail p {
+        margin: 0rem 0rem 0rem 1rem;
+        font-size: 0.8rem;
+    }
+    
+    .explore .profile img {
+        width: 13%;
+        border-radius: 50%;
+    }
+    
+    .explore .profile .detail .username {
+        color: var(--text-color-black);
+        font-weight: 600;
+    }
+    
+    .explore .profile .detail .date {
+        color: var(--text-color-gray);
+    }
+
+    .explore .profile .detail .btn-follow {
+        border: none;
+        background-color: #ededed;
+        padding: 0.3rem 0.8rem;
+        border-radius: 1.5rem;
+        margin: 0.5rem auto auto auto;
+        font-size: 0.8rem;
+    }
+
+    .explore .profile .detail .btn-follow:hover {
+        filter: brightness(90%);
+    }
+
+    .explore-for-laptop {
+        display: unset;
+    }
+    /* END OF EXPLORE */
+
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {  }

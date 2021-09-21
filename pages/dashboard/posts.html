@@ -10,17 +10,18 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-    <link rel="stylesheet" href="../../css/edit-profile.css">
     <link rel="stylesheet" href="../../css/repeating-styles-dashboard.css">
-    <title>Edit profile - Buy me a coffee</title>
+    <link rel="stylesheet" href="../../css/posts.css">
+    <title>Posts | Buy Me a Coffee</title>
 </head>
 
 <body>
+
     <!--HEADER-->
     <header>
         <div class="mobile-info">
             <a href="./dashboard.html"><i class="fas fa-arrow-left"></i></a>
-            <p>My-account</p>
+            <p>Posts</p>
         </div>
 
         <img class="tablet-info" src="../../img/logo.svg" alt="Logo Buy me a coffee">
@@ -38,10 +39,10 @@
             </li>
             <li><a class="dropdown-item" href="./dashboard.html"> <img class="dropdown-icon"
                         src="../../img/dashboard.svg" alt="Image dashboard"> Dashboard</a></li>
-            <li><a class="dropdown-item" href="./edit-profile.html"> <img class="dropdown-icon" src="../../img/my-account.svg"
-                        alt="Image my account"> My account</a></li>
-            <li><a class="dropdown-item" href="./invite.html"> <img class="dropdown-icon" src="../../img/invite-and-earn.svg"
-                        alt="Image invite & earn"> Invite & earn</a></li>
+            <li><a class="dropdown-item" href="./edit-profile.html"> <img class="dropdown-icon"
+                        src="../../img/my-account.svg" alt="Image my account"> My account</a></li>
+            <li><a class="dropdown-item" href="./invite.html"> <img class="dropdown-icon"
+                        src="../../img/invite-and-earn.svg" alt="Image invite & earn"> Invite & earn</a></li>
             <li>
                 <hr class="dropdown-divider">
             </li>
@@ -80,84 +81,44 @@
             <hr>
 
             <div class="links">
-                <a href="#"><img class="icon" src="../../img/home.svg" alt="Home icon"> Home</a>
-                <a href="#"><img class="icon" src="../../img/my-posts.svg" alt="My posts icon"> My posts</a>
+                <a href="./home.html"><img class="icon" src="../../img/home.svg" alt="Home icon"> Home</a>
+                <a href="./posts.html"><img class="icon" src="../../img/my-posts.svg" alt="My posts icon"> My posts</a>
                 <small>CREATOR DASHBOARD</small>
-                <a class="active-link" href="./dashboard.html"><img class="icon" src="../../img/dashboard.svg" alt="Dashboard icon">
-                    Dashboard</a>
-                <a href="./supporters.html"><img class="icon" src="../../img/supporter.svg" alt="Support icon"> Support</a>
-                <a href="./membership.html"><img class="icon" src="../../img/members-02.svg" alt="Members icon"> Members</a>
+                <a class="active-link" href="./dashboard.html"><img class="icon" src="../../img/dashboard.svg"
+                        alt="Dashboard icon"> Dashboard</a>
+                <a href="./supporters.html"><img class="icon" src="../../img/supporter.svg" alt="Support icon">
+                    Support</a>
+                <a href="./membership.html"><img class="icon" src="../../img/members-02.svg" alt="Members icon">
+                    Members</a>
                 <a href="./extras.html"><img class="icon" src="../../img/extras.svg" alt="Extras icon"> Extras</a>
-                <a href="./settings.html"><img class="icon" src="../../img/settings.svg" alt="Settings icon"> Settings</a>
+                <a href="./settings.html"><img class="icon" src="../../img/settings.svg" alt="Settings icon">
+                    Settings</a>
             </div>
         </div>
         <!--END OF MENU FOR TABLET AND UP-->
 
         <div class="col-12 col-md-8">
-
             <main>
-                <section class="personal-info">
-                    <!--CATEGORIES-->
-                    <section class="categories">
-                        <a class="active-category" href="./edit-profile.html">Edit profile</a>
-                        <a class="inactive-category" href="./followers.html">Followers</a>
-                        <a class="inactive-category" href="./following.html">Following</a>
-                        <hr>
-                    </section>
-                    <!--END OF CATEGORIES-->
-                    <h3>Personal Info</h3>
-                    <img class="" src="../../img/logo.svg" alt="Logo">
-
-                    <div class="input">
-                        <label for="name">Name</label>
-                        <input type="text" value="username">
+                <section class="post-type">
+                    <h1>CHOOSE POST TYPE</h1>
+                    <div class="types">
+                        <a href="#"><img src="../../img/write.svg" alt="Write icon"> Write a post</a>
+                        <a href="#"><img src="../../img/album.svg" alt="Album icon"> Add an album</a>
+                        <a href="#"><img src="../../img/podcast.svg" alt="Podcast icon"> Posdcast <small>COMING
+                                SOON</small></a>
                     </div>
-
-
-                    <div class="input">
-                        <label for="email">Email</label>
-                        <input type="email" value="email@email.com">
-                    </div>
-
-                    <div class="select">
-                        <label for="country">Country</label>
-                        <select name="country" id="country">
-                            <option value="united-states">United States</option>
-                            <option value="canada">Canada</option>
-                            <option value="germany">Germany</option>
-                        </select>
-                    </div>
-
-                    <div class="select">
-                        <label for="timezone">Timezone</label>
-                        <select name="timezone" id="timezone">
-                            <option value="utc">UTC</option>
-                            <option value="africa-accra">Africa/Accra</option>
-                            <option value="america-cancun">America Cancún</option>
-                        </select>
-                    </div>
-
-                    <button><strong>Save Changes</strong></button>
-
                 </section>
 
-                <section class="password">
-                    <h3>Set a password</h3>
-                    <div class="input">
-                        <label for="new-password">New Password</label>
-                        <input type="password">
-                    </div>
-
-                    <div class="input">
-                        <label for="confirm-password">Confirm Password</label>
-                        <input type="password">
-                    </div>
-
-                    <button class="final-btn"><strong>Save Changes</strong></button>
-
+                <section class="msg">
+                    <img src="../../img/paper.svg" alt="Paper icon">
+                    <p class="p-01">Write your first post</p>
+                    <p class="p-02">
+                        Post public posts or make them exclusive to your supporters or members. Creators who post
+                        exclusives
+                        regularly tend to earn more support.
+                    </p>
                 </section>
             </main>
-
         </div>
     </div>
 
