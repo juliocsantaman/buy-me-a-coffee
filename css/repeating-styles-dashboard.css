@@ -117,6 +117,132 @@ header .dropdown-menu .dropdown-icon {
     display: none;
 }
 
+/* MODAL */
+.messages-modal .modal-header div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+
+}
+
+.messages-modal .modal-header div p {
+    width: 25%;
+    font-size: 1.1rem;
+}
+
+.messages-modal .modal-header a {
+    text-decoration: none;
+    color: var(--text-color-black);
+    background-color: #f3f3f3;
+    padding: 0.7rem 1rem;
+    border-radius: 1.5rem;
+    font-size: 0.8rem;
+}
+
+.messages-modal .modal-header a:hover {
+    filter: brightness(90%);
+}
+
+.messages-modal .modal-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.messages-modal .modal-body input {
+    background-color: #f3f3f3;
+    border: 1px solid lightgray;
+    outline: none;
+    padding: 0.5rem 1rem;
+    border-radius: 1.5rem;
+    width: 80%;
+    margin-bottom: 2rem;
+}
+
+.messages-modal .modal-body input:focus {
+    background-color: #ffffff;
+}
+
+.messages-modal .modal-body .people  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1.5px solid rgba(34,34,34,.05);
+    padding: 0.5rem;
+    width: 50%;
+}
+
+.messages-modal .modal-body .people button {
+    margin-left: 3rem;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 1.5rem;
+    font-weight: 600;
+}
+
+.messages-modal .modal-body .people button:hover {
+    filter: brightness(90%);
+}
+/* END OF MODAL */
+
+/* POST MODAL */
+.post-modal .modal-header p {
+    color: var(--text-color-gray);
+    font-weight: 600;
+    margin: 1rem;
+}
+
+.post-modal .modal-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.post-modal .modal-body .link-01 {
+    background-color: #f4f4f4;
+    padding: 1.2rem;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: var(--text-color-black);
+    border-radius: 2rem;
+    font-weight: 600;
+    width: 90%;
+    margin: auto auto 1rem auto; 
+    position: relative;
+}
+
+.post-modal .modal-body .link-01:hover {
+    filter: brightness(90%);
+}
+
+.post-modal .modal-body .link-soon p {
+    font-size: 0.6rem;
+    position: absolute;
+    bottom: 10%;
+    left: 0%;
+    right: 0%;
+    margin: auto;
+}
+
+.post-modal .modal-body .link-soon {
+    color: var(--text-color-gray);
+}
+
+.post-modal .modal-body .img {
+    margin-right: 0.5rem;
+}
+
+.post-modal .modal-body .link-02 {
+    text-decoration: none;
+    color: var(--text-color-black);
+    text-align: center;
+}
+
+/* END OF POST MODAL */
+
 /* MEDIUM DEVICES (TABLETS, 768PX AND UP) */
 @media (min-width: 768px) { 
     /* HEADER */
@@ -181,8 +307,8 @@ header .dropdown-menu .dropdown-icon {
         border: none;
         padding: 0.3rem;
         border-radius: 1rem;
-        width: 50%;
         margin: 0.3rem;
+        width: 50%;
         display: flex;
         justify-content: center;
         align-items: center;

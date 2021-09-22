@@ -36,8 +36,8 @@
             <li>
                 <hr class="dropdown-divider">
             </li>
-            <li><a class="dropdown-item" href="./dashboard.html"> <img class="dropdown-icon" src="../../img/dashboard.svg"
-                        alt="Image dashboard"> Dashboard</a></li>
+            <li><a class="dropdown-item" href="./dashboard.html"> <img class="dropdown-icon"
+                        src="../../img/dashboard.svg" alt="Image dashboard"> Dashboard</a></li>
             <li><a class="dropdown-item" href="./edit-profile.html"> <img class="dropdown-icon"
                         src="../../img/my-account.svg" alt="Image my account"> My account</a></li>
             <li><a class="dropdown-item" href="./invite.html"> <img class="dropdown-icon"
@@ -64,6 +64,72 @@
     </section>
     <!--END OF MENU FOR MOBILE-->
 
+
+    <!-- MODAL -->
+    <div class="modal fade messages-modal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div>
+                        <p><strong>New message</strong></p>
+                        <a href="./messages.html">Go to messages <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="modal-body">
+                    <input type="text" placeholder="Search by name or email">
+                    <div class="people">
+                        <div>
+                            <p><Strong>Followers</Strong></p>
+                            <p>0</p>
+                        </div>
+                        <button>Message</button>
+                    </div>
+
+                    <div class="people">
+                        <div>
+                            <p><Strong>Supporters</Strong></p>
+                            <p>0</p>
+                        </div>
+                        <button>Message</button>
+                    </div>
+
+                    <div class="people">
+                        <div>
+                            <p><Strong>Members</Strong></p>
+                            <p>0</p>
+                        </div>
+                        <button>Message</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END OF MODAL -->
+
+    <!-- POST MODAL -->
+    <div class="post-modal modal fade" id="postModal" tabindex="-1" aria-labelledby="postModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div>
+                        <p>CHOOSE POST TYPE</p>
+                    </div>
+                </div>
+                <div class="modal-body">
+                    <a href="#" class="link-01"><img class="img" src="../../img/write.svg" alt="Write icon"> Write a
+                        post</a>
+                    <a href="#" class="link-01"><img class="img" src="../../img/album.svg" alt="Album icon"> Add an
+                        album</a>
+                    <a href="#" class="link-01 link-soon">
+                        <img class="img" src="../../img/podcast.svg" alt="Podcast icon"> Publish a podcast <P>COMING
+                            SOON</P></a>
+                    <a href="./posts.html" class="link-02">View all posts <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END OF POST MODAL -->
+
     <div class="row">
         <div class="col-0 col-md-4 menu-for-tablet">
             <div class="profile">
@@ -72,8 +138,10 @@
             </div>
 
             <div class="actions">
-                <button class="btns btn-post"><img src="../../img/create.svg" alt="Create a post"> Post</button>
-                <button class="btns btn-msg"><img src="../../img/message.svg" alt="Create a message"> Messages</button>
+                <button class="btns btn-post" data-bs-toggle="modal" data-bs-target="#postModal"><img
+                    src="../../img/create.svg" alt="Create a post"> Post</button>
+                <button class="btns btn-msg" data-bs-toggle="modal" data-bs-target="#exampleModal"><img
+                        src="../../img/message.svg" alt="Create a message"> Messages</button>
             </div>
 
             <hr>
@@ -82,12 +150,16 @@
                 <a href="./home.html"><img class="icon" src="../../img/home.svg" alt="Home icon"> Home</a>
                 <a href="./posts.html"><img class="icon" src="../../img/my-posts.svg" alt="My posts icon"> My posts</a>
                 <small>CREATOR DASHBOARD</small>
-                <a class="active-link" href="./dashboard.html"><img class="icon" src="../../img/dashboard.svg" alt="Dashboard icon">
+                <a class="active-link" href="./dashboard.html"><img class="icon" src="../../img/dashboard.svg"
+                        alt="Dashboard icon">
                     Dashboard</a>
-                <a href="./supporters.html"><img class="icon" src="../../img/supporter.svg" alt="Support icon"> Support</a>
-                <a href="./membership.html"><img class="icon" src="../../img/members-02.svg" alt="Members icon"> Members</a>
+                <a href="./supporters.html"><img class="icon" src="../../img/supporter.svg" alt="Support icon">
+                    Support</a>
+                <a href="./membership.html"><img class="icon" src="../../img/members-02.svg" alt="Members icon">
+                    Members</a>
                 <a href="./extras.html"><img class="icon" src="../../img/extras.svg" alt="Extras icon"> Extras</a>
-                <a href="./settings.html"><img class="icon" src="../../img/settings.svg" alt="Settings icon"> Settings</a>
+                <a href="./settings.html"><img class="icon" src="../../img/settings.svg" alt="Settings icon">
+                    Settings</a>
             </div>
         </div>
 
