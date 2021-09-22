@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="http://fonts.cdnfonts.com/css/graphik" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="../css/about.css">
     <link rel="stylesheet" href="../css/repeating-styles.css">
     <title>About Buy Me a Coffee</title>
@@ -25,10 +25,55 @@
 
         <nav class="links">
             <button class="link-login" id="link-login">Log in</button>
-            <a class="link-signup" href="./pages/sign-up.html">Sign up <i class="fas fa-arrow-right"></i></a>
+            <a class="link-signup" href="./sign-up.html">Sign up <i class="fas fa-arrow-right"></i></a>
         </nav>
     </header>
     <!--END OF HEADER-->
+
+    <!--MODAL LINK LOGIN-->
+    <section class="modal-link-login inactive-modal-link-login" id="modal-link-login">
+        <section class="login">
+            <h1>Welcome back.</h1>
+            <span class="close-icon" id="close-icon"><i class="fas fa-times-circle"></i></span>
+            <!--SECTION LOGIN FOR SOCIAL NETWORKS-->
+            <section class="login-for-social-networks">
+                <div class="google">
+                    <a class="icon" href="#"><i class="fab fa-google"></i></a>
+                    <a href="#">Google</a>
+                </div>
+
+                <div class="facebook">
+                    <a class="icon" href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#">Facebook</a>
+                </div>
+
+                <div class="apple">
+                    <a class="icon" href="#"><i class="fab fa-apple"></i></a>
+                    <a href="#">Apple</a>
+                </div>
+
+                <div class="twitter">
+                    <a class="icon" href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#">Twitter</a>
+                </div>
+            </section>
+            <!--END OF SECTION LOGIN FOR SOCIAL NETWORKS-->
+
+            <p>Or login with email</p>
+
+            <!--SECTION LOGIN WITH EMAIL-->
+            <section class="login-with-email">
+                <input type="text" placeholder="Email">
+                <!-- <input type="text" placeholder="Password"> -->
+                <div class="container-link-continue">
+                    <a class="link-continue" href="#">Continue with email <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </section>
+            <!--END OF SECTION LOGIN WITH EMAIL-->
+        </section>
+
+    </section>
+    <!--END OF MODAL LINK LOGIN-->
 
     <!--MAIN-->
     <main>
@@ -92,7 +137,7 @@
                 <div class="link-container">
                     <a class="link" href="#">Our guiding values</a>
                 </div>
-    
+
                 <div class="link-container">
                     <a class="link" href="#">Frequently asked questions</a>
                 </div>
@@ -106,7 +151,7 @@
                         <img src="../img/paypal.svg" alt="Logo PayPal">
                     </div>
                 </div>
-                
+
                 <div class="container">
                     <p>BACKED BY</p>
                     <img src="../img/combinator-02.svg" alt="Logo Combinator">
@@ -183,6 +228,8 @@
 
     </footer>
     <!--END OF FOOTER-->
+
+    <script src="../js/modal-link-login.js"></script>
 </body>
 
 </html>
