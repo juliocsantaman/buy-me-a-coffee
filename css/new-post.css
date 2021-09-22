@@ -1,0 +1,242 @@
+:root {
+    --text-color-black: #222;
+    --text-color-gray: #717171;
+    --bg-color-white: #ffffff;
+    --bg-color-gray: #f9f9f9;
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.row {
+    margin: 0%;
+}
+
+.col-12 {
+    padding: 0rem;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 1rem;
+    margin: 0rem 0.5rem;
+}
+
+header i {
+    color: var(--text-color-black);
+    padding: 0.7rem 0.8rem;
+    border-radius: 0.5rem;
+    background-color: #f2f2f3;
+}
+
+header p {
+    color: var(--text-color-black);
+    font-weight: 600;
+}
+
+header button {
+    border: none;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    background-color: var(--bg-color-gray);
+    color: var(--text-color-gray);
+    font-weight: 600;
+}
+/* END OF HEADER */
+
+/* WRITE A POST */
+main .write-a-post {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3rem;
+}
+
+main .write-a-post .input-title {
+    border: none;
+    outline: none;
+    width: 80%;
+    padding-bottom: 5rem;
+    font-size: 2.2rem;
+    opacity: 0.4;
+}
+
+main .write-a-post .input-title:focus {
+    opacity: 1;
+    color: var(--text-color-black);
+}
+
+main .write-a-post .actions {
+    width: 80%;
+}
+
+main .write-a-post .actions i {
+    margin: 0.4rem;
+    color: var(--text-color-gray);
+    cursor: pointer;
+}
+
+main .write-a-post .actions i:hover {
+    color: var(--text-color-black);
+}
+
+main .write-a-post .msg {
+    border: none;
+    outline: none;
+    opacity: 0.4;
+    width: 80%;
+}
+
+main .write-a-post .msg:focus {
+    opacity: 1;
+    color: var(--text-color-black);
+}
+/* END OF WRITE A POST */
+
+header .link-for-laptop {
+    display: none;
+}
+
+.inactive-post-editor {
+    display: none;
+}
+
+/* MEDIUM DEVICES (TABLETS, 768PX AND UP) */
+@media (min-width: 768px) {
+}
+
+/* LARGE DEVICES (DESKTOPS, 992PX AND UP) */
+@media (min-width: 992px) { 
+
+    .inactive-post-editor {
+        display: unset;
+    }
+
+    /* HEADER */
+    header {
+        margin-left: 8%;
+        justify-content: space-between;
+    }
+
+    header p,
+    header button {
+        display: none
+    }
+
+    header .link-for-laptop {
+        display: unset;
+        color: var(--text-color-black);
+        padding: 0.5rem 1.5rem;
+        border-radius: 1.5rem;
+        background-color: #f2f2f3;
+        text-decoration: none;
+        font-weight: 600;
+    }
+
+    header .link-for-laptop:hover {
+        filter: brightness(90%);
+    }
+
+    header .link {
+        display: none;
+    }
+
+    header i {
+        background-color: unset;
+        padding: 0%;
+    }
+    /* END OF HEADER */
+
+    /* POST EDITOR */
+    .post-editor .public > button {
+        border: none;
+        padding: 0.5rem 1.5rem;
+        border-radius: 1.5rem;
+        color: var(--text-color-gray);
+        font-weight: 600;
+        opacity: 0.8;
+    }
+
+    .post-editor .public .dropdown {
+        display: inline-block;
+        margin-left: 1rem;
+    }
+
+    .post-editor .public .dropdown button {
+        border: none;
+        width: 2rem;
+        height: 2rem;
+        border-radius: 50%;
+        background-color: #f3f3f3;
+    }
+
+    .post-editor .details {
+        background-color: var(--bg-color-gray);
+        margin-top: 3rem;
+        padding-bottom: 2rem;
+        width: 80%;
+    }
+
+    .post-editor .details .who {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        padding: 1rem;
+    }
+
+    .post-editor .details label {
+        font-weight: 600;
+    }
+
+    .post-editor .details select {
+        background-color: #ffffff;
+        border: 2px solid lightgray;
+        padding: 0.5rem;
+        border-radius: 0.5rem;
+        cursor: pointer;
+    }
+
+    .post-editor .details .checkbox label {
+        font-weight: normal;
+        font-size: 0.8rem;
+        margin-left: 1rem;
+    }
+
+    .post-editor .details hr {
+        color: var(--text-color-gray);
+    }
+
+    .post-editor .details .categories > p {
+        font-weight: 600;
+        margin-left: 1rem;
+    }
+
+    .post-editor .details .categories div {
+        text-align: center;
+        width: 60%;
+        margin: auto;
+        font-size: 0.8rem;
+    }
+
+    .post-editor .details .categories .btn-new-category {
+        border: none;
+        padding: 0.5rem 1.5rem;
+        border-radius: 0.8rem;
+    }
+
+    .post-editor .details .categories .btn-new-category:hover {
+        filter: brightness(90%);
+    }
+    /* END OF POST EDITOR */
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {  }
