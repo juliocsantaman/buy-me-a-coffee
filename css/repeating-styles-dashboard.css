@@ -243,6 +243,10 @@ header .dropdown-menu .dropdown-icon {
 
 /* END OF POST MODAL */
 
+.brightness-90:hover {
+    filter: brightness(90%);
+}
+
 /* MEDIUM DEVICES (TABLETS, 768PX AND UP) */
 @media (min-width: 768px) { 
     /* HEADER */

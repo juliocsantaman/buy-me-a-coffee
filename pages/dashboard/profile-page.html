@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../css/profile-page.css">
+    <link rel="stylesheet" href="../../css/repeating-styles-dashboard.css">
+    <title>Profile page | Buy Me a Coffee</title>
+</head>
+
+<body>
+    <!--HEADER-->
+    <header>
+        <!-- <div class="mobile-info">
+            <a href="./dashboard.html"><i class="fas fa-arrow-left"></i></a>
+            <p>Dashboard</p>
+        </div> -->
+
+        <img src="../../img/logo.svg" alt="Logo Buy me a coffee">
+
+        <img class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"
+            src="https://img.buymeacoffee.com/api/?name=tecmitest&amp;size=300&amp;bg-image=bmc" alt="Image coffee">
+
+        <ul class="dropdown-menu">
+            <li><img class="img-coffee dropdown-item" src="https://img.buymeacoffee.com/api/?bg-image=bmc"
+                    alt="Image coffee"></li>
+            <li> <a class="dropdown-item" href="#">username</a> </li>
+            <li><a class="dropdown-item" href="#">View my page <i class="fas fa-arrow-right"></i></a></li>
+            <li>
+                <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" href="./dashboard.html"> <img class="dropdown-icon"
+                        src="../../img/dashboard.svg" alt="Image dashboard"> Dashboard</a></li>
+            <li><a class="dropdown-item" href="./edit-profile.html"> <img class="dropdown-icon"
+                        src="../../img/my-account.svg" alt="Image my account"> My account</a></li>
+            <li><a class="dropdown-item" href="./invite.html"> <img class="dropdown-icon"
+                        src="../../img/invite-and-earn.svg" alt="Image invite & earn"> Invite & earn</a></li>
+            <li>
+                <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" href="../../index.html"> <img class="dropdown-icon" src="../../img/log-out.svg"
+                        alt="Image log out"> Log out</a></li>
+        </ul>
+
+    </header>
+    <!--END OF HEADER-->
+
+    <!--MENU FOR MOBILE-->
+    <section class="menu-for-mobile">
+
+        <a href="#"><img class="icon" src="../../img/home.svg" alt="Home icon"> Home</a>
+
+        <a href="#"><img class="icon" src="../../img/create.svg" alt="Create icon"> Create</a>
+
+        <a href="#"><img class="icon" src="../../img/dashboard.svg" alt="Dashboard icon"> Dashboard</a>
+
+    </section>
+    <!--END OF MENU FOR MOBILE-->
+
+    <main>
+        <section class="cover-image">
+            <!-- BUTTON TRIGGER MODAL -->
+            <button class="btn-upload brightness-90" type="button" data-bs-toggle="modal"
+                data-bs-target="#modalUpload"><i class="fas fa-cloud-upload-alt"></i> Add a cover image</button>
+        </section>
+
+        <section class="profile">
+            <div class="username-container">
+                <div class="username">
+                    <img src="https://img.buymeacoffee.com/api/?name=tecmitest&size=300&bg-image=bmc&background=5F7FFF"
+                        alt="Profile picture">
+                    <p>username</p>
+                </div>
+            </div>
+
+            <div class="actions-container">
+                <div class="actions">
+                    <!-- BUTTON TRIGGER MODAL -->
+                    <button class="brightness-90 btn-edit-profile" data-bs-toggle="modal"
+                        data-bs-target="#profileEditModal">Edit profile</button>
+                    <!-- BUTTON TRIGGER MODAL -->
+                    <button class="brightness-90 btn-share" data-bs-toggle="modal"
+                        data-bs-target="#shareModal">Share</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="msg">
+            <p>
+                Hey 👋 I just created a page here. You can now buy me a coffee!
+            </p>
+        </section>
+    </main>
+
+    <!-- MODAL -->
+    <div class="modal fade modal-upload" id="modalUpload" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button id="btnUpload" class="btn-upload brightness-90" type="button"><i
+                            class="fas fa-cloud-upload-alt"></i> Upload</button>
+                    <button id="btnSearch" class="btn-upload brightness-90" type="button"><i class="fas fa-search"></i>
+                        Search</button>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body upload" id="upload">
+                    <div class="input-file brightness-90">
+                        <p>Upload cover image</p>
+                        <input type="file">
+                    </div>
+                    <p>We recommend an image at least 2560px wide and 423px tall.</p>
+                </div>
+
+                <div class="modal-body search inactive-search" id="search">
+                    <div class="actions">
+                        <input class="input-search" type="text" placeholder="Search images">
+                        <button class="btn-search brightness-90">Search</button>
+                    </div>
+                    <div class="gallery">
+                        <img src="https://images.unsplash.com/photo-1613294326794-e7c74fe886e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNzI1MzV8MHwxfHNlYXJjaHwxfHxjcmVhdG9yfGVufDB8MHx8fDE2MzIzMjM4MjE&ixlib=rb-1.2.1&q=80&w=200"
+                            alt="Image">
+                        <img src="https://images.unsplash.com/photo-1613294326794-e7c74fe886e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNzI1MzV8MHwxfHNlYXJjaHwxfHxjcmVhdG9yfGVufDB8MHx8fDE2MzIzMjM4MjE&ixlib=rb-1.2.1&q=80&w=200"
+                            alt="Image">
+                        <img src="https://images.unsplash.com/photo-1613294326794-e7c74fe886e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNzI1MzV8MHwxfHNlYXJjaHwxfHxjcmVhdG9yfGVufDB8MHx8fDE2MzIzMjM4MjE&ixlib=rb-1.2.1&q=80&w=200"
+                            alt="Image">
+                        <img src="https://images.unsplash.com/photo-1613294326794-e7c74fe886e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNzI1MzV8MHwxfHNlYXJjaHwxfHxjcmVhdG9yfGVufDB8MHx8fDE2MzIzMjM4MjE&ixlib=rb-1.2.1&q=80&w=200"
+                            alt="Image">
+                        <img src="https://images.unsplash.com/photo-1613294326794-e7c74fe886e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNzI1MzV8MHwxfHNlYXJjaHwxfHxjcmVhdG9yfGVufDB8MHx8fDE2MzIzMjM4MjE&ixlib=rb-1.2.1&q=80&w=200"
+                            alt="Image">
+                        <img src="https://images.unsplash.com/photo-1613294326794-e7c74fe886e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNzI1MzV8MHwxfHNlYXJjaHwxfHxjcmVhdG9yfGVufDB8MHx8fDE2MzIzMjM4MjE&ixlib=rb-1.2.1&q=80&w=200"
+                            alt="Image">
+                        <img src="https://images.unsplash.com/photo-1613294326794-e7c74fe886e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNzI1MzV8MHwxfHNlYXJjaHwxfHxjcmVhdG9yfGVufDB8MHx8fDE2MzIzMjM4MjE&ixlib=rb-1.2.1&q=80&w=200"
+                            alt="Image">
+                        <img src="https://images.unsplash.com/photo-1613294326794-e7c74fe886e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNzI1MzV8MHwxfHNlYXJjaHwxfHxjcmVhdG9yfGVufDB8MHx8fDE2MzIzMjM4MjE&ixlib=rb-1.2.1&q=80&w=200"
+                            alt="Image">
+                        <img src="https://images.unsplash.com/photo-1613294326794-e7c74fe886e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNzI1MzV8MHwxfHNlYXJjaHwxfHxjcmVhdG9yfGVufDB8MHx8fDE2MzIzMjM4MjE&ixlib=rb-1.2.1&q=80&w=200"
+                            alt="Image">
+                        <img src="https://images.unsplash.com/photo-1613294326794-e7c74fe886e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNzI1MzV8MHwxfHNlYXJjaHwxfHxjcmVhdG9yfGVufDB8MHx8fDE2MzIzMjM4MjE&ixlib=rb-1.2.1&q=80&w=200"
+                            alt="Image">
+                        <img src="https://images.unsplash.com/photo-1613294326794-e7c74fe886e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNzI1MzV8MHwxfHNlYXJjaHwxfHxjcmVhdG9yfGVufDB8MHx8fDE2MzIzMjM4MjE&ixlib=rb-1.2.1&q=80&w=200"
+                            alt="Image">
+                        <img src="https://images.unsplash.com/photo-1613294326794-e7c74fe886e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNzI1MzV8MHwxfHNlYXJjaHwxfHxjcmVhdG9yfGVufDB8MHx8fDE2MzIzMjM4MjE&ixlib=rb-1.2.1&q=80&w=200"
+                            alt="Image">
+                        <img src="https://images.unsplash.com/photo-1613294326794-e7c74fe886e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNzI1MzV8MHwxfHNlYXJjaHwxfHxjcmVhdG9yfGVufDB8MHx8fDE2MzIzMjM4MjE&ixlib=rb-1.2.1&q=80&w=200"
+                            alt="Image">
+                        <img src="https://images.unsplash.com/photo-1613294326794-e7c74fe886e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNzI1MzV8MHwxfHNlYXJjaHwxfHxjcmVhdG9yfGVufDB8MHx8fDE2MzIzMjM4MjE&ixlib=rb-1.2.1&q=80&w=200"
+                            alt="Image">
+                        <img src="https://images.unsplash.com/photo-1613294326794-e7c74fe886e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNzI1MzV8MHwxfHNlYXJjaHwxfHxjcmVhdG9yfGVufDB8MHx8fDE2MzIzMjM4MjE&ixlib=rb-1.2.1&q=80&w=200"
+                            alt="Image">
+                        <img src="https://images.unsplash.com/photo-1613294326794-e7c74fe886e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNzI1MzV8MHwxfHNlYXJjaHwxfHxjcmVhdG9yfGVufDB8MHx8fDE2MzIzMjM4MjE&ixlib=rb-1.2.1&q=80&w=200"
+                            alt="Image">
+                        <img src="https://images.unsplash.com/photo-1613294326794-e7c74fe886e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNzI1MzV8MHwxfHNlYXJjaHwxfHxjcmVhdG9yfGVufDB8MHx8fDE2MzIzMjM4MjE&ixlib=rb-1.2.1&q=80&w=200"
+                            alt="Image">
+                        <img src="https://images.unsplash.com/photo-1613294326794-e7c74fe886e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNzI1MzV8MHwxfHNlYXJjaHwxfHxjcmVhdG9yfGVufDB8MHx8fDE2MzIzMjM4MjE&ixlib=rb-1.2.1&q=80&w=200"
+                            alt="Image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--END OF MODAL-->
+
+    <!--SHARE MODAL-->
+    <div class="modal fade share-modal" id="shareModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <h3>Share with your friends 🎉</h3>
+                    <img src="https://img.buymeacoffee.com/api/?url=aHR0cHM6Ly9pbWcuYnV5bWVhY29mZmVlLmNvbS9hcGkvP25hbWU9dGVjbWl0ZXN0JnNpemU9MzAwJmJnLWltYWdlPWJtYyZiYWNrZ3JvdW5kPTVGN0ZGRg==&creator=tecmitest&design_code=1&design_color=%235F7FFF&slug=tecmitest"
+                        alt="Profile picture">
+                    <div class="actions">
+                        <button class="brightness-90">Copy link</button>
+                        <button class="brightness-90">Tweet this</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--END OF SHARE MODAL-->
+
+    <!--PROFILE EDIT MODAL-->
+    <div class="modal fade profile-edit-modal" id="profileEditModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="actions">
+                        <h5><strong>Edit page</strong></h5>
+                        <div class="btns">
+                            <button class="btn-p btn-cancel brightness-90">Cancel</button>
+                            <button class="btn-p btn-save brightness-90">Save</button>
+                        </div>
+                    </div>
+
+                    <div class="info">
+
+                        <div class="input-info">
+                            <label for="fullname"><strong>Full name</strong></label>
+                            <input type="text" value="username">
+                        </div>
+
+                        <div class="input-info">
+                            <label for="creating"><strong>What are you creating?</strong></label>
+                            <input type="text" placeholder="creating piano music, building Coronarelief.org, posting a new art everyday">
+                        </div>
+
+                        <p><i class="fas fa-eye"></i> tecmitest is</p>
+
+                        <div class="featured">
+                            <p><strong>Featured image or video</strong></p>
+                            <button class="brightness-90"><i class="fas fa-camera"></i> Upload image</button>
+                            <button class="brightness-90"><i class="fas fa-video"></i> Embed video</button>
+                        </div>
+
+                        <div class="about">
+                            <p><strong>About me</strong></p>
+                            <textarea cols="30"
+                                rows="7">Hey 👋 I just created a page here. You can now buy me a coffee!</textarea>
+                        </div>
+
+                        <div class="website input-info">
+                            <label for="website"><strong>Web site</strong></label>
+                            <input type="text">
+                            <button class="brightness-90 btn-add mt-3"><i class="fas fa-plus"></i> Add web site</button>
+                        </div>
+
+                        <div class="replace-coffee">
+                            <p>Replace "coffee" with anything you like</p>
+                            <div class="input">
+                                <div>Buy username a</div>
+                                <input type="text" value=" coffee">
+                            </div>
+                            <div class="replacements">
+                                <span class="brightness-90">☕ Coffe</span>
+                                <span class="brightness-90">🍺 Beer</span>
+                                <span class="brightness-90">🍕 Pizza</span>
+                                <span class="brightness-90">📖 Book</span>
+                            </div>
+                        </div>
+
+                        <div class="themes">
+                            <div class="theme brightness-90"></div>
+                            <div class="theme brightness-90" style="background-color: #5f7fff;"></div>
+                            <div class="theme brightness-90" style="background-color: #bd5fff;"></div>
+                            <div class="theme brightness-90" style="background-color: #ff5f5f;"></div>
+                            <div class="theme brightness-90" style="background-color: #79d6b5;"></div>
+                            <div class="theme brightness-90" style="background-color: #f471ff;"></div>
+                        </div>
+
+                        <div class="display-supporter">
+                            <p><strong>Display supporter count</strong></p>
+                            <p class="p-02">Publicizing supporter count shows credibility and inspires more support from your audience.</p>
+                            <i class="fas fa-toggle-on"></i>
+                        </div>
+
+                        <div class="display-supporter">
+                            <p><strong>Featured memberships on my page</strong></p>
+                            <p class="p-02">Enable this to make membership the highlighted widget on your page.</p>
+                            <i class="fas fa-toggle-off"></i>
+                        </div>
+
+                        <div class="display-supporter">
+                            <p><strong>Social sharing</strong></p>
+                            <p class="p-02">Enter your twitter handle here to include it in your share buttons and messages.</p>
+                            <input type="text" placeholder="@username">
+                        </div>
+
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--END OF PROFILE EDIT MODAL-->
+
+    <!--FOOTER-->
+    <footer>
+        <div class="share">
+            <p>Love what <span>username</span> is doing?</p>
+            <!-- BUTTON TRIGGER MODAL -->
+            <button class="brightness-90" data-bs-toggle="modal" data-bs-target="#shareModal">Share with your
+                friends</button>
+        </div>
+
+        <div class="powered">
+            <div>
+                <p class="p-01">Powered by</p>
+                <img src="https://cdn.buymeacoffee.com/assets/img/footer/c-ftr-logo.png" alt="Buy Me a Coffee">
+            </div>
+            <p>
+                See
+                <a href="../privacy.html">privacy</a>
+                <a href="../terms.html">terms</a>
+            </p>
+        </div>
+    </footer>
+    <!--END OF FOOTER-->
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+
+    <script src="../../js/profile-page.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,490 @@
+body {
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #ffffff;
+}
+
+/* COVER IMAGE */
+main .cover-image {
+    background-color: #f5f5f5;
+    padding: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-upload {
+    border: none;
+    padding: 0.5rem 1.5rem;
+    border-radius: 1.5rem;
+    font-weight: 600;
+    background-color: #eaeaea;
+    margin-right: 0.5rem;
+}
+
+.modal-upload .modal-body .input-file {
+    background-color: #eaeaea;
+    padding: 0.5rem 1.5rem;
+    border-radius: 1.5rem;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 60%;
+    margin: auto;
+}
+
+.modal-upload .modal-body .input-file p {
+    margin: 0%;
+    font-size: 0.8rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.modal-upload .modal-body .input-file input {
+    opacity: 0;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    margin: auto;
+    cursor: pointer;
+}
+
+.modal-upload .modal-body p {
+    text-align: center;
+    width: 90%;
+    margin: 1rem auto auto auto;
+    font-size: 0.8rem;
+    color: #717171;
+}
+
+.modal-upload .modal-body .actions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    gap: 0.5rem;
+}
+
+.modal-upload .modal-body .input-search {
+    outline: none;
+    border: 1px solid lightgray;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    width: 60%;
+}
+.modal-upload .modal-body .input-search:focus {
+    border: 1px solid #222;
+}
+
+.modal-upload .modal-body .btn-search {
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 1.5rem;
+    background-color: #5f7fff;
+    color: #ffffff;
+    font-weight: bold;
+    width: 40%;
+}
+
+.modal-upload .modal-body .gallery {
+    height: 250px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 1rem auto auto auto;
+    border: 1px solid lightgray;
+    border-radius: 0.5rem;
+}
+
+.modal-upload .modal-body .gallery img {
+    width: 5rem;
+    height: 5rem;
+    margin: 0.2rem;
+    cursor: pointer;
+}
+
+.modal-upload .modal-body .gallery img:hover {
+    filter: brightness(90%);
+}
+
+
+.inactive-upload {
+    display: none;
+}
+
+.inactive-search {
+    display: none;
+}
+/* END OF COVER IMAGE */
+
+/* PROFILE */
+main .profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 0rem;
+    background-color: #ffffff;
+}
+
+main .profile .username-container .username {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main .profile .username-container .username img {
+    width: 3rem;
+}
+
+main .profile .username-container .username p {
+    font-weight: bold;
+}
+
+main .profile .actions-container {
+    width: 100%;
+}
+
+main .profile .actions-container .actions {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+main .profile .actions button {
+    border: none;
+    padding: 0.8rem 1rem;
+    border-radius: 1.5rem;
+    width: 40%;
+    font-weight: bold;
+}
+
+main .profile .actions .btn-edit-profile {
+    background-color: #5f7fff;
+    color: #ffffff;
+}
+
+main .profile .actions .btn-share {
+    background-color: #eaeaea;
+    color: #222;
+}
+/* END OF PROFILE */
+
+/* MSG */
+main .msg {
+    background-color: #ffffff;
+    padding: 1rem;
+    width: 80%;
+    margin: 2rem auto auto auto;
+}
+
+main .msg p {
+    text-align: center;
+}
+/* END OF MSG */
+
+/* SHARE MODAL */
+.share-modal .modal-body h3 {
+    text-align: center;
+    color: #222;
+    font-weight: 600;
+}
+
+.share-modal .modal-body img {
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.share-modal .modal-body .actions {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.share-modal .modal-body .actions button {
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 1.5rem;
+    background-color: #eaeaea;
+    width: 100%;
+    margin: 0.5rem;
+}
+/* END OF SHARE MODAL */
+
+/* PROFILE EDIT MODAL */
+.profile-edit-modal .modal-body .info > div {
+    margin-bottom: 1rem;
+}
+
+.profile-edit-modal .modal-body .btns {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    gap: 0.5rem;
+}
+
+.profile-edit-modal .modal-body .btns .btn-p {
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 1.5rem;
+    width: 100%;
+}
+
+.profile-edit-modal .modal-body .actions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile-edit-modal .modal-body .info {
+    padding-top: 3rem;
+}
+
+.profile-edit-modal .modal-body .info button {
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 1.5rem;
+}
+
+.profile-edit-modal .modal-body .info .input-info label {
+    display: block;
+}
+
+.profile-edit-modal .modal-body .info .input-info input {
+    margin: 0.5rem 0rem;
+    background-color: #f3f3f3;
+    border: 1px solid transparent;
+    outline: none;
+    padding: 0.5rem;
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+.profile-edit-modal .modal-body .info .input-info input:focus {
+    background-color: #ffffff;
+    border: 1px solid lightgray;
+}
+
+.profile-edit-modal .modal-body .info .about textarea {
+    background-color: #f2f2f3;
+    border: 1px solid transparent;
+    padding: 1rem;
+    outline: none;
+}
+
+.profile-edit-modal .modal-body .info .about textarea:focus {
+    background-color: #ffffff;
+    border: 1px solid lightgray;
+}
+
+.profile-edit-modal .modal-body .info .website button {
+    width: 100%;
+}
+
+.profile-edit-modal .modal-body .info .replace-coffee .input {
+    border: 1px solid lightgray;
+    display: flex;
+    background-color: #f3f3f3;
+    padding: 0.3rem;
+    border-radius: 0.5rem;
+}
+
+.profile-edit-modal .modal-body .info .replace-coffee .input div {
+    color: #717171;
+}
+
+.profile-edit-modal .modal-body .info .replace-coffee .input input {
+    border: none;
+    outline: none;
+    background-color: #f3f3f3;
+}
+
+.profile-edit-modal .modal-body .info .replace-coffee .replacements {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+}
+
+.profile-edit-modal .modal-body .info .replace-coffee .replacements span {
+    background-color: #f2f2f2;
+    padding: 0.5rem;
+    border-radius: 1.5rem;
+    cursor: pointer;
+}
+
+.profile-edit-modal .modal-body .info .themes {
+    display: flex;
+    justify-content: start;
+}
+
+.profile-edit-modal .modal-body .info .theme {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background-color: #ff813f;
+    margin: 0rem 0.5rem;
+    cursor: pointer;
+}
+
+.profile-edit-modal .modal-body .display-supporter {
+    margin-top: 1rem;
+}
+
+.profile-edit-modal .modal-body .display-supporter i {
+    font-size: 2rem;
+}
+
+.profile-edit-modal .modal-body .display-supporter .p-02 {
+    color: #717171;
+    font-size: 0.9rem;
+}
+
+.profile-edit-modal .modal-body .display-supporter input {
+    border: 1px solid lightgray;
+    outline: none;
+    background-color: #f3f3f3;
+    padding: 0.5rem;
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+.profile-edit-modal .modal-body .display-supporter input:focus {
+    background-color: #ffffff;
+}
+/* END OF PROFILE EDIT MODAL */
+
+/* FOOTER */
+footer {
+    margin: 3rem 0rem 6rem 0rem;
+}
+
+footer .share {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer .share p span {
+    font-weight: 600;
+}
+
+footer .share button {
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 1.5rem;
+    background-color: #eaeaea;
+    font-weight: 600;
+}
+
+footer .powered {
+    margin-top: 1.5rem;
+}
+
+footer .powered div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer .powered p {
+    color: rgba(38,38,38,.5);
+    text-align: center;
+}
+
+footer .powered p > a {
+    color: rgba(38,38,38,.5);
+}
+
+footer .powered p > a:hover {
+    text-decoration: none;
+    color: #222;
+}
+/* END OF FOOTER */
+
+/* MEDIUM DEVICES (TABLETS, 768PX AND UP) */
+@media (min-width: 768px) {
+
+    /* PROFILE */
+    main .profile .username-container {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    main .profile .username-container .username {
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: center;
+        margin-left: 2rem;
+    }
+
+    main .profile .username-container .username p {
+        margin: 0rem 0rem 0rem 1rem;
+    }
+
+    main .profile .username-container .username img {
+        width: 5rem;
+    }
+
+    main .profile .actions button {
+        width: 20%;
+    }
+    /* END OF PROFILE */
+
+    /* FOOTER */
+    footer {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 2em;
+    }
+
+    footer .share {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    footer .powered div img {
+        width: 30%;
+    }
+
+    footer .powered {
+        width: 30%;
+    }
+
+    footer .powered div {
+        display: flex;
+        flex-direction: row;
+        align-items: unset;
+        justify-content: center;
+        gap: 0.5rem;
+    }
+    /* END OF FOOTER*/
+    
+
+}
+
+/* LARGE DEVICES (DESKTOPS, 992PX AND UP) */
+@media (min-width: 992px) { 
+    main .profile {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {  }

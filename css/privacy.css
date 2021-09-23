@@ -1,0 +1,76 @@
+body {
+    color: #0d0c23;;
+}
+
+main {
+    margin-top: 1rem;
+}
+
+main h1, main h2 {
+    text-align: center;
+    font-family: "graphik 900",sans-serif;
+    width: 80%;
+    margin: auto auto 2rem auto;
+}
+
+main h2 {
+    margin-top: 2rem;
+}
+
+main p {
+    width: 85%;
+    text-align: center;
+    margin: auto auto 1rem auto;
+    line-height: 1.875rem;
+    font-family: helvetica;
+}
+
+main ul {
+    text-align: center;
+    width: 85%;
+    margin: auto auto 1rem auto;
+    line-height: 1.875rem;
+    font-family: helvetica;
+}
+
+/* MEDIUM DEVICES (TABLETS, 768PX AND UP) */
+@media (min-width: 768px) { 
+    main h1, main h2 {
+        font-size: 2.5rem;
+    }
+
+    main p, main ul {
+        font-size: 1.3rem;
+        line-height: 2.25rem;
+    }
+
+}
+
+/* LARGE DEVICES (DESKTOPS, 992PX AND UP) */
+@media (min-width: 992px) { 
+
+    main h1, main h2 {
+        font-size: 3rem;
+        text-align: start;
+        width: 85%;
+        margin: auto auto 2rem auto;
+    }
+
+    main p, main ul {
+        text-align: start;
+        font-size: 1.5rem;
+        line-height: 40px;
+    }
+
+    
+    main ul {
+        text-align: start;
+    }
+
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {  }
