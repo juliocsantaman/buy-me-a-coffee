@@ -1,0 +1,137 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+header {
+    padding: 1rem;
+    background-color: #ffffff;
+}
+
+body {
+    background-color: #f9f9f9;
+}
+
+header a {
+    text-decoration: none;
+    color: #222;
+    background-color: #f3f3f3;
+    padding: 0.5rem 1rem;
+    border-radius: 1.5rem;
+    font-weight: 600;
+}
+
+.brightness-90:hover {
+    filter: brightness(90%);
+    color: #222;
+}
+
+/* STATS */
+main .stats {
+    background-color: #ffffff;
+    width: 90%;
+    margin: 2rem auto auto auto;
+}
+
+main .stats section {
+    padding: 1.5rem;
+}
+
+main .stats section p {
+    color: #717171;
+}
+
+.number {
+    color: #222;
+    font-size: 1.2rem;
+}
+
+main .categories {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+main .categories span {
+    padding-bottom: 1rem;
+    color: #717171;
+    font-weight: 600;
+}
+
+main .categories div  {
+    padding: 0% 0% 1rem 0%;
+}
+/* END OF STATS */
+
+/* NO STATS */
+main .no-stats {
+    background-color: #ffffff;
+    min-height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 3rem  auto 6rem auto;
+}
+
+main .no-stats .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid #000000; */
+    /* box-shadow: 0 1px 4px rgba(0,0,0,.5); */
+    width: 80%;
+    margin: auto;
+    padding: 1rem;
+}
+
+main .no-stats .info .img-container {
+    background-color: lightgray;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+main .no-stats .info .img-container img {
+    width: 3rem;
+}
+
+main .no-stats .info p {
+    width: 80%;
+    text-align: center;
+}
+
+main .no-stats .info .p-01 {
+    font-size: 1.1rem;
+}
+
+main .no-stats .info .p-02 {
+    color: #717171;
+}
+/* END OF NO FOLLOWERS */
+
+/* MEDIUM DEVICES (TABLETS, 768PX AND UP) */
+@media (min-width: 768px) {
+    main .stats {
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+/* LARGE DEVICES (DESKTOPS, 992PX AND UP) */
+@media (min-width: 992px) { 
+
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {  }
