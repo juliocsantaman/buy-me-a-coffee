@@ -51,10 +51,6 @@ main .settings .info .btn-preview {
     display: inline-block;
 }
 
-main .settings .info .btn-preview:hover {
-    filter: brightness(90%);
-}
-
 main .settings .info textarea {
     background-color: #f3f3f3;
     border: none;
@@ -82,10 +78,6 @@ main .settings .info .btn-save {
     border-radius: 2rem;
     width: 100%;
 }
-
-main .settings .info .btn-save:hover {
-    filter: brightness(90%);
-}
 /* END OF SUPPORTER SETTINGS */
 
 @media (min-width: 768px) {
@@ -99,9 +91,7 @@ main .settings .info .btn-save:hover {
 }
 
 /* LARGE DEVICES (DESKTOPS, 992PX AND UP) */
-@media (min-width: 992px) { 
-
-}
+@media (min-width: 992px) { }
 
 /* X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {  }

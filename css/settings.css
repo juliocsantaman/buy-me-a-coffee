@@ -58,10 +58,6 @@ main .settings .methods .method .btn-enable {
     cursor: pointer;
 }
 
-main .settings .methods .method .btn-enable:hover {
-    filter: brightness(90%);
-}
-
 main .settings label {
     margin: 1rem  0rem 1rem 0rem;
 }
@@ -136,10 +132,6 @@ main .settings .info .range .btn-add {
     font-weight: 600;
 }
 
-main .settings .info .range .btn-add:hover {
-    filter: brightness(90%);
-}
-
 main .settings .info input {
     background-color: rgba(34,34,34,.05);
     outline: none;
@@ -165,10 +157,6 @@ main .settings .btn-save {
     border-radius: 2rem;
     width: 90%;
 }
-
-main .settings .btn-save:hover {
-    filter: brightness(90%);
-}
 /* END OF SETTINGS */
 
 /* DISABLE ACCOUNT */
@@ -192,10 +180,6 @@ main .settings .btn-save:hover {
     padding: 0.5rem 1rem 0.5rem 1rem;
     border-radius: 1.5rem;
     color: #ffffff;
-}
-
-.disable-account .sub-container .btn-disable:hover {
-    filter: brightness(90%);
 }
 /* END OF DISABLE ACCOUNT */
 

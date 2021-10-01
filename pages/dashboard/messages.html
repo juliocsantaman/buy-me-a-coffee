@@ -10,6 +10,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../css/styles.css">
     <link rel="stylesheet" href="../../css/repeating-styles-dashboard.css">
     <link rel="stylesheet" href="../../css/messages.css">
     <title>Messages | Buy Me a Coffee</title>
@@ -28,7 +29,8 @@
             <li><img class="img-coffee dropdown-item" src="https://img.buymeacoffee.com/api/?bg-image=bmc"
                     alt="Image coffee"></li>
             <li> <a class="dropdown-item" href="#">username</a> </li>
-            <li><a class="dropdown-item" href="./profile-page.html">View my page <i class="fas fa-arrow-right"></i></a></li>
+            <li><a class="dropdown-item" href="./profile-page.html">View my page <i class="fas fa-arrow-right"></i></a>
+            </li>
             <li>
                 <hr class="dropdown-divider">
             </li>
@@ -70,9 +72,11 @@
                     </div>
                 </div>
                 <div class="modal-body">
-                    <a href="./posts/new-post.html" class="link-01"><img class="img" src="../../img/write.svg" alt="Write icon"> Write a
+                    <a href="./posts/new-post.html" class="link-01 brightness-90"><img class="img" src="../../img/write.svg"
+                            alt="Write icon"> Write a
                         post</a>
-                    <a href="./posts/gallery.html" class="link-01"><img class="img" src="../../img/album.svg" alt="Album icon"> Add an
+                    <a href="./posts/gallery.html" class="link-01 brightness-90"><img class="img" src="../../img/album.svg"
+                            alt="Album icon"> Add an
                         album</a>
                     <a href="#" class="link-01 link-soon">
                         <img class="img" src="../../img/podcast.svg" alt="Podcast icon"> Publish a podcast <P>COMING
@@ -93,9 +97,9 @@
             </div>
 
             <div class="actions">
-                <button class="btns btn-post" data-bs-toggle="modal" data-bs-target="#postModal"><img
+                <button class="btns btn-post brightness-90" data-bs-toggle="modal" data-bs-target="#postModal"><img
                         src="../../img/create.svg" alt="Create a post"> Post</button>
-                <button class="btns btn-msg" data-bs-toggle="modal" data-bs-target="#exampleModal"><img
+                <button class="btns btn-msg brightness-90" data-bs-toggle="modal" data-bs-target="#exampleModal"><img
                         src="../../img/message.svg" alt="Create a message"> Messages</button>
             </div>
 
@@ -144,18 +148,19 @@
                     <img src="../../img/message-02.svg" alt="Message icon">
                     <p><strong>No messages so far</strong></p>
                     <p class="p-02">Send a private message or brodocast one to all your supporters or members.</p>
-                    <button class="btn-new-message" id="btn-new-message" data-bs-toggle="modal"
+                    <button class="btn-new-message brightness-90" id="btn-new-message" data-bs-toggle="modal"
                         data-bs-target="#exampleModal"><i class="fas fa-plus"></i> New message</button>
 
                     <!-- MODAL -->
-                    <div class="modal fade messages-modal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                        aria-hidden="true">
+                    <div class="modal fade messages-modal" id="exampleModal" tabindex="-1"
+                        aria-labelledby="exampleModalLabel" aria-hidden="true">
                         <div class="modal-dialog modal-dialog-centered">
                             <div class="modal-content">
                                 <div class="modal-header">
                                     <div>
                                         <p><strong>New message</strong></p>
-                                        <a href="./messages.html">Go to messages <i class="fas fa-external-link-alt"></i></a>
+                                        <a class="brightness-90" href="./messages.html">Go to messages <i
+                                                class="fas fa-external-link-alt"></i></a>
                                     </div>
                                 </div>
                                 <div class="modal-body">
@@ -165,7 +170,7 @@
                                             <p><Strong>Followers</Strong></p>
                                             <p>0</p>
                                         </div>
-                                        <button>Message</button>
+                                        <button class="brightness-90">Message</button>
                                     </div>
 
                                     <div class="people">
@@ -173,7 +178,7 @@
                                             <p><Strong>Supporters</Strong></p>
                                             <p>0</p>
                                         </div>
-                                        <button>Message</button>
+                                        <button class="brightness-90">Message</button>
                                     </div>
 
                                     <div class="people">
@@ -181,7 +186,7 @@
                                             <p><Strong>Members</Strong></p>
                                             <p>0</p>
                                         </div>
-                                        <button>Message</button>
+                                        <button class="brightness-90">Message</button>
                                     </div>
                                 </div>
                             </div>
@@ -203,7 +208,7 @@
                     <div class="detail">
                         <p class="username">BMC crew</p>
                         <p class="date">Mar 17, 2021</p>
-                        <button class="btn-follow">Follow</button>
+                        <button class="btn-follow brightness-90">Follow</button>
                     </div>
                 </div>
                 <hr>
@@ -213,7 +218,7 @@
                     <div class="detail">
                         <p class="username">BMC crew</p>
                         <p class="date">Mar 17, 2021</p>
-                        <button class="btn-follow">Follow</button>
+                        <button class="btn-follow brightness-90">Follow</button>
                     </div>
                 </div>
                 <hr>
@@ -223,7 +228,7 @@
                     <div class="detail">
                         <p class="username">BMC crew</p>
                         <p class="date">Mar 17, 2021</p>
-                        <button class="btn-follow">Follow</button>
+                        <button class="btn-follow brightness-90">Follow</button>
                     </div>
                 </div>
             </section>

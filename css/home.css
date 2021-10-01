@@ -174,11 +174,7 @@ main .home .posts .post p {
         margin: 0.5rem auto auto auto;
         font-size: 0.8rem;
     }
-
-    .explore .profile .detail .btn-follow:hover {
-        filter: brightness(90%);
-    }
-
+    
     .explore-for-laptop {
         display: unset;
     }

@@ -59,11 +59,6 @@ main button {
     border-radius: 2rem;
     width: 100%;
 }
-
-main button:hover {
-    filter: brightness(90%);
-}
-
 /* END OF PERSONAL INFO */
 
 /* PASSWORD */
@@ -83,9 +78,7 @@ main .password {
 }
 
 /* LARGE DEVICES (DESKTOPS, 992PX AND UP) */
-@media (min-width: 992px) { 
-
-}
+@media (min-width: 992px) { }
 
 /* X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {  }

@@ -1,8 +1,3 @@
-* {
-    margin: 0%;
-    padding: 0%;
-}
-
 /* SMALL DEVICES */
 
 /* SELECT-PAYMENT-MODE */
@@ -74,10 +69,6 @@ main .select-payment-mode .methods .method .btn-enable {
     cursor: pointer;
 }
 
-main .select-payment-mode .methods .method .btn-enable:hover {
-    filter: brightness(90%);
-}
-
 .text-color-01 {
     color: #717171;
 }
@@ -98,10 +89,6 @@ main .select-payment-mode .methods .method .btn-enable:hover {
     font-weight: bold;
     cursor: pointer;
     font-size: 1.2rem;
-}
-
-.btn-next:hover {
-    filter: brightness(90%);
 }
 
 main .select-payment-mode .link-trouble {

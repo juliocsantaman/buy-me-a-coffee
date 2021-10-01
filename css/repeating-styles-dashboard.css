@@ -5,11 +5,6 @@
     --bg-color-gray: #f9f9f9;
 }
 
-* {
-    margin: 0%;
-    padding: 0%;
-}
-
 /* SMALL DEVICES */
 /* MENU FOR MOBILE */
 .menu-for-mobile {
@@ -105,14 +100,6 @@ header .dropdown-menu .dropdown-icon {
     width: 1rem;
 }
 
-.row {
-    margin: 0%;
-}
-
-.col-12 {
-    padding: 0rem;
-}
-
 .menu-for-tablet {
     display: none;
 }
@@ -138,10 +125,6 @@ header .dropdown-menu .dropdown-icon {
     padding: 0.7rem 1rem;
     border-radius: 1.5rem;
     font-size: 0.8rem;
-}
-
-.messages-modal .modal-header a:hover {
-    filter: brightness(90%);
 }
 
 .messages-modal .modal-body {
@@ -180,10 +163,6 @@ header .dropdown-menu .dropdown-icon {
     border-radius: 1.5rem;
     font-weight: 600;
 }
-
-.messages-modal .modal-body .people button:hover {
-    filter: brightness(90%);
-}
 /* END OF MODAL */
 
 /* POST MODAL */
@@ -214,10 +193,6 @@ header .dropdown-menu .dropdown-icon {
     position: relative;
 }
 
-.post-modal .modal-body .link-01:hover {
-    filter: brightness(90%);
-}
-
 .post-modal .modal-body .link-soon p {
     font-size: 0.6rem;
     position: absolute;
@@ -242,10 +217,6 @@ header .dropdown-menu .dropdown-icon {
 }
 
 /* END OF POST MODAL */
-
-.brightness-90:hover {
-    filter: brightness(90%);
-}
 
 /* MEDIUM DEVICES (TABLETS, 768PX AND UP) */
 @media (min-width: 768px) { 
@@ -316,10 +287,6 @@ header .dropdown-menu .dropdown-icon {
         display: flex;
         justify-content: center;
         align-items: center;
-    }
-
-    .menu-for-tablet .actions .btns:hover {
-        filter: brightness(90%);
     }
 
     .menu-for-tablet .actions .btns img {

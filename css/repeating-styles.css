@@ -1,10 +1,4 @@
-* {
-    margin: 0rem;
-    padding: 0rem;
-}
-
 /* SMALL DEVICES */
-
 /* HEADER */
 header {
     padding: 2rem 1rem 1rem 2rem;
@@ -234,10 +228,6 @@ footer .options .copyright {
     text-decoration: none;
     color: #222;
     font-weight: 500;
-}
-
-.modal-link-login .login .login-with-email .container-link-continue:hover {
-    filter: brightness(90%);
 }
 /* END OF SECTION LOGIN WITH EMAIL */
 

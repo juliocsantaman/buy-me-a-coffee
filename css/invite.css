@@ -58,11 +58,6 @@ main .invite-and-earn .share button {
     padding: 0.5rem 1rem;
     border-radius: 1rem;
 }
-
-main .invite-and-earn .share button:hover {
-    filter: brightness(90%);
-}
-
 /* END OF INVITE AND EARN */
 
 /* CREATORS-INVITED */

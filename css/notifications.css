@@ -53,10 +53,6 @@ main .notifications .btn-save {
     border-radius: 2rem;
     width: 100%;
 }
-
-main .notifications .btn-save:hover {
-    filter: brightness(90%);
-}
 /* END OF NOTIFICATIONS */
 
 /* MEDIUM DEVICES (TABLETS, 768PX AND UP) */

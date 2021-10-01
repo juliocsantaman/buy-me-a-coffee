@@ -37,10 +37,6 @@ main .integrations .app div .btn-integration {
     border-radius: 2rem;
     font-weight: 600;
 }
-
-main .integrations .app div .btn-integration:hover {
-    filter: brightness(90%);
-}
 /* END OF INTEGRATIONS */
 
 /* MEDIUM DEVICES (TABLETS, 768PX AND UP) */

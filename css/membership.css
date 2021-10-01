@@ -26,10 +26,6 @@ main .membership .btn-enable {
     width: 70%;
 }
 
-main .membership .btn-enable:hover {
-    filter: brightness(90%);
-}
-
 main .membership .info {
     margin-top: 3rem;
     display: flex;

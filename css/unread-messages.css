@@ -22,10 +22,7 @@ main .c-02-item {
 
 main .categories-02 i {
     color: var(--text-color-gray);
-}
-
-main .categories-02 i:hover {
-    filter: brightness(90%);
+    cursor: pointer;
 }
 /* END OF CATEGORIES 02 */
 
@@ -112,11 +109,7 @@ main .messages p {
         margin: 0.5rem auto auto auto;
         font-size: 0.8rem;
     }
-
-    .explore .profile .detail .btn-follow:hover {
-        filter: brightness(90%);
-    }
-
+    
     .explore-for-laptop {
         display: unset;
     }

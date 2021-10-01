@@ -1,0 +1,16 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.row {
+    margin: 0%;
+}
+
+.col-12 {
+    padding: 0rem;
+}
+
+.brightness-90:hover {
+    filter: brightness(90%);
+}

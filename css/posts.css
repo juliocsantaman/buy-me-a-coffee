@@ -33,10 +33,6 @@ main .post-type .types a {
     font-size: 0.8rem;
 }
 
-main .post-type .types a:hover {
-    filter: brightness(90%);
-}
-
 main .post-type .types a small {
     color: var(--text-color-gray);
     font-weight: normal;
