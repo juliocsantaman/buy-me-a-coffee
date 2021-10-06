@@ -42,3 +42,21 @@ main .following i {
     margin-left: 5rem;
 }
 /* END OF FOLLOWING */
+/* MEDIUM DEVICES (TABLETS, 768PX AND UP) */
+@media (min-width: 768px) {
+
+    header {
+        background-color: unset;
+    }
+}
+
+/* LARGE DEVICES (DESKTOPS, 992PX AND UP) */
+@media (min-width: 992px) { 
+
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {  }

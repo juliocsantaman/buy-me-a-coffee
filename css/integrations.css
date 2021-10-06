@@ -42,7 +42,7 @@ main .integrations .app div .btn-integration {
 /* MEDIUM DEVICES (TABLETS, 768PX AND UP) */
 @media (min-width: 768px) {
     body {
-        background-color: #717171;
+        background-color: #f9f9f9;
     }
 
     main {

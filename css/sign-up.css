@@ -94,6 +94,10 @@ main .terms {
     color: rgba(113,113,113,.6);
 }
 
+.already {
+    display: none;
+}
+
 /* MEDIUM DEVICES (TABLETS, 768PX AND UP) */
 @media (min-width: 768px) { 
     /* SECTION SIGN UP FOR SOCIAL NETWORKS */
