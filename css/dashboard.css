@@ -58,48 +58,6 @@ main .overview .stats div {
 }
 /* END OF OVERVIEW */
 
-/* NO SUPPORTERS */
-main .no-supporters {
-    margin-top: 3rem;
-    background-color: #ffffff;
-    min-height: 250px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-main .no-supporters .info {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0 1px 4px rgba(0,0,0,.5);
-    width: 80%;
-    margin: auto;
-    padding: 1rem;
-}
-
-main .no-supporters .info .img-container {
-    background-color: lightgray;
-    width: 2.5rem;
-    height: 2.5rem;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 1rem;
-}
-
-main .no-supporters .info p {
-    width: 80%;
-    text-align: center;
-}
-
-main .no-supporters .info .p-02 {
-    color: #717171;
-}
-/* END OF NO SUPPORTERS */
-
 /* CHECKLIST */
 main .checklist {
     background-color: #ffffff;

@@ -103,7 +103,7 @@ main .no-stats .info .p-01 {
 main .no-stats .info .p-02 {
     color: #717171;
 }
-/* END OF NO FOLLOWERS */
+/* END OF NO STATS */
 
 /* MEDIUM DEVICES (TABLETS, 768PX AND UP) */
 @media (min-width: 768px) {

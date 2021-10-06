@@ -22,7 +22,7 @@ main .home {
 
 /* FOLLOWING */
 main .home .following {
-    background-color: var(--bg-color-gray);
+    background-color: #f9f9f9;
     padding: 1rem;
 }
 
@@ -71,17 +71,17 @@ main .home .posts .profile img {
 }
 
 main .home .posts .profile .detail .username {
-    color: var(--text-color-black);
+    color: #222;
     font-weight: 600;
 }
 
 main .home .posts .profile .detail .date {
-    color: var(--text-color-gray);
+    color: #717171;
 }
 
 main .home .posts .post h2 {
     font-size: 1.2rem;
-    color: var(--text-color-black);
+    color: #222;
     font-weight: bold;
     margin-top: 1rem;
 }
@@ -92,7 +92,7 @@ main .home .posts .post img {
 
 main .home .posts .post h3 {
     font-size: 1rem;
-    color: var(--text-color-black);
+    color: #222;
     font-weight: bold;
     margin-top: 1rem;
 }
@@ -134,7 +134,7 @@ main .home .posts .post p {
 @media (min-width: 992px) { 
     /* EXPLORE */
     .explore p {
-        color: var(--text-color-gray);
+        color: #717171;
     }
 
     .explore .profile {
@@ -158,12 +158,12 @@ main .home .posts .post p {
     }
     
     .explore .profile .detail .username {
-        color: var(--text-color-black);
+        color: #222;
         font-weight: 600;
     }
     
     .explore .profile .detail .date {
-        color: var(--text-color-gray);
+        color: #717171;
     }
 
     .explore .profile .detail .btn-follow {

@@ -18,7 +18,7 @@ main .notifications .general-notifications .toggle-off-icon {
 
 main .notifications h2 {
     font-size: 0.8rem;
-    color: var(--text-color-gray);
+    color: #717171;
     font-weight: 600;
     margin: 0rem 1rem 0rem 0rem;
 }
@@ -58,11 +58,11 @@ main .notifications .btn-save {
 /* MEDIUM DEVICES (TABLETS, 768PX AND UP) */
 @media (min-width: 768px) {
     body {
-        background-color: var(--bg-color-gray);
+        background-color: #f9f9f9;
     }
 
     main {
-        background-color: var(--bg-color-white);
+        background-color: #ffffff;
         padding: 1rem;
     }
 }

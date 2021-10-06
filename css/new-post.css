@@ -1,10 +1,3 @@
-:root {
-    --text-color-black: #222;
-    --text-color-gray: #717171;
-    --bg-color-white: #ffffff;
-    --bg-color-gray: #f9f9f9;
-}
-
 /* HEADER */
 header {
     display: flex;
@@ -15,14 +8,14 @@ header {
 }
 
 header i {
-    color: var(--text-color-black);
+    color: #222;
     padding: 0.7rem 0.8rem;
     border-radius: 0.5rem;
     background-color: #f2f2f3;
 }
 
 header p {
-    color: var(--text-color-black);
+    color: #222;
     font-weight: 600;
 }
 
@@ -30,8 +23,8 @@ header button {
     border: none;
     padding: 0.5rem;
     border-radius: 0.5rem;
-    background-color: var(--bg-color-gray);
-    color: var(--text-color-gray);
+    background-color: #f9f9f9;
+    color: #717171;
     font-weight: 600;
 }
 /* END OF HEADER */
@@ -55,7 +48,7 @@ main .write-a-post .input-title {
 
 main .write-a-post .input-title:focus {
     opacity: 1;
-    color: var(--text-color-black);
+    color: #222;
 }
 
 main .write-a-post .actions {
@@ -64,12 +57,12 @@ main .write-a-post .actions {
 
 main .write-a-post .actions i {
     margin: 0.4rem;
-    color: var(--text-color-gray);
+    color: #717171;
     cursor: pointer;
 }
 
 main .write-a-post .actions i:hover {
-    color: var(--text-color-black);
+    color: #222;
 }
 
 main .write-a-post .msg {
@@ -81,7 +74,7 @@ main .write-a-post .msg {
 
 main .write-a-post .msg:focus {
     opacity: 1;
-    color: var(--text-color-black);
+    color: #222;
 }
 /* END OF WRITE A POST */
 
@@ -117,7 +110,7 @@ header .link-for-laptop {
 
     header .link-for-laptop {
         display: unset;
-        color: var(--text-color-black);
+        color: #222;
         padding: 0.5rem 1.5rem;
         border-radius: 1.5rem;
         background-color: #f2f2f3;
@@ -140,7 +133,7 @@ header .link-for-laptop {
         border: none;
         padding: 0.5rem 1.5rem;
         border-radius: 1.5rem;
-        color: var(--text-color-gray);
+        color: #717171;
         font-weight: 600;
         opacity: 0.8;
     }
@@ -159,7 +152,7 @@ header .link-for-laptop {
     }
 
     .post-editor .details {
-        background-color: var(--bg-color-gray);
+        background-color: #f9f9f9;
         margin-top: 3rem;
         padding-bottom: 2rem;
         width: 80%;
@@ -191,7 +184,7 @@ header .link-for-laptop {
     }
 
     .post-editor .details hr {
-        color: var(--text-color-gray);
+        color: #717171;
     }
 
     .post-editor .details .categories > p {

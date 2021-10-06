@@ -5,13 +5,13 @@ main .integrations {
 }
 
 main .integrations h1 {
-    color: var(--text-color-black);
+    color: #222;
     font-weight: 600;
     font-size: 1.3rem;
 }
 
 main .integrations p {
-    color: var(--text-color-gray);
+    color: #717171;
 }
 
 main .integrations .app {
@@ -24,7 +24,7 @@ main .integrations .app {
 main .integrations .app div h2 {
     font-size: 1.1rem;
     font-weight: 600;
-    color: var(--text-color-black);
+    color: #222;
 }
 
 main .integrations .app div p {
@@ -42,11 +42,11 @@ main .integrations .app div .btn-integration {
 /* MEDIUM DEVICES (TABLETS, 768PX AND UP) */
 @media (min-width: 768px) {
     body {
-        background-color: var(--bg-color-gray);
+        background-color: #717171;
     }
 
     main {
-        background-color: var(--bg-color-white);
+        background-color: #ffffff;
         padding: 1rem;
     }
 }

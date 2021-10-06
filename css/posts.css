@@ -14,14 +14,14 @@ main .post-type {
 
 main .post-type h1 {
     font-size: 1rem;
-    color: var(--text-color-gray);
+    color: #717171;
     font-weight: 600;
     margin-left: 1rem;
 }
 
 main .post-type .types a {
     text-decoration: none;
-    color: var(--text-color-black);
+    color: #222;
     background-color: #f4f4f4;
     padding: 0.8rem 1rem;
     display: block;
@@ -34,7 +34,7 @@ main .post-type .types a {
 }
 
 main .post-type .types a small {
-    color: var(--text-color-gray);
+    color: #717171;
     font-weight: normal;
 }
 /* END OF POST TYPE */
@@ -57,14 +57,14 @@ main .msg img {
 
 main .msg .p-01 {
     margin-top: 1rem;
-    color: var(--text-color-black);
+    color: #222;
     font-weight: 600;
     font-size: 1.1rem;
 }
 
 main .msg .p-02 {
     width: 60%;
-    color: var(--text-color-gray);
+    color: #717171;
 }
 
 main .msg p {

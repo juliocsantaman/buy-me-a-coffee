@@ -1,9 +1,9 @@
-:root {
-    --text-color-black: #222;
-    --text-color-gray: #717171;
-    --bg-color-white: #ffffff;
-    --bg-color-gray: #f9f9f9;
-}
+/* 
+--text-color-black: #222;
+--text-color-gray: #717171;
+--bg-color-white: #ffffff;
+--bg-color-gray: #f9f9f9; 
+*/
 
 /* SMALL DEVICES */
 /* MENU FOR MOBILE */
@@ -120,7 +120,7 @@ header .dropdown-menu .dropdown-icon {
 
 .messages-modal .modal-header a {
     text-decoration: none;
-    color: var(--text-color-black);
+    color: #222;
     background-color: #f3f3f3;
     padding: 0.7rem 1rem;
     border-radius: 1.5rem;
@@ -167,7 +167,7 @@ header .dropdown-menu .dropdown-icon {
 
 /* POST MODAL */
 .post-modal .modal-header p {
-    color: var(--text-color-gray);
+    color: #717171;
     font-weight: 600;
     margin: 1rem;
 }
@@ -185,7 +185,7 @@ header .dropdown-menu .dropdown-icon {
     display: block;
     text-align: center;
     text-decoration: none;
-    color: var(--text-color-black);
+    color: #222;
     border-radius: 2rem;
     font-weight: 600;
     width: 90%;
@@ -203,7 +203,7 @@ header .dropdown-menu .dropdown-icon {
 }
 
 .post-modal .modal-body .link-soon {
-    color: var(--text-color-gray);
+    color: #717171;
 }
 
 .post-modal .modal-body .img {
@@ -212,7 +212,7 @@ header .dropdown-menu .dropdown-icon {
 
 .post-modal .modal-body .link-02 {
     text-decoration: none;
-    color: var(--text-color-black);
+    color: #222;
     text-align: center;
 }
 

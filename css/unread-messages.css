@@ -21,7 +21,7 @@ main .c-02-item {
 }
 
 main .categories-02 i {
-    color: var(--text-color-gray);
+    color: #717171;
     cursor: pointer;
 }
 /* END OF CATEGORIES 02 */
@@ -69,7 +69,7 @@ main .messages p {
 @media (min-width: 992px) { 
     /* EXPLORE */
     .explore p {
-        color: var(--text-color-gray);
+        color: #717171;
     }
 
     .explore .profile {
@@ -93,12 +93,12 @@ main .messages p {
     }
     
     .explore .profile .detail .username {
-        color: var(--text-color-black);
+        color: #222;
         font-weight: 600;
     }
     
     .explore .profile .detail .date {
-        color: var(--text-color-gray);
+        color: #717171;
     }
 
     .explore .profile .detail .btn-follow {
